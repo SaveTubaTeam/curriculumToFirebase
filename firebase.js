@@ -13,6 +13,7 @@ const firebaseConfig = {
  
 const app = initializeApp(firebaseConfig);
 
+//Please refer here for setup of new Firebase services: https://firebase.google.com/docs/web/setup
 const db = getFirestore(app);
 const storage = getStorage(app); //getting a reference to the root of our Cloud Storage bucket
 
