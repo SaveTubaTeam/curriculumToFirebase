@@ -15,3 +15,5 @@ const app = initializeApp(firebaseConfig);
 
 const db = getFirestore(app);
 const storage = getStorage(app); //getting a reference to the root of our Cloud Storage bucket
+
+export { db, app, storage };
