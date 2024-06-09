@@ -3,6 +3,7 @@ import JSONToFirebase from './JSONToFirebase/JSONToFirebase'
 import './App.css'
 
 function App() {
+
   return (
     <>
       <CurriculumToJSON />

@@ -24,6 +24,7 @@ const firebaseConfig = {
 //Please refer here for setup of new Firebase services: https://firebase.google.com/docs/web/setup
 const db = firebase.firestore();
 const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
 const storage = firebase.storage().ref(); //.ref() is a reference to the root of our bucket
 
-export { db, auth, app, storage };
+export { db, auth, app, storage, provider };

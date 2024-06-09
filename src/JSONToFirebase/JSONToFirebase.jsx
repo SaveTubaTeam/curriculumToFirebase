@@ -1,24 +1,29 @@
+import FirebaseAuth from "./FirebaseAuth";
+import DataForm from "./DataForm";
+import { useEffect } from "react";
+import { auth } from "../../firebase";
 
+//Auth state observer: https://firebase.google.com/docs/auth/web/start#web_7
 
-function JSONToPlatform() {
+function JSONToFirebase() {
+
    return(
       <>
          <div className="spacer"></div>
          <div className="section">
-            <h1>JSONToPlatform</h1>
+            <h1>JSONToFirebase</h1>
 
-            <button onClick={() => setCount((count) => count + 1)}>
-               Sign In
-            </button>
+            <FirebaseAuth />
             <p>
-            Sign in with your Lehigh account! (NOTE: you need to be added to SaveTuba's Cloud Console project for this to work.)
+            Sign in with Firebase Auth for read/write access!
             </p>
             <p className="read-the-docs">
-            *Use the dropdowns below to select and convert SaveTuba curriculum into JSON via the Google Docs API.
+            Use the dropdowns below to select and post JSON into Firestore.
             </p>
+            <DataForm />
          </div>
       </>
    )
 }
 
-export default JSONToPlatform;
+export default JSONToFirebase;

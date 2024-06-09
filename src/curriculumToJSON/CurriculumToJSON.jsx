@@ -13,12 +13,12 @@ function CurriculumToJSON() {
          <h1>curriculumToJSON</h1>
 
          <GoogleDocsAPI handleGapiState={handleGapiState}/>
-         <p>
-         Sign in to Google Console with your Lehigh account! (NOTE: you need to be added to SaveTuba's Cloud Console project for this to work.)
+         <p style={{ whiteSpace: 'pre-wrap' }}>
+         Sign in to access the Google Workspaces API! (NOTE: you must be added to SaveTuba's Cloud Console for this to work.)
          </p>
 
          <p className="read-the-docs">
-         Use the dropdowns below to select and convert SaveTuba curriculum documents into JSON.
+         Use the dropdown below to select, convert, and download SaveTuba Curriculum Google Documents into JSON.
          </p>
          <CurriculumForm gapiState={gapiState}/>
 
