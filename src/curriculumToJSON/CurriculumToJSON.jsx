@@ -21,7 +21,7 @@ function CurriculumToJSON() {
          </div>
 
          <p className="read-the-docs">
-         *Use the dropdowns below to select and convert SaveTuba curriculum documents into JSON.
+         Use the dropdowns below to select and convert SaveTuba curriculum documents into JSON.
          </p>
          <CurriculumForm gapiState={gapiState}/>
 

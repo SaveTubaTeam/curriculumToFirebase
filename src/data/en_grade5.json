@@ -1,0 +1,3764 @@
+{
+  "chapters": [
+    {
+      "navigation": "Chapter1",
+      "title": "common:chapter1",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. The Role of Science in the Surrounding World",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#B56CEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Everything around us can be attributed to science, scientific processes, and phenomena. We can divide science into two categories: natural science and social science. Observe the world around you and take a picture of something you see that you can connect to a natural science phenomena. Add a caption to this image describing what you see, how it connects to this phenomena or process, and describe the phenomena or process as well. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Humans are constantly advancing, in the fields of science, technology, and so much more. In order to innovate and advance, some people have to be “the first.” For example, Abu Nasir Al-Farabi, was one of the first to study the stars. Understanding and knowledge of the stars gives us insights into how the whole world works. Think of a recent innovation, invention, or discovery. Do some research into who, or what group of people, led to this development. How did it happen? What would life be like without this development? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Do some research into an invention or development that provides a sustainable alternative, addresses an environmental issue, or something similar. Describe it in a few paragraphs here. Do you think the development you chose will be widely accepted? Why or why not? If not, what would you do to help its chances at success?",
+              "content": [
+                {
+                  "text": "Understanding science and its role in everything in our lives is a great start to being able to contribute to its development! Our understanding of science leads to our understanding of the environment and how we can prevent harm to it. There are many new firsts in sustainability and developments that address climate change.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Observing and Measuring Nature",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#8C6BEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "What is something you can observe with your eyes that tells you that something else is occurring, that you can’t necessarily observe with your eyes? For example, I can tell that when there’s condensation on the outside of a glass of water, that the water inside is cooler than the outside air. What is an example of something like this in nature? Take a picture of this observation and add a caption describing what you are seeing. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "There are certain measurements taken about our climate that can tell us a lot about the environment and quality of life in that area. One of these measurements is the Air Quality Index. Look it up for where you live. What does it say? What does this tell you about the area? What changes would you expect to see if it went up? How about if it went down? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Next, identify sustainable alternatives and solutions on the market. How could you measure the success of these sustainable solutions? What metrics and measurements would you need to know these things are helping our environment?",
+              "content": [
+                {
+                  "text": "There’s many experimental procedures and methods for testing and measuring things in nature. It is important to have methods for measuring sustainability, the health of our environment, and the amount of harmful substances in our environment and atmosphere. Identify activities or substances that are harmful for our environment. How are these things measured? What are the metrics for these things? If you’re unsure, do some research and write a paragraph about what you find.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Processing and Evaluating Observations",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#6C9DEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk outside, looking for parts of nature that could be part of an experiment. Find 3 inspirations, take pictures of them, and caption each with what you would test in an experiment. Make sure that these things are testable and that you could realistically test these things yourself. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Pick one of the experiment ideas you came up with in the previous activity. Design an experiment that could be conducted over one week. Identify a testable hypothesis, the dependent and independent variables, and the procedure of the experiment to start. Next conduct the experiment. After, you should include your results in a table, and create a graph or diagram that shows the results of the experiment. Write a concluding paragraph about the results of the experiment, what you tested, and finally, why it is important to analyze results. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Choose two different areas of the world and compare the metrics of climate change in both these areas. What do these results show you? Analyze the results.",
+              "content": [
+                {
+                  "text": "There are metrics and ways to evaluate climate change. What are some examples that can show climate change? How would you evaluate these metrics?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter2",
+      "title": "common:chapter2",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "mediumturquoise",
+      "colorTwo": "midnightblue",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. The Starry Sky",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB8C5C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Going outside on a clear and cloudless night, take a photo of the starry sky with your smartphone or Camera 📷. Add a title and date to your photo. Try to find constellations familiar to you in the photograph and write down their names. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you describe light years to a student younger than you? "
+            },
+            {
+              "navigation": "Reorder",
+              "title": "common:reorder",
+              "icon": "assets/reorder.png",
+              "backgroundColor": "pink",
+              "prompt": "Show the correct sequence of starry sky objects in descending order (from largest to smallest).",
+              "content": [
+                {
+                  "text": "The Universe"
+                },
+                {
+                  "text": "Milky Way"
+                },
+                {
+                  "text": "Solar System"
+                },
+                {
+                  "text": "Stars"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Questions: How does the experiment you conducted relate to light, constellations, and light pollution? Conclude the impact of light pollution on the environment.",
+              "content": [
+                {
+                  "text": "You already know that some of the sources of environmental pollution are cars, thermal power plants, and industrial enterprises. But other sources lead to light pollution that can make stargazing difficult.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Light pollution is the illumination of the night by artificial light sources (electric lamps, fire, etc.), interfering with astronomical observations and changing the biorhythms of living organisms. It represents excessive use of outdoor light and has many harmful effects on the environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "To better understand the process of light pollution, let's conduct a small experiment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Conditions and materials for the experiment: The room where the experiment will be carried out should have curtains on the windows to darken the room so that no artificial light comes in and it is possible to control the amount of light received and the light source (flashlight). A flashlight, a sheet of thick paper of a dark (black) color, scissors, a pencil, a pin or paper clip for fixation, and adhesive tape (duct tape, tape).",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Using scissors, cut a piece of dark paper into a circle so that it is larger than the front of your flashlight.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Using pencils or a pen, make several holes in the piece of paper. The holes should resemble your zodiac sign constellations (Aries, Sagittarius, Capricorn, etc.) or as you wish.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Tightly attach the paper ready for the experiment to the front of the flashlight with adhesive tape (duct tape, tape) so that there is no gap at the edges.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Take the flashlight to a darkened room.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Turn on the flashlight and aim the light at the ceiling. If you don't see anything on the ceiling, you will need to enlarge the holes on the paper.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Then point the flashlight back at the ceiling and use curtains or blinds to add some light to the room. Observe how your constellations are visible.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Repeat the experiment, but subject to increased lighting of the room.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Record your observations in the table.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Try to leave comments on your observations in this experiment.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. The Sun and the Solar System",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB755B",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "The light emitted by the Sun falls on the Earth. Some of the sunlight is reflected by the Earth's surface, while the other part is absorbed. Take a walk around your school or in your yard and take a few photographs of surfaces that absorb sunlight (soil, grass, hard surfaces). Then take a photo of surfaces that reflect light (snow, ice, mirrors, white surfaces, polished metals). Compare the pictures with each other and draw appropriate conclusions. "
+            },
+            {
+              "navigation": "Reorder",
+              "title": "common:reorder",
+              "icon": "assets/reorder.png",
+              "backgroundColor": "pink",
+              "prompt": "Arrange the planets of the solar system from those farthest to those closest to Earth.",
+              "content": [
+                {
+                  "text": "Neptune"
+                },
+                {
+                  "text": "Uranus"
+                },
+                {
+                  "text": "Saturn"
+                },
+                {
+                  "text": "Jupiter"
+                },
+                {
+                  "text": "Mars"
+                },
+                {
+                  "text": "Earth"
+                },
+                {
+                  "text": "Venus"
+                },
+                {
+                  "text": "Mercury"
+                }
+              ]
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Match the correct match for the composition of substances of celestial bodies ",
+              "categories": [
+                {
+                  "name": "Asteroids",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Comets",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Sun",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Asteroids",
+                  "title": "Rock"
+                },
+                {
+                  "name": "Asteroids",
+                  "title": "Alloys"
+                },
+                {
+                  "name": "Asteroids",
+                  "title": "Metal"
+                },
+                {
+                  "name": "Comets",
+                  "title": "Dust"
+                },
+                {
+                  "name": "Comets",
+                  "title": "Ices"
+                },
+                {
+                  "name": "Sun",
+                  "title": "Gas"
+                },
+                {
+                  "name": "Sun",
+                  "title": "Plasma"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "How can you implement your ideas to reduce light pollution? How possible is it to implement your proposals? What do you need to solve this problem and what kind of help do you need?",
+              "content": [
+                {
+                  "text": "In the last lesson, you used an experiment to visualize a model of light pollution. Now you need to do a little research. Using materials from online resources, you need to find information about the consequences of light pollution on the environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Answer the following questions:",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "What do you mean by light pollution?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Name the sources of light pollution.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "List some examples of the effects of light pollution on the environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Offer recommendations to reduce the impact of light pollution on the environment.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. The Earth",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB5C9E",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take several photos of the same landscape in the morning, afternoon and evening. Compare the pictures with each other based on lighting conditions. Find the connection between lighting conditions and the position of the Earth relative to the Sun. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is associated with the change of seasons (spring, summer, autumn, winter) of the year on Earth? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Example: I noticed that my family and I take plastic water bottles to school or work. I know that it would be more sustainable to use a reusable water bottle that I can fill instead of using plastic. This would contribute to less waste that is harmful to the environment. My plan to implement this is to collect data to present to my family about the harms of plastic waste. I then will show them options for reusable water bottles, and water filters to make sure we are drinking clean water. I would also add up the numbers to show them that using reusable water bottles will save my family money!",
+              "content": [
+                {
+                  "text": "At this point in your life, you probably have at least a basic understanding of what everyday actions are helpful or harmful to our earth. Pick a couple of hours at home to observe the actions of yourself and your family at some point in the day. Think critically about the consequences of everyday actions.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "After you’re done observing, identify an action or habit done by yourself or your family as a whole, that you think has a negative impact on the environment. Come up with a way to address this action or habit that could improve it or replace it. Additionally, identify how this change would be better for the environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Create a plan to implement this change and try it out for at least a week. How difficult do you think this will be?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. How Did Our Planet Appear?",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DBA25C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a photograph of a small area of nature. Explain its role in your life and human society as a whole. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is a geochronological table? What information does it contain? "
+            },
+            {
+              "navigation": "Reorder",
+              "title": "common:reorder",
+              "icon": "assets/reorder.png",
+              "backgroundColor": "pink",
+              "prompt": "Put the following stages of Earth’s development in order, starting with the earliest:",
+              "content": [
+                {
+                  "text": "Archean era"
+                },
+                {
+                  "text": "Proterozoic era"
+                },
+                {
+                  "text": "Paleozoic era"
+                },
+                {
+                  "text": "Mesozoic era"
+                },
+                {
+                  "text": "Cenozoic era"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "What are some things or actions that drive up the production of these gasses? Do some research to answer this question. Once you identify some of these things, brainstorm some actions that could decrease greenhouse gas emissions. Finally, identify organizations that are already doing work to improve greenhouse gas levels in our atmosphere.",
+              "content": [
+                {
+                  "text": "Knowledge of the main gasses and their role is important to understanding how our planet came to be. While some gasses play an important role in life for our planet, others can pose a danger to the Earth. There are seven gasses called greenhouse gasses, which, when released into the atmosphere in large quantities, cause serious harm to the environment, leading to climate warming.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Carbon dioxide",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Methane",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Nitrous oxide",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Hydrofluorocarbons",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Perfluorocarbons",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Sulfur hexafluoride",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Nitrogen trifluoride",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson5",
+          "title": "5. The Structure of the Earth and its Shells",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB5F5C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Draw on a piece of paper the process of an earthquake. Upload your drawing here. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is plate tectonics? What causes the movement of lithospheric plates? What consequences can they cause? "
+            },
+            {
+              "navigation": "Reorder",
+              "title": "common:reorder",
+              "icon": "assets/reorder.png",
+              "backgroundColor": "pink",
+              "prompt": "Arrange the layers of the earth's crust as you move into the interior of the Earth:",
+              "content": [
+                {
+                  "text": "Crust"
+                },
+                {
+                  "text": "Mantle"
+                },
+                {
+                  "text": "Outer core"
+                },
+                {
+                  "text": "Inner core"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Create a presentation that explains solar energy, how it works, and the benefits of it to the homeowner and to the environment. Your presentation should be convincing and geared towards an audience of homeowners who you would like to get involved in solar energy.",
+              "content": [
+                {
+                  "text": "The resources and materials that are important to our lives and the creation of common objects, come from the earth. Some of these materials come from underground. Some materials are also non-renewable. Therefore, there is a finite amount of these resources.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Some non-renewable resources are coal, natural gas, and oil. Many of these nonrenewable resources and the methods used to get them, can be really harmful to the earth. There are alternative options to these resources. These alternatives include the use of wind or solar energy. The use of solar panels is an increasingly popular alternative that many homeowners are opting for.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson6",
+          "title": "6. The Origin of Life on Earth",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB8C5C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of any living organism. Think about a part of their structure that is important to their survival. Then add a caption about why you think that part is necessary for life. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Organisms evolve and adapt to their environment, causing them to change over time. If our climate continues to warm, what development will be important for species to make? Come up with a couple ideas. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Read the linked article about the situation in Kazakhstan. What would you suggest Kazakhstan do to better protect endangered species?",
+              "content": [
+                {
+                  "text": "Life on earth has its limitations, and all species have not been successful on it. There are many species that have gone extinct, or at risk of extinction. As humans, it is important that we make sustainable decisions in order to keep the habitats of these animals intact.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter3",
+      "title": "common:chapter3",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. From the Map to the Plan of the Local Land",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#7492DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Pick a place that you visit so often, you don’t need directions to get there. Use your house as the starting point and draw the directions to get there by memory. Approximate where the turns are and the distance of each turn. For example, if you walk on Main Street for around twice as long as Corner Road, the line showing Main Street should be double the length of Corner Road when you draw it. Upload a picture of your drawing. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Chingiz is looking at a map with a scale of 1cm to 1km. He measures that the distance between two points on the map is 5.75cm. How far away is the actual distance between these two points in real life? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is azimuth? How do you find it? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Wildfires can destroy forests and the wildlife in them. Do some research to answer the following questions: What causes wildfires? What could humans do to decrease wildfires? Have there been any wildfires near you?",
+              "content": [
+                {
+                  "text": "The land, climate, and environmental conditions in an area can change over time due to natural influences, and heavily by human actions. Forests are very important pieces of our world and bigger environment, but a lot of things threaten them.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Conditional Signs",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74B1DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk around your neighborhood and identify something that would need a symbol on a map. Take a picture of it, and then indicate what symbol it would need. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Why are symbols on a map important? How are they helpful for everyone? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Match the following symbols to their meaning. ",
+              "categories": [
+                {
+                  "name": "1.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "2.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "3.",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "1.",
+                  "title": "Bridge"
+                },
+                {
+                  "name": "2.",
+                  "title": "Railroad"
+                },
+                {
+                  "name": "3.",
+                  "title": "Footpath"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Put together an elevator pitch for why people should consider these alternatives over clear cutting. You’ll need to do research on the consequences and alternatives to do this well.",
+              "content": [
+                {
+                  "text": "Last lesson, you researched wildfires and their impacts on forests. Another way that forests are harmed, through direct human intervention, is clear-cutting of forests. Clear-cutting is when large expanses of trees are cut down at one time, leading to a loss of biodiversity, increase of erosion, contamination of water, and many other issues.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "There are alternatives to clear-cutting that are better for forests such as, selective logging or patch cutting.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Polar and Route Deflection",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74DBC2",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "What is a landmark in your area that lets you know you’re close to home? Take a picture of it. Is this landmark natural or man-made? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is surveying? How do you do it? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Why is it important for people to be able to read a map? How do you think technology has affected that skill? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Choose a human impact or natural disaster that you think would lead to habitat loss for a certain species. Brainstorm a plan for how you would help this species and/or prevent this act from occuring in the future. Thoroughly explain your idea, what you would need, possible challenges, etc. Be creative!",
+              "content": [
+                {
+                  "text": "Changes in the topography of certain areas and changes in conditions don’t just affect what we see on a map. Wildfires, clear-cutting, and other serious acts can lead to large habitat loss for many species. Habitat loss leads to death of species and risk of endangerment.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. Continents and Islands",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#7874DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Brainstorm a hands on way that you can mimic the idea of Pangea and its separation. Take a picture of your representation. For example: Pieces of a jigsaw fitting together and then being moved apart. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you describe Pangea to a student younger than you? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Take a couple pictures of your experience.",
+              "content": [
+                {
+                  "text": "Keeping the land of our world clean is incredibly important for our health and the health of all wildlife. Pick an area of your community that you can clean up. With a group of friends or with your family, spend 1 hour cleaning up trash in this area. You’re helping the health of this area, but also preserving its beauty!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson5",
+          "title": "5. Research of the Oceans",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74D3DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find nearby water in your area. This can be anywhere between a small stream, up to a large lake… anything! Take a picture of what you find. Does this water appear polluted? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How have the methods for measuring ocean depth changed throughout time? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What difficulties do glaciers pose for sailing? How do glaciers affect water levels and our freshwater supply? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Pick one of these, or an idea of your own, and conduct some more research. With this research, create an infographic educating others on what they can do to help our oceans. Include evidence, visuals, and a convincing pitch. Work with your parents to share this to social media or with family members!",
+              "content": [
+                {
+                  "text": "Plastic is harmful to our environment for many reasons. It takes a very long time to break down, and it also presents many threats to marine life. Plastic can harm them due to threats of consumption, entanglement, and habitat destruction. There are a bunch of things that we can do as individuals to help.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Cut the plastic rings that come with the packaging of bulk beverages to prevent animal entanglement",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "When shopping, bring a reusable bag instead of using plastic bags",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Use a reusable water bottle instead of plastic",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Recycle plastic",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Opt for products that come from recycled materials",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson6",
+          "title": "6. Distribution of People on the Surface of the Earth",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#7492DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of a highly populated area near you. Take note of the conditions in this area and provide a couple comments on your thoughts. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What did the people of Kazakhstan do during ancient times? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How and why did people end up spread out across the world? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Match the ancient civilization to the river that they settled by. ",
+              "categories": [
+                {
+                  "name": "Ancient Egypt",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Mesopotamia",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Ancient India",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Ancient China",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Ancient Egypt",
+                  "title": "Nile"
+                },
+                {
+                  "name": "Mesopotamia",
+                  "title": "Tigris"
+                },
+                {
+                  "name": "Mesopotamia",
+                  "title": "Euphrates"
+                },
+                {
+                  "name": "Ancient India",
+                  "title": "Indus"
+                },
+                {
+                  "name": "Ancient India",
+                  "title": "Ganges"
+                },
+                {
+                  "name": "Ancient China",
+                  "title": "Yangtze"
+                },
+                {
+                  "name": "Ancient China",
+                  "title": "Yellow River"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Is this number bigger or smaller than the United Nations’ average? What could you do in your household to decrease your amount of waste?",
+              "content": [
+                {
+                  "text": "With the amount of people throughout the world, it is important to ensure we are practicing responsible consumption. The United Nations estimates that the average person wastes 120kgs of food every year. Being conscious every day of what we are consuming, and how much we are wasting is a way to make sure we are being responsible.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Throughout this week, conduct an experiment with your family to analyze how much food you are wasting.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "You’ll need: a bucket and a scale",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Before you add anything to the bucket, weigh it to find your starting weight that you’ll deduct later. You’re tasked with tracking the amount of food left on the plates of everyone in your family after dinner for a week. Do this by adding anything left on the plates to the bucket. At the end of the week, weigh it. Subtract the weight of the bucket without anything in it to find the total weight of food wasted.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "There are 52 weeks in a year. Multiply the weight you got by 52 to find your estimated amount of food wasted per year in your household. Then, divide this number by the number of people in your household to find the average amount of food wasted per person.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson7",
+          "title": "7. Ethnicities on Earth",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74B1DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "There are many different races and ethnicities within Kazakhstan. Draw a self-portrait and explain what you find most important about your culture. Upload this picture. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is one aspect of a culture different from yours that you find interesting? Why do you find it interesting? How did you first learn about this culture? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is an ethnic group (ethnos)? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Brainstorm things that lower income households could implement for sustainable change that would not be costly to them. Choose one of these ideas and write out how you would pitch this idea to these households. If it will help your pitch, do some research on price differences/savings.",
+              "content": [
+                {
+                  "text": "Around the world, there are many inequalities within society that can unfairly affect certain groups. There are inequalities in regard to race, social class, sexuality, and more.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "When it comes to developing sustainable habits, some changes can be more expensive, keeping people with lower income from being able to join in on sustainability.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter4",
+      "title": "common:chapter4",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. Physical Bodies, Things, and Mass",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E09079",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a photograph of one of the physical bodies. For example - a piece of ice, a piece of sugar or even a piece of school chalk. Then photograph the components of the physical body, for example, water in a glass, granulated sugar in a sugar bowl, or dust from chalk that is scattered near the blackboard. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "You already know that all the objects around us, as well as plants and animals, are physical bodies. And what the physical body consists of are called substances. For example, water is a substance, and a drop of water or a piece of ice is a body. Wood is also a substance, and a school desk is a body. A lump of sugar is a body that is made up of a substance like sugar. Think about how matter (body) differs from volume (substance)? What is the connection between them? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "How do these results demonstrate the processes of a) cohesion (force of attraction) b) surface tension c) adhesion.",
+              "content": [
+                {
+                  "text": "There are a huge number of physical bodies and things in nature. One of the “substances” in our world that has many different interesting properties is water. Let's conduct an experiment using water, with the help of which you can see the process of cohesion, when molecules of the same substance are attracted to each other, which gives water a unique property - surface tension.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "It also happens in nature when molecules of different substances stick together. This process is called adhesion. This is the force of attraction that holds two dissimilar materials in contact in the area of their contact.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Pre-experiment question: How many drops do you think the young researcher needs to put on the coin before it breaks and the paper sinks?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "You’ll need: A coin, A pipette, Water in a cap, Paper towel",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Pour water into the Petri dish.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Carefully place a piece of paper/napkin on the surface of the water. What are you observing?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Carefully place a coin in the center of the paper. What are you observing?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Fill the pipette with water.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Hold the dropper over the coin and begin to slowly drip water onto the coin without stopping dripping.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Count the number of drops you put on the coin.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Continue adding droplets to the coin until the paper rips and the coin sinks.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "What conclusions can be drawn about the surface tension of water?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "In which of the experiments did you observe the process of cohesion and adhesion?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Post-experiment questions: How many drops of water needed to be dropped onto the coin for the paper to tear? Were you surprised by the results of your experiment?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Structure and Diffusion of Substances",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E07D78",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "The arrangement of molecules in a liquid changes when it is heated or cooled. Make a drawing or take a picture showing these changes. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would I describe the process of diffusion to elementary school students? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Match the picture with which phase change it best represents. ",
+              "categories": [
+                {
+                  "name": "1.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "2.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "3.",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "1.",
+                  "title": "Solid"
+                },
+                {
+                  "name": "2.",
+                  "title": "Liquid"
+                },
+                {
+                  "name": "3.",
+                  "title": "Gas"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Select one of the pollutants of choice. Prepare a presentation that answers the following questions: Who/what is the source of this substance? What harm does it cause to the environment and human health? Are there sources of contamination of this substance in your area of residence? How can we reduce the amount of this substance released into the environment?",
+              "content": [
+                {
+                  "text": "People often talk about environmental pollution and its harmful effects on the components of nature. But what is it? What are the sources of environmental pollution? Pollutants can be naturally occurring, such as volcanic dust, or man-made, such as car exhaust and industrial emissions.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "We list the six main substances that pollute our environment: Carbon monoxide, Lead, Nitric oxide, Ozone, Solid particles, Sulfur dioxide",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Properties of Things",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DF79E0",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a photo of a material that conducts heat quickly (for example, an aluminum spoon, a metal nail, a cast iron skillet). Then take another photo of a material that conducts heat slowly (such as a piece of wood, a wooden ruler, cotton or wool fabric). "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Give an example of a change in the physical properties of substances, which should indicate that the substance is undergoing changes. Which physical property will be most noticeable when temperature conditions change rapidly? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "After reviewing the data in this resource, answer the following questions. Are you surprised by the air quality readings? How can this information help you make everyday decisions? Write a hypothesis about who is the main air polluter in your area of residence.",
+              "content": [
+                {
+                  "text": "In this lesson we will focus on the first point - checking the air quality in your area.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "IQAir is a website where you can learn about the air quality in your area. Use the hyperlink to find out about current air quality. On the site you can get a lot of valuable information about the climate and air quality at the time of observation.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. Pure Substances and Mixtures",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E0A279",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "What substances are called pure? Give examples of pure substances. Take a photo and upload it. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What are ways that you could separate a mixture? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Group substances into homogeneous and heterogeneous mixtures. ",
+              "categories": [
+                {
+                  "name": "Homogenous",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Heterogenous",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Homogenous",
+                  "title": "Steel"
+                },
+                {
+                  "name": "Homogenous",
+                  "title": "Air"
+                },
+                {
+                  "name": "Homogenous",
+                  "title": "Salt in water"
+                },
+                {
+                  "name": "Heterogenous",
+                  "title": "Soil"
+                },
+                {
+                  "name": "Heterogenous",
+                  "title": "Cereal in milk"
+                },
+                {
+                  "name": "Heterogenous",
+                  "title": "Oil in vinegar"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "This task takes a lot of work and responsibility, but it is a great way to better understand how our day to day actions are always impacting our environment! Do your best!",
+              "content": [
+                {
+                  "text": "Think back to the previous lesson where you looked at the air quality in your area. This is a suggestion to protect your health from the harmful effects of air pollution. While it is important to know what you can do to protect yourself, it is also necessary that individuals are looking into long term solutions to pollution as well. Therefore another point from the last lesson was: Contribute to the reduction of outdoor air pollution.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Here is a list of 50 ideas to reduce air pollution, put together by experts in environmental protection. Start by reading through the list linked here.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Some of these recommendations are difficult for you to implement, while others are quite achievable if you want! Select 5 recommendations from this list that would be feasible for your family.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Next, create a plan for the next week. Follow these steps to implement the recommendations successfully.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Inform your family members of your task and explain why this task is important for the environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Work with your family to decide how exactly you will conduct this change. For example: if my task is to walk or ride a bike when possible, I would talk to my family about what activities that week we could ride our bikes instead of driving.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Work with your family to decide how you will track your progress on this task. For example, my family and I decided to make a calendar.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Create an online presentation where you can track your plan. You should have a slide for each of the following: Your task, The impact your task has on the environment, How your family has decided to implement this task into your lives, How you will track your progress (fill it in as you go), Pictures documenting your week with this task!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter5",
+      "title": "common:chapter5",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. Soluble and Insoluble Substances",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#B56CEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find something in your home or outside that you can experiment with by putting it in water. Get a glass of water and mix in the substance you chose. Based on what you see, is the substance soluble or insoluble? Take a picture of the results of your experiment. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you define the word “solubility” without using the words “dissolve” or “water”? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Put the following substances in the correct group based on whether they are soluble or insoluble in water. ",
+              "categories": [
+                {
+                  "name": "Soluble",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Insoluble",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Soluble",
+                  "title": "Sugar"
+                },
+                {
+                  "name": "Soluble",
+                  "title": "Salt"
+                },
+                {
+                  "name": "Soluble",
+                  "title": "Lemon juice"
+                },
+                {
+                  "name": "Insoluble",
+                  "title": "Silver"
+                },
+                {
+                  "name": "Insoluble",
+                  "title": "Gold"
+                },
+                {
+                  "name": "Insoluble",
+                  "title": "Sand"
+                }
+              ]
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the property into whether they describe a metal or a nonmetal. ",
+              "categories": [
+                {
+                  "name": "Metal",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Nonmetal",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Metal",
+                  "title": "Good conductors of heat and electricity"
+                },
+                {
+                  "name": "Metal",
+                  "title": "Ductile"
+                },
+                {
+                  "name": "Metal",
+                  "title": "Lustrous"
+                },
+                {
+                  "name": "Nonmetal",
+                  "title": "Bad conductors of heat and electricity"
+                },
+                {
+                  "name": "Nonmetal",
+                  "title": "Brittle"
+                },
+                {
+                  "name": "Nonmetal",
+                  "title": "Dull"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Explain your invention below and include a picture of what it would look like and how it would work.",
+              "content": [
+                {
+                  "text": "Some materials and substances on earth have different properties that make them either breakdown and decompose relatively quickly or slowly. When you throw waste outside, or in a trash can that ends up in a landfill, those materials then biodegrade at different rates. Come up with a product or invention that utilizes materials that take less time to decompose and replaces the use of materials that take longer. The sky's the limit with your invention!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Natural and Artificial Objects",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#8C6BEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of something that is a natural object. Then, take another picture of something that can often be found near or around it that is an artificial object. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What do you think the world would be like if people didn’t start developing artificial objects? What differences would there be from the world we know today? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is a synthetic object? How is it different from an artificial object? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "What are some issues that landfills cause? Why do you think they’re so big? What are some possible alternatives to landfills? Brainstorm on your own and then conduct research to help support your answer.",
+              "content": [
+                {
+                  "text": "A lot of waste ends up in landfills, where materials take a longer time to decompose than in something like a compost. The size of landfills are concerning and pose real issues.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Synthetic Materials",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#6C9DEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find a chemical substance that is used in your house. Then, take a picture of where you can find the information on how to use and store it safely. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is artificial glutamate? Why should people avoid eating it? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you explain GMOs to a student younger than you? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following foods into whether or not they are the most commonly genetically modified. (Note: even if they are not the most commonly modified, they still could be!) ",
+              "categories": [
+                {
+                  "name": "The Most Common",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Not the Most Common",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "The Most Common",
+                  "title": "Potatoes"
+                },
+                {
+                  "name": "The Most Common",
+                  "title": "Beets"
+                },
+                {
+                  "name": "The Most Common",
+                  "title": "Soy"
+                },
+                {
+                  "name": "The Most Common",
+                  "title": "Rice"
+                },
+                {
+                  "name": "The Most Common",
+                  "title": "Pumpkin"
+                },
+                {
+                  "name": "The Most Common",
+                  "title": "Tomato"
+                },
+                {
+                  "name": "The Most Common",
+                  "title": "Corn"
+                },
+                {
+                  "name": "Not the Most Common",
+                  "title": "Organic grains"
+                },
+                {
+                  "name": "Not the Most Common",
+                  "title": "Organic nuts"
+                },
+                {
+                  "name": "Not the Most Common",
+                  "title": "Organic eggs"
+                },
+                {
+                  "name": "Not the Most Common",
+                  "title": "Organic butter"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Analysis questions: How did the organic or non-GMO options compare to the amount that were not labeled as such? Did this surprise you? How did the prices compare to one another on average? Based on your observations, do you think there are any obstacles to getting people to buy foods that are not genetically modified? If so, what do you think these obstacles would be?",
+              "content": [
+                {
+                  "text": "It is important to avoid genetically modified foods as much as possible, and even more important to be aware of what we are putting in our bodies. Ways to avoid GMOs is to buy foods labeled as “100% Organic”, or labeled as “non-GMO”. Next time a parent goes to the grocery store, join them and conduct this study.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "For this activity, just focus on the produce area of the store or market. Choose 5 fruits and vegetables to study.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Take the following data for the 5 fruits or vegetables in the store: 1. Name of fruit or vegetable 2. Number of options in the store 3. Prices of options 4. Appearance of options",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. Diversity of Natural Phenomena",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DF6CEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of a natural phenomena occurring in nature. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Choose from one of the following phenomena: meteorological, heat, biological, chemical, electrical, sound, light. What would be different about your life and the rest of the world if the phenomena you chose did not exist? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Can you think of an instance when two different kinds of phenomena are interacting and working together to produce or do something? Explain. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Did you know all of this information already? Many of our peers do not. For this activity, brainstorm an effective way that you could educate your peers about these simple rules. Create a plan for how you would implement this strategy. For example: I want to make an electronic poster that visually demonstrates these ideas and ask my teacher if I can show it to my class.",
+              "content": [
+                {
+                  "text": "Understanding natural phenomena is important to understanding our Earth. The next step is to care for it. Waste on our planet is a huge problem and a lot of it accumulates in landfills.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "One important way to responsibly dispose of waste is to recycle. Recycling can keep many things out of landfills and provide a use to the waste it otherwise would not have. There are three rules to recycling that not everyone is aware of.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "1. You can recycle bottles, cans, paper, and cardboard.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "2. Food and liquid cannot be recycled and you cannot recycle materials that have food debris left on them.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "3. You cannot recycle loose plastic bags.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson5",
+          "title": "5. The World of Physical and Chemical Phenomena",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#6C75EB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a glass of water and place it outside. Let it sit there for a few hours, and then take a picture of what it looks like at the end of this period. What do you observe? How did its environment affect the result? What kind of phenomena are you observing? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is a chemical phenomena? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following situations into whether they demonstrate a physical or chemical phenomena ",
+              "categories": [
+                {
+                  "name": "Physical",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Chemical",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Physical",
+                  "title": "Melting snow"
+                },
+                {
+                  "name": "Physical",
+                  "title": "Forming ice cubes"
+                },
+                {
+                  "name": "Physical",
+                  "title": "Evaporating alcohol"
+                },
+                {
+                  "name": "Chemical",
+                  "title": "The burning of a candle"
+                },
+                {
+                  "name": "Chemical",
+                  "title": "Digesting food"
+                },
+                {
+                  "name": "Chemical",
+                  "title": "Baking a cake"
+                },
+                {
+                  "name": "Chemical",
+                  "title": "Photosynthesis"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Did you observe a physical or chemical phenomena in this experiment? How do you know?",
+              "content": [
+                {
+                  "text": "In this activity, let’s conduct an experiment in order to observe either a physical or chemical phenomena.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "You will need: 2 cups of shaving cream, 2 cups of baking soda, A bowl",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Mix together the shaving cream and baking soda into a bowl. Add more of one or the other, experimenting with how this changes the consistency, until it starts to look like snow!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson6",
+          "title": "6. Phenomena of Light Emission",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#B56CEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of an example of phenomena of light emission in nature. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "There are often stripes on bicycles, cars, and signs that appear shiny. How do you think these strips work? Why are they important? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Using the information provided above, can you come up with a conclusion as to why the arctic is a large focus when people talk about climate change? In other words, how does the high albedo of ice, melting of ice, and global warming, relate to each other?",
+              "content": [
+                {
+                  "text": "Albedo is a measure of how much light from the sun is reflected back out to outer space by Earth. The higher the albedo, the less heat it absorbs from light. Therefore, when something has a low albedo, warming occurs.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "An example of something that is high in albedo is ice.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson7",
+          "title": "7. Thermal Phenomena",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#8C6BEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Not all materials absorb heat the same way. Materials that are darker in color, such as black, absorb more heat and therefore get hotter. Materials that are white absorb the least amount of heat. Take a walk outside and identify an area or structure that would absorb a lot of heat. Take a picture of this area. Do you think this is beneficial or harmful for this area or structure? Explain your reasoning. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is one thing that occurs on Earth that could not happen without heat energy? What is the importance of heat in the situation you thought of? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is the process of thermal conductivity? Provide a detailed definition. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Next, imagine a parking lot on a hot summer day, how would albedo influence the temperature in the parking lot in this situation?",
+              "content": [
+                {
+                  "text": "Think back to the discussion of albedo in the previous lesson. How do you think that albedo affects temperatures in your area when it snows? How is albedo and temperature related?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson8",
+          "title": "8. Sound Phenomena",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#6C9DEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find a place outdoors that produces a lot of noise. This noise can either be made by nature or human made. Take a picture of the main source of the noise. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How is sound produced and how do we hear it? Provide a scientific explanation. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "With all of this information, craft a proposal for your local community that addresses the issue of noise pollution and proposes a solution to decrease the amount of noise pollution in your area.",
+              "content": [
+                {
+                  "text": "So far, we have discussed air pollution and light pollution. But, there is also such a thing as noise pollution. Noise pollution can impact both humans and wildlife.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Human noise can interfere with animal communication, mating, and certain animals’ sense of spatial orientation. For humans, noise has been linked to stress related illness, sleep changes, a decrease in productivity, and high blood pressure.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "The major causes of noise pollution are vehicles, airplanes, and industrial machines. Some household appliances can also play a factor when used loudly enough.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson9",
+          "title": "9. Electric and Magnetic Phenomena",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DF6CEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Lightning can be harmful to nature, homes, and people. Take a picture of an area that you think would be at high risk to suffer a lot of damage if lightning struck there. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is electromagnetism? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following materials based on whether they are attracted to magnets or not. ",
+              "categories": [
+                {
+                  "name": "Attracted",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Not attracted",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Attracted",
+                  "title": "Iron"
+                },
+                {
+                  "name": "Attracted",
+                  "title": "Steel"
+                },
+                {
+                  "name": "Attracted",
+                  "title": "Cobalt"
+                },
+                {
+                  "name": "Not attracted",
+                  "title": "Plastic"
+                },
+                {
+                  "name": "Not attracted",
+                  "title": "Wood"
+                },
+                {
+                  "name": "Not attracted",
+                  "title": "Rubber"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Conduct some research on mining. Why is it harmful to the environment? Are there alternatives to it? If so, what are they?",
+              "content": [
+                {
+                  "text": "Magnets are present in many household objects, and you are most likely already familiar with them. But, what are they made of? Magnets are made up of non-renewable resources and rare-earth elements. Therefore, in order to reach the materials needed to make magnets, mining occurs.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson10",
+          "title": "10. Forces in Nature",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#6C75EB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of an object being pushed across the table. Annotate the image with what forces are acting on the object and the direction the forces are working on (show this with an arrow). "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is the impact of gravity on Earth? What is universal gravity’s role in the universe? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Friction is the force that occurs between two objects when one moves against the other. Think about the activities of animals in their environment. For what animal, and in what situation would it be advantageous to have a high degree of friction occur? Be creative and descriptive!",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter6",
+      "title": "common:chapter6",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. Matter Circulation in Nature",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB8C5C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of water at a certain stop in the water cycle. Where is it in the water cycle? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Give an example of a producer and a consumer. What does the producer gain energy from? What would this consumer gain energy from? "
+            },
+            {
+              "navigation": "Reorder",
+              "title": "common:reorder",
+              "icon": "assets/reorder.png",
+              "backgroundColor": "pink",
+              "prompt": "Put the following steps of substance circulation in order. The nutrients pass from…",
+              "content": [
+                {
+                  "text": "Soil to plants"
+                },
+                {
+                  "text": "Plants to animals"
+                },
+                {
+                  "text": "Animals carcasses are absorbed into the soil"
+                },
+                {
+                  "text": "Mineral salt develops from the decomposed matter"
+                },
+                {
+                  "text": "Mineral salts are absorbed by plants"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "In terms of your own carbon footprint, what could you do to make your footprint smaller? Is this proposed change possible for you? How would you implement this change?",
+              "content": [
+                {
+                  "text": "Matter and resources in our world are constantly cycling through people and different uses. Treating our resources efficiently is a way to show care to our planet and what it provides for us.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "A way to think about this is through our carbon footprint. Your carbon footprint is the amount of greenhouse gasses that is produced by your actions and everything that goes into that action. Going into these calculations, is food consumption, vehicle emissions, electricity use, and more.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Formation of Mountains",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB755B",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of a mountainous view nearby. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What happens when the internal forces and external forces on Earth are both influencing the surface? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Why isn’t the Earth a smooth sphere? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Why is mining still widely practiced? What is keeping mining from being stopped? What are the alternatives to mining? Are the alternatives successful in replacing mining? What do YOU think would help the implementation of these alternatives?",
+              "content": [
+                {
+                  "text": "Mining is a process where materials are retrieved from deep within the Earth. Some mines go as far as 750 meters into the surface of our planet. Due to this depth, mining is very invasive and damages the environment around it. Mining is attributed to an increase in greenhouse gasses, death of nearby plants, and erosion of the landscape.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "With complicated issues like this, it is important to do your research to make sure you understand the facts on all sides. Therefore, in this activity, you will be tasked to research the following questions, and answer them in a few paragraphs. Cite your sources!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Weathering of Rocks",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB5C9E",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find nearby pebbles or small rocks. Take a photo of what you find. How do you think these small rocks developed? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What are the three types of weathering of rocks? Give an example of each. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How is the process of weathering of rocks connected to soil formation? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following into whether it causes soil degradation or prevents it. ",
+              "categories": [
+                {
+                  "name": "Causes",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Prevents",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Causes",
+                  "title": "Deforestation"
+                },
+                {
+                  "name": "Causes",
+                  "title": "Acid rain"
+                },
+                {
+                  "name": "Causes",
+                  "title": "Wind erosion"
+                },
+                {
+                  "name": "Causes",
+                  "title": "Water erosion"
+                },
+                {
+                  "name": "Prevents",
+                  "title": "Planting trees in crop fields"
+                },
+                {
+                  "name": "Prevents",
+                  "title": "Crop rotation"
+                },
+                {
+                  "name": "Prevents",
+                  "title": "Planting legumes or grasses"
+                },
+                {
+                  "name": "Prevents",
+                  "title": "Drip irrigation"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "For the last part, conduct research in order to answer your questions. Evaluate each of your sources of information and make sure they are reliable. If there are any questions left unanswered, note these and ask an adult to help you either at home or at school!",
+              "content": [
+                {
+                  "text": "Another process, you may or may not be aware of, is fracking. This is also known as hydraulic fracturing. This process occurs by drilling into rock, and extracting natural gas and oil from it.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Fracking poses a lot of possible threats to the areas surrounding the process. For example, it can pollute groundwater and surface water and threaten wildlife.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Alternatives from fracking are wind and solar power. What do you already know about these sources of power? List what you know below. Don’t do any research for this part!",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Next, think about what you don’t know or are unsure about. Write down any questions you have about wind and solar power.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. Weather and Climate",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DBA25C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a photo of the weather outside, note what the high and low temperatures of the day are and today’s date. Is this normal for this time of year? If not, what would you usually expect for this time of year? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you describe the difference between weather and climate to a student younger than you? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is an example of an adaptation an animal has that helps them in the climate they live in? How does this adaptation benefit them? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Answer the following questions: What do you think the major threats associated with sea level rise are? What solution would you propose to address global warming and rising sea levels? Come up with a creative and ambitious solution.",
+              "content": [
+                {
+                  "text": "Recent changes in our weather and climate pose many threats to life and change on Earth. Some of the ways we see these changes in our climate are with increased temperatures and rising sea levels.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Rising sea levels are the result of warming temperatures, which are also due to climate change. It creates a cycle of harmful threats to the planet. With warming temperatures, icebergs and glaciers melt, creating more water and higher sea levels. Water has an interesting property where it expands when it gets warmed. Therefore, as these increasing temperatures melt ice and warm the sea, the water expands and leads to sea levels rising.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "The ways to prevent sea levels rise are the same methods used to address climate change.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson5",
+          "title": "5. Dangerous Phenomena in Nature",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB5F5C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of something that can help to protect you from a dangerous natural phenomena. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Give an example of a natural phenomena that causes dangerous conditions. What systems are in place to prevent harm during these conditions? How could these measures be improved? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Match the following natural phenomena with an action humans conduct that can cause that phenomena. ",
+              "categories": [
+                {
+                  "name": "Earthquakes",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Landslides",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Flooding",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Wildfires",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Earthquakes",
+                  "title": "fracking"
+                },
+                {
+                  "name": "Landslides",
+                  "title": "deforestation"
+                },
+                {
+                  "name": "Flooding",
+                  "title": "Increased urbanization"
+                },
+                {
+                  "name": "Wildfires",
+                  "title": "wildfires"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Make sure to properly dispose of this waste and stay safe. Upload photos of your trash clean-up success!",
+              "content": [
+                {
+                  "text": "Learning about our environment and hypothesizing about ways to help it is important. But, this work is only impactful when we are also actively caring for our current environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Trash littering nature can harm wildlife, contaminate water sources, and overall disrupt our natural environment. Plan a day this week that you can go with your family or group of friends and spend one hour cleaning up trash either in your neighborhood, a park, or other community location.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson6",
+          "title": "6. Properties of Living Organisms",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB8C5C",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find two different living organisms and take pictures of each. How are they similar biologically? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What are the common properties of all living organisms? List as many as you can come up with. Which do you think is the most obvious? Which is the least obvious? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How are we, as humans, different from an amoeba? What are our similarities? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "How would you rate your meal on a scale of 1 to 10? How difficult was this meal to make? How difficult was it to have a plant-based meal instead of your usual meals? Would you consider regularly implementing plant-based meals into your week?",
+              "content": [
+                {
+                  "text": "We have previously discussed Carbon Footprint and its largest influences. Our diet is a huge aspect of our lives that contribute to our carbon footprint. There are many different lifestyles, diets, and habits that individuals and families adopt. In this activity, let’s expand our eating options in a way that will help the environment.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Animal Aid, a British animal rights organization, reports that “the production of plant-based foods requires less land, fewer resources, and produces vastly fewer greenhouse gas emissions.”",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Vegetarians are people who do not eat meat, and vegans are people who do not eat any products that come from animals. Vegans don’t eat eggs, cheese, milk, etc.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Becoming a vegetarian or vegan can be immensely helpful for the environment. But, it may not be realistically for everyone to fully change their diet. An alternative, that still can have an important environmental impact, is to swap a meal or two a week that usually would have meat, to vegetarian or vegan alternative.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "You’re tasked to work with your family to implement a plan for this week where you have one meal that is plant-based, instead of meat-based. Start off by researching plant-based recipes. Then, present some options to your parents. Make a plan with them to decide when you’ll make this meal and who in your family will participate.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Once you’ve developed your plan, do it! Take photos of what you make and answer the questions below.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson7",
+          "title": "7. Levels of Organization of Living Organisms",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB755B",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of a “population” you can find nearby. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Why is it important to understand the level of organization within our bodies? How about in ecosystems? "
+            },
+            {
+              "navigation": "Reorder",
+              "title": "common:reorder",
+              "icon": "assets/reorder.png",
+              "backgroundColor": "pink",
+              "prompt": "Put the following levels of life in order starting with the smallest.",
+              "content": [
+                {
+                  "text": "Molecular"
+                },
+                {
+                  "text": "Cellular"
+                },
+                {
+                  "text": "Individual"
+                },
+                {
+                  "text": "Population and species"
+                },
+                {
+                  "text": "Biocenosis"
+                },
+                {
+                  "text": "Biosphere"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Questions: How does this story relate to the Tragedy of the Commons? How could the extinction of a species in the pond affect other species in the pond? Suppose the big trout eat little minnows. And, those little minnows zooplankton. With a decrease in the amount of big trout, what would happen to the zooplankton population?",
+              "content": [
+                {
+                  "text": "Have you ever heard of the Tragedy of the Commons? To put it simply, this is an environmental problem where when people have access to a shared resource, they act in their own interest. This can result in overconsumption and ultimate depletion of this resource.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "With this in mind, read about the following situation and answer the questions that follow.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "A local pond has been discovered by a nearby fisherman, that previously no one knew existed. The fisherman casts his line in the pond and finds there is a huge population of big trout. Everytime he casts a line, he gets a bite, and the supply of fish seems to never run out.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "At the end of his fishing day, he had pounds and pounds of trout to take to the market. People flocked to his stand at the market, marveling at the huge trout for sale. Feeling boisterous, the fisherman tells everyone he found a secret pond with endless trout.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Day after day, the fisherman brings pounds of trout to the market. But, slowly, less and less people buy the trout. The fisherman is confused, but soon realizes the problem.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "The next day, when he returns to the pond, crowds of people are there, casting their lines. People came with trucks to load trout into, filling it to the brim. The fisherman is upset, knowing his secret is out. He becomes worried as the amount of trout leaving the pond seems like too much for the pond to handle.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "He realizes that since no one has to pay for the trout coming out of the pond if they get it themselves, they will consume great amounts without any worry. Also, no one is going to pay for his fish as long as they can get it out of this pond so easily.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "He returns to the pond day after day for a week, getting there earlier and earlier, but everytime, there’s a crowd big enough that he can barely reach the water edge.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "A few days later, disappointed, he returns to the pond. He doesn’t get there early. He arrives later in the day, not seeing a point in rushing there. When he arrives, there’s no crowd. Perplexed, he decides to cast a line and see what happens.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "He waits and waits, and nothing bites. He waits longer and longer, until he gives up.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "He goes back day after day, trying to get a bite, with no luck.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson8",
+          "title": "8. The Role of Photosynthesis",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DB5C9E",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find a plant and take a photo. Label the picture showing what is going in and out of the plant during photosynthesis. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is the importance of chlorophyll in photosynthesis? Where is it located? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following substances into whether they are an input or output of photosynthesis ",
+              "categories": [
+                {
+                  "name": "Input",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Output",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Input",
+                  "title": "Carbon dioxide"
+                },
+                {
+                  "name": "Input",
+                  "title": "Light"
+                },
+                {
+                  "name": "Input",
+                  "title": "Water"
+                },
+                {
+                  "name": "Output",
+                  "title": "Oxygen"
+                },
+                {
+                  "name": "Output",
+                  "title": "Glucose"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "What would you want to add to this area? How would you get the resources you need? Would you fundraise or get the resources some other way? Who would help you plant them? Be creative in your answers and present your ideas in a slideshow.",
+              "content": [
+                {
+                  "text": "Since plants take in carbon dioxide, and release oxygen, they are incredibly important in addressing carbon dioxide emissions. Lack of plants and greenery in a city is a big problem, making parks, yards, and patches of nature very important.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Take a walk through your neighborhood and find a place that could use more plants, trees, or flowers. Take a picture of this area and upload it.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter7",
+      "title": "common:chapter7",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. Types and Sources of Energy",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#7492DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of something that requires energy. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you explain nuclear energy to a student younger than you? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the main sources of energy into whether they fall under combustible minerals or not. ",
+              "categories": [
+                {
+                  "name": "Combustible minerals",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Other sources",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Combustible minerals",
+                  "title": "Coal"
+                },
+                {
+                  "name": "Combustible minerals",
+                  "title": "Oil"
+                },
+                {
+                  "name": "Combustible minerals",
+                  "title": "Gas"
+                },
+                {
+                  "name": "Combustible minerals",
+                  "title": "Peat"
+                },
+                {
+                  "name": "Combustible minerals",
+                  "title": "Combustible shale"
+                },
+                {
+                  "name": "Other sources",
+                  "title": "Thermal waters"
+                },
+                {
+                  "name": "Other sources",
+                  "title": "Energy of the sun"
+                },
+                {
+                  "name": "Other sources",
+                  "title": "Wind"
+                },
+                {
+                  "name": "Other sources",
+                  "title": "River"
+                },
+                {
+                  "name": "Other sources",
+                  "title": "Ocean"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "In previous lessons, we’ve learned about what solar energy can provide for our world and its benefits. Installation of solar panels on homes is one way to utilize solar energy. How do you think you could convince people to install solar panels in their homes? Write out a detailed plan on how you would market solar panels to homeowners.",
+              "content": []
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Mutual Conversion of Energy",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74B1DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Oftentimes, energy comes from heat, water, or nuclear power plants. While these power plants can be really efficient energy convertors, they also have many adverse effects on the environment. Their most direct impact on their environment is poor air quality. Take a picture outside of any evidence of poor air quality. If you cannot find any, draw a picture of what it might look like. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "One way to think about the conversion of energy is how we turn food into energy for our bodies. How would you relate the conversion of food into energy to wind creating wind energy? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Next, write a letter to the company explaining the benefits of solar energy. Convince them of the reasons why they should utilize alternative energy and encourage them to make the switch. Upload your letter here and send it through the mail or email.",
+              "content": [
+                {
+                  "text": "Identify a large company nearby where you live that does not utilize solar energy. With the help of an adult, find an address or email that you can send a message to for the company you identified.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Alternative Energy Sources",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74DBC2",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk nearby and take a picture of an area that could implement the use of solar panels. Add a caption explaining where they should place these panels. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What do you think caused the development of alternative energy? How do you expect it to develop in the future? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "At this point, you’ve spent a lot of time on alternative energy sources, learning about them, and encouraging them. There are alternative energy companies and organizations dedicated to their implementation. How would you suggest alternative energy companies better educate people about these energy sources? Create a detailed plan associated with your suggestion.",
+              "content": []
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. Energy Efficiency and Safety",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#7874DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of something in your home that uses a lot of energy, but could be lessened to consume less energy in your household. Add a caption explaining how this household item could consume less energy. This can have to do with use, or a hypothetical invention that improves energy efficiency. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How do you think heat energy gets wasted in your home? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Was there a specific room where appliances were left on more than others? If so, what room was it?",
+              "content": [
+                {
+                  "text": "Humans’ consumption has a huge impact on nature and life on our planet. Responsibly consuming food, water, and electricity are ways to mitigate our effects.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Think about how many times you walk into a room of your house and the TV or lights are left on with no one in there! Simply turning off sources of electricity when they’re not in use can help us more responsibly use electricity.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Your task is to pay extra attention to your household use of electricity for this whole week. Every time you pass a room, check to see if any sources of electricity are left on but no one is using them! Make a tally every time you catch something that isn’t supposed to be and make sure to turn it off! Insert your tallies below.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Even though this is a week-long activity, this is an easy and important habitat to get into. In addition to this task, answer the below analysis questions at the end of the week.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Did the amount of tallies surprise you? Why or why not?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Was there a specific appliance left on more than others? If so, what was it?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson5",
+          "title": "5. Movement in Nature",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#74D3DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Pick an animal of your choice and draw a picture of what their skeletal structure would look like. Include a caption that identifies the animal. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you define “motion” without using the words “move” or “movement”? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is the purpose of the human and animals’ skeleton? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "For example, watering plants or washing cars use a lot of water! What if you collected water when it rains to use in the future? How would you suggest households do this? Provide step by step instructions for households.",
+              "content": [
+                {
+                  "text": "Nature and everything in it operates in a cycle. Water for example cycles through our Earth, and is also a vital source of life. Limiting our water usage and using it wisely, is one way to responsibly consume this source. Another way to responsibly use water would be to take a “cycle approach” like nature already does!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson6",
+          "title": "6. Equilibrium",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#7492DB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of an object at equilibrium, then take a photo or video of the object not at equilibrium. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How would you define the center of gravity? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "If your community was to experience a drought right now, what top three tasks would you encourage your family and neighbors to engage in to help with this crisis?",
+              "content": [
+                {
+                  "text": "Sometimes our environment gets out of balance and moves to an extreme. Keeping with the theme of water from last lesson, our environment can move to an extreme by experiencing a drought. That means there’s an extreme lack of water. The amount of water getting down to the ground is not in equilibrium with the amount of water leaving our environment.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter8",
+      "title": "common:chapter8",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. Ecological System",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E09079",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of a terrestrial ecosystem nearby. Add a caption describing the type of terrestrial ecosystem. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How is an ecosystem different from a population? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following ecosystems into whether they are freshwater or marine ecosystems. ",
+              "categories": [
+                {
+                  "name": "Freshwater",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Marine",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Freshwater",
+                  "title": "Ponds"
+                },
+                {
+                  "name": "Freshwater",
+                  "title": "Lakes"
+                },
+                {
+                  "name": "Freshwater",
+                  "title": "Streams"
+                },
+                {
+                  "name": "Marine",
+                  "title": "Oceans"
+                },
+                {
+                  "name": "Marine",
+                  "title": "Swamps"
+                },
+                {
+                  "name": "Marine",
+                  "title": "Kelp forests"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Summarize the episode. Do you think this is a good source of information? Why or why not? Would you listen to other episodes in the future? Why or why not?",
+              "content": [
+                {
+                  "text": "With the help of a parent, find an environmental or sustainable podcast to listen to. Podcasts, as long as they're trustworthy, are a great place to hear about the state of our environment and recommendations for how to use it. Listen to at least one episode and then answer the following questions.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "What’s the name of the podcast? What’s the name of the episode you watched?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. Natural and Artificial Ecosystems",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E07D78",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of an area of greenery and nature in your neighborhood. Add a caption that explains whether this is a natural or artificial ecosystem and why you think this. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Why would people want to develop artificial ecosystems? What are the up-sides? What could be the possible downsides of artificial ecosystems? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "For each animal, describe how they can be a predator, prey, or provide a habitat. Be creative! Oak tree Eagle Mouse "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "What national park did you choose and where is it? What is the history of this national park site? What is threatening this national park, if any? What measures have been taken to preserve this national park?",
+              "content": [
+                {
+                  "text": "Kazakhstan is full of beautiful national parks. These are mostly natural ecosystems that people have put in an effort to preserve and keep safe. This is important work because it preserves natural wonders and grand areas of nature and greenery.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Pick a national park in Kazakhstan to focus on. Then, do some research on what goes into preserving the parks. Answer the following questions. They will require you to do some research!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Factors Affecting the Life of the Ecosystem",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DF79E0",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk and take a picture of a plant that is doing well with the current environmental conditions. Then, find and take a picture of a plant that is not doing well in those conditions. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What species, plant or animal, would thrive if there was a lot of rainfall? What species, plant or animal, would suffer if there was a lot of rainfall? Why do these species have different experiences with the same condition? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following factors into their correct environmental factor category. ",
+              "categories": [
+                {
+                  "name": "Biotic",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Abiotic",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Anthropogenic",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Biotic",
+                  "title": "Predation"
+                },
+                {
+                  "name": "Biotic",
+                  "title": "Parasites"
+                },
+                {
+                  "name": "Biotic",
+                  "title": "Symbiosis"
+                },
+                {
+                  "name": "Abiotic",
+                  "title": "Soil"
+                },
+                {
+                  "name": "Abiotic",
+                  "title": "Rainfall"
+                },
+                {
+                  "name": "Abiotic",
+                  "title": "Temperature"
+                },
+                {
+                  "name": "Abiotic",
+                  "title": "Sunlight"
+                },
+                {
+                  "name": "Anthropogenic",
+                  "title": "Deforestation"
+                },
+                {
+                  "name": "Anthropogenic",
+                  "title": "Pollution"
+                },
+                {
+                  "name": "Anthropogenic",
+                  "title": "Erosion"
+                },
+                {
+                  "name": "Anthropogenic",
+                  "title": "Habitat destruction"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Create a slideshow detailing what human impacts can negatively affect these ecosystems. Also include slides about what humans can do to help.",
+              "content": [
+                {
+                  "text": "What are some factors that affect the life of aquatic ecosystems and animals? Do some research on these factors and helpful things humans can do.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson4",
+          "title": "4. The Living Planet",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E0A279",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find a living organism and take a photo of it. Which of the 4 kingdoms of living things does it fall under? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the living organism into their correct kingdom. ",
+              "categories": [
+                {
+                  "name": "Bacteria",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Fungi",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Plants",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Animals",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Bacteria",
+                  "title": "Prokaryotes"
+                },
+                {
+                  "name": "Fungi",
+                  "title": "Mushrooms"
+                },
+                {
+                  "name": "Fungi",
+                  "title": "Mold"
+                },
+                {
+                  "name": "Fungi",
+                  "title": "Yeast"
+                },
+                {
+                  "name": "Plants",
+                  "title": "Cactus"
+                },
+                {
+                  "name": "Plants",
+                  "title": "Orchid"
+                },
+                {
+                  "name": "Plants",
+                  "title": "Corn"
+                },
+                {
+                  "name": "Animals",
+                  "title": "Dog"
+                },
+                {
+                  "name": "Animals",
+                  "title": "Salmon"
+                },
+                {
+                  "name": "Animals",
+                  "title": "Seal"
+                }
+              ]
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What are characteristics of each of the 4 kingdoms of living things? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "After identifying this organization, create an infographic that identifies the company, what they produce, and what they do that makes them sustainable!",
+              "content": [
+                {
+                  "text": "There are many organizations and companies that are aimed at helping our planet, or at least minimize their impact on it. Pick a company or organization that is acting in environmentally friendly ways to further research.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "It would be helpful to start with a product or service that you like, and then research the different options on the market. That way, you can find who is producing that product or service in the most sustainable way!",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "For example, I love chocolate, so I want to look into companies that are getting the ingredients and producing chocolate in a way that is least harmful to the environment.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson5",
+          "title": "5. Diversity of Animals",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E079A5",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Draw a diagram that clearly depicts the difference between a vertebrate or invertebrate. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How does the elimination of one species affect other species? What causes this? Include a hypothetical scenario in your response. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "In this lesson and the next we will focus on endangered animals. For this lesson, research animals that were previously endangered. Create a list of at least 3 examples.",
+              "content": []
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson6",
+          "title": "6. Relationships Between Animals",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E09079",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Go outside and find at least two pairs of animals and/or plants that have a relationship. Take pictures of each plant or animal. If you can’t find any, that’s okay, draw a picture! For example, I took a picture of a tree and a bird, because the tree houses the bird. I then took a picture of a leaf and a caterpillar because the caterpillar eats leaves. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is an example of competition in the animal world? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "",
+              "categories": [
+                {
+                  "name": "Competition",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Predation",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Parasitism",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Mutualism",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Competition",
+                  "title": "Develops between animals that depend on either the same source of food or habitat"
+                },
+                {
+                  "name": "Predation",
+                  "title": "One organism eats the other organism to survive"
+                },
+                {
+                  "name": "Parasitism",
+                  "title": "One organism uses another as its habitat"
+                },
+                {
+                  "name": "Mutualism",
+                  "title": "Both organisms benefit from having a relationship with each other. They may provide food, protection, habitats, and more for each other."
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Do some research to identify how this species recovered. What did humans do to help with their recovery?",
+              "content": [
+                {
+                  "text": "Think back to the last lesson where you identified three species that recovered from endangerment. Pick one to look into further.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson7",
+          "title": "7. Diversity of Plants and Their Role",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E07D78",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Find one example of a flowering plant and one that is not a flowering plant. Take a picture of each and add a caption identifying the type of plant. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What gives plants their green color? "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Sort the following plants into whether they are “lower” or “higher” plants. ",
+              "categories": [
+                {
+                  "name": "Lower",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Higher",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Lower",
+                  "title": "Algae"
+                },
+                {
+                  "name": "Lower",
+                  "title": "Liverworts"
+                },
+                {
+                  "name": "Higher",
+                  "title": "Ferns"
+                },
+                {
+                  "name": "Higher",
+                  "title": "Flowering plants"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Even though you and your family may not have the ability to plant and grow your own food, another sustainable alternative is to shop locally! Try to get produce from farmers markets and local sellers instead of big grocery stores.",
+              "content": [
+                {
+                  "text": "With some time, energy, and space, a lot of people are able to grow plants and gardens that can feed themselves and their families! This is a very sustainable habit that may not be possible for you and your family at this moment, but might be in the future!",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "For this lesson, let’s pretend that you do have the ability to grow your own food!",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "What plants would you want to grow? What would you need in order to grow these plants (you may need to do some research)? What would make this sustainable habit easier to develop?",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson8",
+          "title": "8. Fungi and Microorganisms",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DF79E0",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of somewhere inside or outside that you would find bacteria and explain your thinking for choosing this area in a caption. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "In what products or situations could you possibly find fungi in your home? "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What role does fungi play in forests? Why are they so important? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Fungi is very efficient at creating cleaner air and cleaning up pollution in highly polluted areas. Use your imagination to think of areas that could benefit from the addition of fungi to clean the air. Write a paragraph on your idea and draw an accompanying picture that describes how you would implement fungi to help with pollution!",
+              "content": []
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson9",
+          "title": "9. Change of Natural Ecosystems Due to Human Activity",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E0A279",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of a natural ecosystem close up. Then, take several steps back to show the larger context of what is surrounding this ecosystem. Take a picture of this zoomed out perspective as well. Add a caption explaining how the surrounding area helps or harms this ecosystem. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "In your opinion, what human action has the most significant impact on natural ecosystems? Provide evidence to support your claim. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "How would you describe this topic to someone younger than you? How is the topic related to the environment? How is this topic present in peoples’ lives? How could you educate people on this topic? How could learning about this topic help the environment?",
+              "content": [
+                {
+                  "text": "At this point, you’ve learned about many, many environmental issues and sustainable habits. Pick one topic that you find the most interesting. Here are some topics to refresh your memory, but you can pick one not on this list too!",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Solar energy, Wind energy, Recycling, Water conservation, Electricity conservation, Food waste, Vegetarianism, Endangered species, Air pollution, Carbon footprint",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Once you’ve picked your topic, collect information and resources on the topic. Use the following questions to guide your research, but your research should not be limited by these questions.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson10",
+          "title": "10. Environmental Issues of Kazakhstan",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E079A5",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk and see if any of the following environmental problems are evident: Contamination of rivers and lakes, Air pollution, Loss of plant or animal life. Take a picture of what you see. Try to look at your surroundings critically. If you cannot find any examples, draw a picture of what one of these environmental problems may look like. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Why were tests conducted at the Semipalatinsk nuclear test site? Why were they stopped? Provide a detailed explanation by using reliable electronic sources to develop your understanding. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What happened to the Aral Sea? Provide a detailed explanation by using reliable electronic sources to develop your understanding. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "This flier can be made electronically or on paper. If possible, ask a parent to upload this flier to social media to get the word out about this important issue!",
+              "content": [
+                {
+                  "text": "Using the research on your chosen topic from the last lesson, create a flier that efficiently describes your topic, teaches the audience about it, and encourages the audience to help their environment through this topic.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson11",
+          "title": "11. How Do We Protect Nature?",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E09079",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk nearby and identify any nature you come across that you would want to protect. Take a picture and add a caption stating what this area may need protection from. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What elements of nature need protection? Which of these do you think needs it the most right now, and why? If you need some help answering these questions you can do some research online. "
+            },
+            {
+              "navigation": "Sorting",
+              "title": "common:sorting",
+              "icon": "assets/recycle-bin.png",
+              "backgroundColor": "coral",
+              "prompt": "Match the following natural element to a strategy used to protect it. ",
+              "categories": [
+                {
+                  "name": "Water",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Soil",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "name": "Air",
+                  "image": "assets/cotton.png"
+                }
+              ],
+              "options": [
+                {
+                  "name": "Water",
+                  "title": "dispose of harmful substances properly. These include pesticides, motor oil, and prescription medications"
+                },
+                {
+                  "name": "Soil",
+                  "title": "reduce the use of pesticides and other chemicals"
+                },
+                {
+                  "name": "Air",
+                  "title": "install cleaning devices in factories"
+                }
+              ]
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Next, spend some time thinking about what you would recommend countries implement in their Climate Action Plans. Why would you recommend these strategies?",
+              "content": [
+                {
+                  "text": "There are many environmental laws that work to protect nature on the national and international scale. The Paris Agreement, for example, is an international treaty that addresses climate change. Many countries around the world are involved in this agreement.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Spend a few minutes reading the following article about the Paris Agreement from the United Nations: The Paris Agreement",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson12",
+          "title": "12. Red Book of Kazakhstan",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#E07D78",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "The extinction of one species in an ecosystem hugely impacts the rest of the species in an ecosystem. Think of a hypothetical situation where a species of your choice goes extinct. Draw two pictures. The first one, is what the ecosystem looks like when the species is NOT extinct. For the second picture, draw what the ecosystem would look like once that species has gone extinct. Make sure to visually demonstrate how the other plant and animal life changes. Upload pictures of your drawings. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "How and why was the Red Book of Kazakhstan created? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "What is the species? What is threatening the species? How could humans help? What are some fun facts about this species?",
+              "content": [
+                {
+                  "text": "The Red Book of Kazakhstan is an incredibly important resource that can keep us all knowledgeable about threats to our environment. Find an online resource of the Red Book of Kazakhstan. Identify either a plant or animal in danger to focus on further.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Once you’ve identified this endangered species, spend some time looking into what is causing its endangerment. After collecting information on the threats to this species, use your imagination to think of ways that humans could help mitigate these effects. Compile your ideas into a presentation that addresses the following questions.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson13",
+          "title": "13. The Principle of Walking in Nature",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#DF79E0",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a walk with a member of your family and pay attention to any trash that has been left along areas of your walk. Properly dispose of it and take pictures of anything you find. It is important that we leave nature better than we found it, and do not leave behind trash or harm the environments we are in. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "When spending time in nature, what is something you should do? How about something you shouldn’t do? For example: You should pick up any trash people have left behind. You should not disturb birds’ nests or approach them. "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "After collecting observations and sketches, imagine an area where greenery and more natural elements could be added, or an area of greenery could be improved. Draw a before and after picture. Before is your current sketch, after should show what you would do to improve it. Some elements that would be helpful for the environment are more plants, more habitats for wildlife, and in general, adding beauty!",
+              "content": [
+                {
+                  "text": "With permission from an adult, take a short walk throughout your neighborhood. Start off by listing some of your observations about your environment. Draw some sketches of where you see a lot of greenery, and areas that don’t have a lot of greenery. There will be lots of variation based on where you live!",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navigation": "Chapter9",
+      "title": "common:chapter9",
+      "name": "common:PLACEHOLDER",
+      "icon": "assets/cotton.png",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
+      "lessons": [
+        {
+          "navigation": "Lesson1",
+          "title": "1. World Scientific News",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#B56CEB",
+          "content": [
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What do you think is the most important piece of scientific news that you’ve heard about recently? How did you hear about it? What did you hear about it? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Write a paragraph summary of your article below. Make sure to include the title of the article, the author, and all important information.",
+              "content": [
+                {
+                  "text": "There are many articles that publish important environmental information and research from experts! For this activity search online for an article about an environmental or sustainable topic of your choice. Verify that this is a reliable source, and ask an adult for help if you’re not sure.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson2",
+          "title": "2. New Technologies and Expected Innovations",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#8C6BEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Take a picture of an invention that you couldn’t live without and explain in a caption why you chose this. For example, I took a picture of my contact lenses. This is an invention that is important to me because without it I would either have to wear my glasses all the time, or not be able to see! I’m grateful someone came up with this invention. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "Have you ever heard about artificial intelligence (AI)? If so, what do you think of it? Do you think AI will have a positive or negative impact on our world? If you haven’t heard of it, ask an adult! "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Next, list ideas of products or inventions that might help with this issue. These should be new creative ideas that use your creativity and imagination!",
+              "content": [
+                {
+                  "text": "Identify an environmental issue in our world that you want to tackle. Brainstorm possible solutions to this issue. Think big! The sky’s the limit.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "navigation": "Lesson3",
+          "title": "3. Inventions That Will Change the World",
+          "thumbnail": "assets/cotton.png",
+          "backgroundColor": "#6C9DEB",
+          "content": [
+            {
+              "navigation": "Snapshot",
+              "title": "common:snapshot",
+              "icon": "assets/camera.png",
+              "backgroundColor": "#FFD972",
+              "prompt": "Interview a member of your family and ask them “what is an invention you couldn’t live without?” With their help, take a picture of this invention and add a caption that explains why they chose this. "
+            },
+            {
+              "navigation": "Image Boom",
+              "backgroundColor": "palevioletred",
+              "title": "common:imageboom",
+              "icon": "assets/image.png",
+              "image": "assets/cotton.png",
+              "prompt": "What is a current invention in a product you use in your life that you think will be obsolete in 20 years? Why do you think it won’t be needed anymore? "
+            },
+            {
+              "navigation": "Mastery",
+              "title": "common:mastery",
+              "prompt": "Draw your invention, including labels to show the different parts of your product. Draw your invention in action. Show in your drawing how it would work while addressing that environmental issue. Split your paper in half, on one side show the environment before you invention, and on the other side show the environment after the use of your invention!",
+              "content": [
+                {
+                  "text": "Go back to your list of ideas for helpful products and inventions from the last lesson. Pick one that you could further develop!",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "In this activity, you will be tasked with creating a series of sketches that explain your invention and how it will work. Upload each sketch.",
+                  "image": "assets/cotton.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,11 +5,6 @@
   font-weight: normal;
   font-size: 14px;
 
-  /* global color scheme */
-  color-scheme: light;
-  color: #1A1A1A;
-  background-color: #EEEDEE;
-
   /* some browser text optimization */
   font-synthesis: auto;
   text-rendering: optimizeLegibility;
@@ -17,13 +12,19 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* CSS HEX THEME*/
-  --dark: #636B73; /* light grey */
+  --dark: #636B73;
   --grey: #4E4E4E;
   --accent: #79C2D6; /* sky-blue */
   --primary: #4A629F; /* lapis-lazuli */
   --secondary: #439EC1; /* blue-green */
   --tertiary: #6D90B3; /* silver-lake-blue */
-  --light: #EEEDEE
+  --light: #EEEDEE;
+  --black: #1A1A1A;
+
+  /* global color scheme */
+  color-scheme: light;
+  color: var(--black);
+  background-color: var(--light);
 }
 
 a {

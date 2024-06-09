@@ -10,8 +10,7 @@ const API_KEY = 'AIzaSyCa8CJLDlxZav6LylYflDDQQbL_m8tTZGs';
 // Discovery doc URL for APIs used by the quickstart
 const DISCOVERY_DOC = 'https://docs.googleapis.com/$discovery/rest?version=v1';
 
-// Authorization scopes required by the API; multiple scopes can be
-// included, separated by spaces.
+// Authorization scopes required by the API; multiple scopes can be included, separated by spaces.
 const SCOPES = 'https://www.googleapis.com/auth/documents.readonly';
 
 function GoogleDocsAPI({ handleGapiState }) {
@@ -60,8 +59,7 @@ function GoogleDocsAPI({ handleGapiState }) {
    }
 
    /**
-    * Callback after the API client is loaded. Loads the
-    * discovery doc to initialize the API.
+    * Callback after the API client is loaded. Loads the discovery doc to initialize the API.
     */
    async function initializeGapiClient() {
       await gapi.client.init({
@@ -72,6 +70,9 @@ function GoogleDocsAPI({ handleGapiState }) {
       console.log("GAPI client initialized");
    }
 
+   /**
+    * Callback after Google Identity Services are loaded.
+    */
    function gisLoaded() {
       const result = google.accounts.oauth2.initTokenClient({
          client_id: CLIENT_ID,
@@ -127,26 +128,17 @@ function GoogleDocsAPI({ handleGapiState }) {
 
    return (
       <div className='form-container'>
-        <AuthButton handleAuthClick={handleAuthClick} isAuthorized={isAuthorized} text={text} />
-        <SignOutButton handleSignoutClick={handleSignoutClick} signoutVisible={signoutVisible} />
+         {/* Sign In Button */}
+         <button onClick={handleAuthClick} style={{ visibility: isAuthorized ? 'visible' : 'hidden' }} disabled={!isAuthorized}>
+            {text}
+         </button>
+        
+         {/* Sign Out Button (only visible after signin success) */}
+         <button onClick={handleSignoutClick} style={{ visibility: signoutVisible ? 'visible' : 'hidden' }}>
+            Sign Out
+         </button>
       </div>
     );
 }
-
-const AuthButton = ({ handleAuthClick, isAuthorized, text }) => {
-   return (
-     <button onClick={handleAuthClick} style={{ visibility: isAuthorized ? 'visible' : 'hidden' }} disabled={!isAuthorized}>
-       {text}
-     </button>
-   );
- };
-
-const SignOutButton = ({ handleSignoutClick, signoutVisible }) => {
-   return (
-      <button onClick={handleSignoutClick} style={{ visibility: signoutVisible ? 'visible' : 'hidden' }}>
-         Sign Out
-      </button>
-   );
-};
 
 export default GoogleDocsAPI;
