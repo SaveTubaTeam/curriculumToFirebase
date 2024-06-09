@@ -1,6 +1,6 @@
 /* root applies globally, is overriden by the #root selector referenced in main.jsx */
 :root {
-  font-family: Times New Roman, Avenir, system-ui, Helvetica, Arial, sans-serif;
+  font-family: Lucida Grande, Avenir, Helvetica, Arial, system-ui;
   line-height: 1; /* line-height is basically spacing */
   font-weight: normal;
   font-size: 14px;
@@ -73,4 +73,10 @@ select {
 }
 select:hover {
   border-color: var(--tertiary);
+}
+
+h1 {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 45px;
 }

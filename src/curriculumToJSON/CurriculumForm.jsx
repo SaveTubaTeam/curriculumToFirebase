@@ -8,14 +8,14 @@ function CurriculumForm({ gapiState }) {
    //to track the value change in CurriculumDropdown
    function handleChange(value) { setValue(value); };
 
-   //to track the message change in Submit
+   //to track the message change in RunParser
    function handleMessage(message) { setMessage(message); }
 
    return (
       <>
          <div className='form-container'>
             <CurriculumDropdown value={value} handleChange={handleChange} />
-            <Submit value={value} gapiState={gapiState} handleMessage={handleMessage}/>
+            <RunParser value={value} gapiState={gapiState} handleMessage={handleMessage}/>
          </div>
          <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{message}</p>
       </>
@@ -74,18 +74,18 @@ function CurriculumDropdown({ value, handleChange }) {
 //@param {string} value the Google Document ID selected from the dropdown above
 //@param {Google API Client Object} gapiState
 //@param handleMessage a function to pass the message state back up to CurriculumForm
-function Submit({ value, gapiState, handleMessage }) {
+function RunParser({ value, gapiState, handleMessage }) {
    //soft disable button
    const [disabled, setDisabled] = useState(true);
  
-   //if the parser is running, we hard disable the submit button
+   //if the parser is running, we hard disable the RunParser button
    const [loading, setLoading] = useState(false);
  
    //checking for valid dropdown entry and gapi initialization
    useEffect(() => {
       if (value !== "" && gapiState !== null) {
          setDisabled(false);
-         console.log("Submit button enabled");
+         console.log("RunParser button enabled");
      } else {
          setDisabled(true);
      }
@@ -93,7 +93,7 @@ function Submit({ value, gapiState, handleMessage }) {
  
    function handleClick() {
       if (disabled) {
-         handleMessage("The Submit button is currently disabled. Sign in and select a document to enable the Submit button.");
+         handleMessage("The RunParser button is currently disabled. Sign in and select a document to enable the RunParser button.");
       } else {
          setLoading(true);
          handleMessage("Loading . . . ");

@@ -1,5 +1,5 @@
 import FirebaseAuth from "./FirebaseAuth";
-import DataForm from "./DataForm";
+import JSONForm from "./JSONForm";
 import { useEffect } from "react";
 import { auth } from "../../firebase";
 
@@ -20,7 +20,7 @@ function JSONToFirebase() {
             <p className="read-the-docs">
             Use the dropdowns below to select and post JSON into Firestore.
             </p>
-            <DataForm />
+            <JSONForm />
          </div>
       </>
    )

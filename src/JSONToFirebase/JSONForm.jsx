@@ -1,10 +1,10 @@
-import React, { useState, useEffect, createContext, useContext } from 'react';
-
-const FunctionContext = createContext(); //tracks loading state to disable buttons if something is already
+import React, { useState, useEffect, useContext } from 'react';
+import { PostDataSoft, PostDataHard } from './PostDataButtons';
+import FunctionContext from './FunctionContext';
 
 //For clarification: the variable prefixes 'soft' and 'hard' are for organizational purposes.
 //These variables with 'soft' and 'hard' prefixes refer to their respective functions (postDataSoft, postDataHard)
-function DataForm() {
+function JSONForm() {
    const [softValue, setSoftValue] = useState("");
    const [hardValue, setHardValue] = useState("");
    const [messageOne, setMessageOne] = useState(" ");
@@ -88,24 +88,4 @@ function HardDataDropdown({ hardValue, handleChangeHardDropdown }) {
    );
 }
 
-function PostDataSoft({ softValue, handleMessageOne}) {
-   const loading = useContext(FunctionContext);
-
-   return (
-      <button disabled={loading} style={{ backgroundColor: 'var(--primary)' }}>
-         postDataSoft()
-      </button>
-   )
-}
-
-function PostDataHard({ hardValue, handleMessageTwo}) {
-   const loading = useContext(FunctionContext);
-
-   return (
-      <button disabled={loading} style={{ backgroundColor: 'var(--primary)' }}>
-         postDataHard()
-      </button>
-   )
-}
-
-export default DataForm;
+export default JSONForm;
