@@ -5,13 +5,11 @@ function CurriculumForm({ gapiState }) {
    const [value, setValue] = useState("");
    const [message, setMessage] = useState("");
 
-   function handleChange(value) { //passed into Dropdown as a prop
-      setValue(value);
-   };
+   //to track the value change in CurriculumDropdown
+   function handleChange(value) { setValue(value); };
 
-   function handleMessage(message) {
-      setMessage(message);
-   }
+   //to track the message change in Submit
+   function handleMessage(message) { setMessage(message); }
 
    return (
       <>
@@ -104,7 +102,7 @@ function Submit({ value, gapiState, handleMessage }) {
       }
    };
  
-   // Function to get document and handle the download
+   // Function to get the document and then handle the download
    async function getDoc() {
       try {
          const response = await gapi.client.docs.documents.get({

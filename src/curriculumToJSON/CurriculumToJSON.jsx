@@ -5,20 +5,17 @@ import GoogleDocsAPI from "./GoogleDocsAPI";
 function CurriculumToJSON() {
    const [gapiState, setGapiState] = useState(null);
 
-   function handleGapiState(value) {
-      setGapiState(value);
-   }
+   //to track the gapi state in GoogleDocsAPI
+   function handleGapiState(gapiClient) { setGapiState(gapiClient); }
 
    return(
       <div className="section">
          <h1>curriculumToJSON</h1>
-         <div className="card">
 
          <GoogleDocsAPI handleGapiState={handleGapiState}/>
          <p>
-         Sign in to the Google Workspaces API with your Lehigh account! (NOTE: you need to be added to SaveTuba's Cloud Console project for this to work.)
+         Sign in to Google Console with your Lehigh account! (NOTE: you need to be added to SaveTuba's Cloud Console project for this to work.)
          </p>
-         </div>
 
          <p className="read-the-docs">
          Use the dropdowns below to select and convert SaveTuba curriculum documents into JSON.

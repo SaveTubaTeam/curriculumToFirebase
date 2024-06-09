@@ -20,7 +20,7 @@ function GoogleDocsAPI({ handleGapiState }) {
 
    //for sign-in button
    const [isAuthorized, setIsAuthorized] = useState(false);
-   const [text, setText] = useState("Sign In");
+   const [text, setText] = useState("Google Console Sign In");
 
    //for sign-out button
    const [signoutVisible, setSignoutVisible] = useState(false);
@@ -120,7 +120,7 @@ function GoogleDocsAPI({ handleGapiState }) {
       if (token !== null) {
          google.accounts.oauth2.revoke(token.access_token);
          gapi.client.setToken('');
-         setText("Sign In");
+         setText("Google Console Sign In");
          setSignoutVisible(false);
       }
       console.log("Signed out of Google API");
