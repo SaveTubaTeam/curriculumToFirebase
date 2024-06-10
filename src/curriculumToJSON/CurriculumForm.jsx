@@ -93,6 +93,7 @@ function RunParser({ value, gapiState, handleMessage }) {
  
    function handleClick() {
       if (disabled) {
+         console.log("parser currently disabled.");
          handleMessage("The 'Run Parser' button is currently disabled. Sign in and select a document to enable the button.");
       } else {
          setLoading(true);
