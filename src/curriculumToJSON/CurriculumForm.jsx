@@ -8,7 +8,7 @@ function CurriculumForm({ gapiState }) {
    //to track the value change in CurriculumDropdown
    function handleChange(value) { setValue(value); };
 
-   //to track the message change in RunParser
+   //to track the message change in Run Parser
    function handleMessage(message) { setMessage(message); }
 
    return (
@@ -78,14 +78,14 @@ function RunParser({ value, gapiState, handleMessage }) {
    //soft disable button
    const [disabled, setDisabled] = useState(true);
  
-   //if the parser is running, we hard disable the RunParser button
+   //if the parser is running, we hard disable the Run Parser button
    const [loading, setLoading] = useState(false);
  
    //checking for valid dropdown entry and gapi initialization
    useEffect(() => {
       if (value !== "" && gapiState !== null) {
          setDisabled(false);
-         console.log("RunParser button enabled");
+         console.log("Run Parser button enabled");
      } else {
          setDisabled(true);
      }
@@ -93,7 +93,7 @@ function RunParser({ value, gapiState, handleMessage }) {
  
    function handleClick() {
       if (disabled) {
-         handleMessage("The RunParser button is currently disabled. Sign in and select a document to enable the RunParser button.");
+         handleMessage("The 'Run Parser' button is currently disabled. Sign in and select a document to enable the button.");
       } else {
          setLoading(true);
          handleMessage("Loading . . . ");

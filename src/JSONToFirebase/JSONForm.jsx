@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PostDataSoft, PostDataHard } from './PostDataButtons';
 import FunctionContext from './FunctionContext';
 
@@ -13,8 +13,10 @@ function JSONForm() {
    const [loading, setLoading] = useState(false);
 
    useEffect(() => {
-      if(messageOne.includes("Loading") || messageTwo.includes("Loading")) {
+      if(messageOne.includes("Running") || messageTwo.includes("Running")) {
          setLoading(true);
+      } else {
+         setLoading(false);
       }
    }, [messageOne, messageTwo])
 
@@ -34,7 +36,7 @@ function JSONForm() {
          <div className='form-container'>
             <SoftDataDropdown softValue={softValue} handleChangeSoftDropdown={handleChangeSoftDropdown} />
             <PostDataSoft softValue={softValue} handleMessageOne={handleMessageOne}/>
-            <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{` ← this keeps chapter metadata and image metadata intact`}</p>
+            <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'nowrap', fontWeight: 550 }}>{` ← this keeps chapter metadata and image metadata intact`}</p>
          </div>
          <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{messageOne}</p>
 
@@ -42,7 +44,7 @@ function JSONForm() {
          <div className='form-container'>
             <HardDataDropdown hardValue={hardValue} handleChangeHardDropdown={handleChangeHardDropdown} />
             <PostDataHard hardValue={hardValue} handleMessageTwo={handleMessageTwo}/>
-            <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{` ← this wipes and resets all data in the specified language`}</p>
+            <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'nowrap', fontWeight: 550 }}>{` ← this wipes and resets all data in all languages`}</p>
          </div>
          <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{messageTwo}</p>
       </FunctionContext.Provider>
@@ -52,7 +54,7 @@ function JSONForm() {
 function SoftDataDropdown({ softValue, handleChangeSoftDropdown }) {
    return (
      <select value={softValue} onChange={(e) => handleChangeSoftDropdown(e.target.value)} id="softDataDropdown">
-      <option value="" id="dataSoft">Select a JSON File for postDataSoft()</option>
+      <option value="" id="dataSoft">Select a JSON File to postDataSoft()</option>
 
       <optgroup label="English"></optgroup>
        <option value="en_grade2" id="en_grade2">en_grade2.json</option>
@@ -78,7 +80,7 @@ function SoftDataDropdown({ softValue, handleChangeSoftDropdown }) {
 function HardDataDropdown({ hardValue, handleChangeHardDropdown }) {
    return (
      <select value={hardValue} onChange={(e) => handleChangeHardDropdown(e.target.value)} id="hardDataDropdown">
-      <option value="" id="dataHard">Select a JSON File for postDataHard()</option>
+      <option value="" id="dataHard">Select a JSON File to postDataHard()</option>
 
        <option value="IMAGES_grade2" id="IMAGES_grade2">IMAGES_grade2.json</option>
        <option value="IMAGES_grade3" id="IMAGES_grade3">IMAGES_grade3.json</option>

@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
 import FunctionContext from './FunctionContext';
+import postDataSoft from './postDataSoft.js';
+import postDataHard from './postDataHard.js';
+
 import en_grade2 from "../data/en_grade2.json"
 import en_grade3 from "../data/en_grade3.json"
 import en_grade4 from "../data/en_grade4.json"
@@ -38,13 +41,14 @@ function getParameters(value) {
       'IMAGES_grade5': IMAGES_grade5,
    }
 
-   const result = {
+   const parameters = {
+      value: value,
       jsonFile: data[value],
       gradeName: capitalizeFirstLetter(value.split('_')[1]), //right side of split
       languageCode: value.split('_')[0], //left side of split 
    };
 
-   return result;
+   return parameters;
 }
 
 function capitalizeFirstLetter(word) {
@@ -53,21 +57,32 @@ function capitalizeFirstLetter(word) {
 
 function PostDataSoft({ softValue, handleMessageOne}) {
    const loading = useContext(FunctionContext);
-   const [result, setResult] = useState(null);
+   const [parameters, setParameters] = useState(null);
 
    useEffect(() => {
       if(softValue) {
-         setResult(getParameters(softValue));
+         setParameters(getParameters(softValue));
       }
    }, [softValue]);
 
-   function handleClick() {
+   async function handleClick() {
       if(softValue) {
-         handleMessageOne("Loading . . . ");
-         console.log(`Running postDataSoft w/ Parameters: ${result.jsonFile.chapters} | ${result.gradeName} | ${result.languageCode}`);
-         postDataSoft(result.jsonFile.chapters, result.gradeName, result.languageCode);
+         handleMessageOne("Running . . . ");
+         console.log("Buttons temporarily locked. Running postDataSoft.");
+         console.table(parameters);
+
+         try {
+            await postDataSoft(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
+            //console.log("postDataSoft() success. Buttons unlocked.");
+            handleMessageOne(`${parameters.value} successfully posted`);
+         } catch (error) {
+            console.error("Error posting data:", error);
+            handleMessageOne("Failed to post data.");
+         }
+
       } else {
-         handleMessageOne("The postDataSoft() button is currently disabled. Sign in and select a document to enable the button.");
+         console.log("postDataSoft() currently disabled");
+         handleMessageOne("The 'postDataSoft()' button is currently disabled. Sign in and select a file to enable the button.");
       }
    }
 
@@ -80,21 +95,32 @@ function PostDataSoft({ softValue, handleMessageOne}) {
 
 function PostDataHard({ hardValue, handleMessageTwo}) {
    const loading = useContext(FunctionContext);
-   const [result, setResult] = useState(null);
+   const [parameters, setParameters] = useState(null);
 
    useEffect(() => {
       if(hardValue) {
-         setResult(getParameters(hardValue));
+         setParameters(getParameters(hardValue));
       }
    }, [hardValue]);
 
-   function handleClick() {
-      if(softValue) {
-         handleMessageTwo("Loading . . . ");
-         console.log(`Running postDataHard w/ Parameters: ${result.jsonFile.chapters} | ${result.gradeName} | ${result.languageCode}`);
-         postDataSoft(result.jsonFile.chapters, result.gradeName, result.languageCode);
+   async function handleClick() {
+      if(hardValue) {
+         handleMessageTwo("Running . . . ");
+         console.log("Buttons temporarily locked. Running postDataHard.");
+         console.table(parameters);
+
+         try {
+            await postDataHard(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
+            //console.log("postDataHard() success. Buttons unlocked.");
+            handleMessageTwo(`${parameters.value} successfully posted`);
+         } catch (error) {
+            console.error("Error posting data:", error);
+            handleMessageTwo("Failed to post data.");
+         }
+
       } else {
-         handleMessageTwo("The postDataHard() button is currently disabled. Sign in and select a document to enable the button.");
+         console.log("postDataHard() currently disabled");
+         handleMessageTwo("The 'postDataHard()' button is currently disabled. Sign in and select a file to enable the button.");
       }
    }
 

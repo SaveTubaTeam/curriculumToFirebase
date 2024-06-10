@@ -1,7 +1,5 @@
 import FirebaseAuth from "./FirebaseAuth";
 import JSONForm from "./JSONForm";
-import { useEffect } from "react";
-import { auth } from "../../firebase";
 
 //Auth state observer: https://firebase.google.com/docs/auth/web/start#web_7
 
@@ -15,10 +13,10 @@ function JSONToFirebase() {
 
             <FirebaseAuth />
             <p>
-            Sign in with Firebase Auth for read/write access!
+               Sign in with OAuth for Firebase read/write access!
             </p>
             <p className="read-the-docs">
-            Use the dropdowns below to select and post JSON into Firestore.
+               Use the dropdowns below to post JSON files to Firestore.
             </p>
             <JSONForm />
          </div>

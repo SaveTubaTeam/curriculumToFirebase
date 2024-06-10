@@ -15,7 +15,7 @@
 .spacer {
   margin-top: 40px;
   margin-bottom: 30px;
-  border-top: 4px double var(--primary);
+  border-top: 5px double var(--primary);
 }
 
 .form-container {
