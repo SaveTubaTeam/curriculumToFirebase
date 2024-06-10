@@ -36,7 +36,7 @@ function JSONForm() {
          <div className='form-container'>
             <SoftDataDropdown softValue={softValue} handleChangeSoftDropdown={handleChangeSoftDropdown} />
             <PostDataSoft softValue={softValue} handleMessageOne={handleMessageOne}/>
-            <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'nowrap', fontWeight: 550 }}>{` ← this keeps chapter metadata and image metadata intact`}</p>
+            {/* <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'nowrap', fontWeight: 550 }}>{` ← this keeps chapter metadata and image metadata intact`}</p> */}
          </div>
          <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{messageOne}</p>
 

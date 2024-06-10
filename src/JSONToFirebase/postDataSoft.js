@@ -46,7 +46,7 @@ async function postLessonData(lesson, chapterReference, languageCode, chapterNav
          return;
       }
 
-      updateLessonData(lessonData, lessonLanguageReference, doc, languageCode, chapterNavigation); //we want to modify only the title attribute
+      await updateLessonData(lessonData, lessonLanguageReference, doc, languageCode, chapterNavigation); //we want to modify only the title attribute
 
    } catch(e) {
       console.error(e);
@@ -99,7 +99,7 @@ async function postMasteryAndMinigameData(currentObject, lessonLanguageReference
          console.error(`ERROR: minigame ${currentObject.navigation} metadata does not exist`);
       }
 
-      updateMasteryAndMinigameObject(currentObject, masteryAndMinigamesReference, doc);
+      await updateMasteryAndMinigameObject(currentObject, masteryAndMinigamesReference, doc);
    } catch(error) {
       console.log("ERROR in postMasteryAndMinigameData:", error)
    }

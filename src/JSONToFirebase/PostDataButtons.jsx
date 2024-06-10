@@ -73,7 +73,7 @@ function PostDataSoft({ softValue, handleMessageOne}) {
 
          try {
             await postDataSoft(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
-            console.log("%cButtons unlocked. postDataHard() successful.", 'font-weight: bold;');
+            console.log("%cButtons unlocked. postDataSoft() successful.", 'font-weight: bold;');
             handleMessageOne(`${parameters.value} successfully posted`);
          } catch (error) {
             console.error("Error posting data:", error);
