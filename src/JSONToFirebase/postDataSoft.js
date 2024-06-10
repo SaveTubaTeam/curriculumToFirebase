@@ -1,31 +1,35 @@
 import { db } from "../../firebase.js";
 
-function postDataSoft(jsonFile, gradeName, languageCode) {
-   jsonFile.forEach((chapter) => { //iterating through chapters array
-      postChapterData(chapter, gradeName, languageCode); //see below
-  })
+async function postDataSoft(jsonFile, gradeName, languageCode) {
+   for (const chapter of jsonFile) { //iterating through chapters array
+      await postChapterData(chapter, gradeName, languageCode);
+   }
 }
 
 //we do not touch the existing chapter data at all!
 // @param chapter the current chapter object in JSON
-function postChapterData(chapter, gradeName, languageCode) {
+async function postChapterData(chapter, gradeName, languageCode) {
    const chapterReference = db.collection(gradeName).doc(chapter.navigation);
-
-   //first checking for reference existence within db before posting JSON
-   chapterReference.get().then((doc) => {
+   
+   try {
+      const doc = await chapterReference.get();
       if(!doc.exists) {
-         console.log(`ERROR ${chapter.navigation} metadata does not exist`);
+         console.error(`ERROR ${chapter.navigation} metadata does not exist`);
+         return;
       }
-   })
+   } catch(e) {
+      console.error(e);
+      return;
+   }
 
-   chapter.lessons.forEach((lesson) => { //chapter.lessons is referring to our JSON file's structure
-      postLessonData(lesson, chapterReference, languageCode, chapter.navigation);
-   })
+   for (const lesson of chapter.lessons) { //chapter.lessons is referring to our JSON file's structure
+      await postLessonData(lesson, chapterReference, languageCode, chapter.navigation);
+   }
 }
 
 //@param lesson the current lesson object in JSON
 //@param chapterReference a reference to the current chapter within our firebase tree.
-function postLessonData(lesson, chapterReference, languageCode, chapterNavigation) {
+async function postLessonData(lesson, chapterReference, languageCode, chapterNavigation) {
 
    const lessonData = {
        navigation: lesson.navigation,
@@ -35,36 +39,39 @@ function postLessonData(lesson, chapterReference, languageCode, chapterNavigatio
    }
    const lessonLanguageReference =  chapterReference.collection(lessonData.navigation).doc(languageCode);
 
-   lessonLanguageReference.get().then((doc) => {
-     if(doc.exists) { //we want to modify only the title attribute
-        updateLessonData(lessonData, lessonLanguageReference, doc, languageCode, chapterNavigation);
-     } else {
-        console.log(`ERROR ${lessonData.navigation}-${languageCode} metadata does not exist`);
-     }
-   });
+   try {
+      const doc = await lessonLanguageReference.get();
+      if(!doc.exists) {
+         console.error(`ERROR ${lessonData.navigation}-${languageCode} metadata does not exist`);
+         return;
+      }
+
+      updateLessonData(lessonData, lessonLanguageReference, doc, languageCode, chapterNavigation); //we want to modify only the title attribute
+
+   } catch(e) {
+      console.error(e);
+      return;
+   }
 
    let duplicates = {} //to count the number of duplicate objects
    let masteryAndMinigames = lesson.content; //in our JSON, lesson.content is the array containing all of the mastery and minigame objects
 
    //iterating through all the current mastery and minigame objects in our JSON (each object is referred to as 'currentObject' here)
-   masteryAndMinigames.forEach((currentObject) => {
-       let currentObjectName = currentObject.navigation
+   for (const currentObject of masteryAndMinigames) {
+      let currentObjectName = currentObject.navigation
 
-       //first checking for duplicates
-       // Initialize this attribute's count to 1 if string is encountered for the first time, otherwise increment this attribute's count
-       !duplicates[currentObjectName] ? duplicates[currentObjectName] = 1 : duplicates[currentObjectName]++;
+      //first checking for duplicates
+      // Initialize this attribute's count to 1 if string is encountered for the first time, otherwise increment this attribute's count
+      !duplicates[currentObjectName] ? duplicates[currentObjectName] = 1 : duplicates[currentObjectName]++;
 
-       //if there are duplicates, we change the navigation and title accordingly. duplicates[currentObjectName] is an int
-       if (duplicates[currentObjectName] > 1) {
-           currentObject.navigation = `${currentObjectName} ${duplicates[currentObjectName]}`;
-           currentObject.title = `${currentObject.title}${duplicates[currentObjectName]}`
-       }
+      //if there are duplicates, we change the navigation and title accordingly. duplicates[currentObjectName] is an int
+      if (duplicates[currentObjectName] > 1) {
+         currentObject.navigation = `${currentObjectName} ${duplicates[currentObjectName]}`;
+         currentObject.title = `${currentObject.title}${duplicates[currentObjectName]}`
+      }
 
-       postMasteryAndMinigameData(currentObject, lessonLanguageReference);
-   })
-
-  // console.log("\t\tmasteryAndMinigames:");
-  // lesson.content.forEach((element) => { console.log(`\t\t\t${element.navigation}`); })
+      await postMasteryAndMinigameData(currentObject, lessonLanguageReference);
+   }
 }
 
 //@param lessonData a reference to our current lessonData object
@@ -83,20 +90,19 @@ async function updateLessonData(lessonData, lessonLanguageReference, doc, langua
 
 //@param currentObject the current mastery or minigame object within our JSON
 //@param lessonLanguageReference a reference to the current language within our current lesson down our firebase tree.
-function postMasteryAndMinigameData(currentObject, lessonLanguageReference) {
-  const masteryAndMinigamesReference = lessonLanguageReference.collection("masteryAndMinigames").doc(currentObject.navigation);
+async function postMasteryAndMinigameData(currentObject, lessonLanguageReference) {
+   const masteryAndMinigamesReference = lessonLanguageReference.collection("masteryAndMinigames").doc(currentObject.navigation);
 
-  try{ 
-     masteryAndMinigamesReference.get().then((doc)=> {
-        if(doc.exists) { //we only want to modify attributes that refer to texts (e.g. prompts, names, anything that can be translated)
-           updateMasteryAndMinigameObject(currentObject, masteryAndMinigamesReference, doc);
-        } else {
-           console.log(`ERROR: minigame ${currentObject.navigation} metadata does not exist`);
-        }
-     });
-  } catch(error) {
-     console.log("ERROR in postMasteryAndMinigameData:", error)
-  }
+   try{
+      const doc = await masteryAndMinigamesReference.get();
+      if(!doc.exists) {
+         console.error(`ERROR: minigame ${currentObject.navigation} metadata does not exist`);
+      }
+
+      updateMasteryAndMinigameObject(currentObject, masteryAndMinigamesReference, doc);
+   } catch(error) {
+      console.log("ERROR in postMasteryAndMinigameData:", error)
+   }
 }
 
 //We only want update attributes that contain curriculum text. Curriculum text attributes are either 'prompt' or stored within content arrays.

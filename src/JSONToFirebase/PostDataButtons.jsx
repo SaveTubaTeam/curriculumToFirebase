@@ -73,7 +73,6 @@ function PostDataSoft({ softValue, handleMessageOne}) {
 
          try {
             await postDataSoft(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
-            //console.log("postDataSoft() success. Buttons unlocked.");
             handleMessageOne(`${parameters.value} successfully posted`);
          } catch (error) {
             console.error("Error posting data:", error);
@@ -103,15 +102,14 @@ function PostDataHard({ hardValue, handleMessageTwo}) {
       }
    }, [hardValue]);
 
-   async function handleClick() {
+   function handleClick() {
       if(hardValue) {
          handleMessageTwo("Running . . . ");
          console.log("Buttons temporarily locked. Running postDataHard.");
          console.table(parameters);
 
          try {
-            await postDataHard(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
-            //console.log("postDataHard() success. Buttons unlocked.");
+            postDataHard(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
             handleMessageTwo(`${parameters.value} successfully posted`);
          } catch (error) {
             console.error("Error posting data:", error);
