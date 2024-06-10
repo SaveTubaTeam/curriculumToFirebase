@@ -103,14 +103,14 @@ function PostDataHard({ hardValue, handleMessageTwo}) {
       }
    }, [hardValue]);
 
-   function handleClick() {
+   async function handleClick() {
       if(hardValue) {
          handleMessageTwo("Running . . . ");
          console.log("%cButtons temporarily locked. Running postDataHard.", 'font-weight: bold;');
          console.table(parameters);
 
          try {
-            postDataHard(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
+            await postDataHard(parameters.jsonFile.chapters, parameters.gradeName, parameters.languageCode);
             console.log("%cButtons unlocked. postDataHard() successful.", 'font-weight: bold;');
             handleMessageTwo(`${parameters.value} successfully posted`);
          } catch (error) {

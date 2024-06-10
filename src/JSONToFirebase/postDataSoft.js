@@ -30,7 +30,6 @@ async function postChapterData(chapter, gradeName, languageCode) {
 //@param lesson the current lesson object in JSON
 //@param chapterReference a reference to the current chapter within our firebase tree.
 async function postLessonData(lesson, chapterReference, languageCode, chapterNavigation) {
-
    const lessonData = {
        navigation: lesson.navigation,
        title: lesson.title,
@@ -119,11 +118,17 @@ async function updateMasteryAndMinigameObject(currentObject, masteryAndMinigames
      //Memory, Mastery, and Sorting have content arrays that need to be directly modified element by element because they have images.
      //The Sorting minigame is special because it has two arrays of content: 'categories' and 'options'. Only the 'categories' array contains images
      if(existingObjectData.navigation.includes("Memory") || existingObjectData.navigation.includes("Mastery")) {
-        existingObjectData.content = updateContent(existingObjectData.content, currentObject.content);
-     } else if(existingObjectData.navigation.includes("Sorting")) {
+         if(existingObjectData.content) {
+            existingObjectData.content = updateContent(existingObjectData.content, currentObject.content);
+         }
+     } 
+     
+     else if(existingObjectData.navigation.includes("Sorting")) {
         existingObjectData.categories = updateContent(existingObjectData.categories, currentObject.categories);
         existingObjectData.options = currentObject.options;
-     } else if(existingObjectData.navigation.includes("Reorder") || existingObjectData.navigation.includes("Quiz")){ //case for Reorder and Quiz
+     } 
+     
+     else if(existingObjectData.navigation.includes("Reorder") || existingObjectData.navigation.includes("Quiz")){ //case for Reorder and Quiz
         existingObjectData.content = currentObject.content;
      }
      /*  else {
@@ -145,17 +150,17 @@ async function updateMasteryAndMinigameObject(currentObject, masteryAndMinigames
 //note: if the length of the minigame array is changed within google docs, we will not see the change reflected in firebase.
 // @return result the updated array
 function updateContent(existingContent, newContent) {
-  const result = [];
+   const result = [];
 
-  for(let i=0; i<existingContent.length; i++) { //iterating through the length of existingContent
+   for(let i=0; i<existingContent.length; i++) { //iterating through the length of existingContent
 
-     if(existingContent[i].hasOwnProperty('image')) { //see here for hasOwnProperty(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
-        delete newContent[i]['image']; //delete this property from newContent so it does not override the existing content. See here for the delete keyword: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
-     }
+      if(existingContent[i].hasOwnProperty('image')) { //see here for hasOwnProperty(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+         delete newContent[i]['image']; //delete this property from newContent so it does not override the existing content. See here for the delete keyword: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
+      }
 
-     result.push({ ...existingContent[i], ...newContent[i] }); //we perform a "merge" using object destructuring. order matters here!
-  }
-  return result;
+      result.push({ ...existingContent[i], ...newContent[i] }); //we perform a "merge" using object destructuring. order matters here!
+   }
+   return result;
 }
 
 export default postDataSoft;
