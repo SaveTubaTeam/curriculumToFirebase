@@ -2308,7 +2308,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/grade2/chapter4/planets.png",
+              "image": "assets/grade2/chapter4/planets copy.png",
               "prompt": "Research and describe the origin of the names of 3 planets of your choice. "
             },
             {
@@ -2337,14 +2337,14 @@
                 },
                 {
                   "name": "Earth",
-                  "image": "assets/grade2/chapter4/earth.png"
+                  "image": "assets/grade2/chapter4/earth copy.png"
                 },
                 {
                   "name": "Mars"
                 },
                 {
                   "name": "Mars",
-                  "image": "assets/grade2/chapter4/mars.png"
+                  "image": "assets/grade2/chapter4/mars copy.png"
                 },
                 {
                   "name": "Jupiter"
@@ -2646,7 +2646,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/grae-two/chapter4/Temperature.png",
+              "image": "assets/grade2/chapter4/Temperature.png",
               "prompt": "Record the temperature at 8 am, 1 pm, 6 pm, and 9 pm. What do you notice about the temperature change? Describe your observations. "
             },
             {
@@ -3509,11 +3509,11 @@
               "categories": [
                 {
                   "name": "Natural",
-                  "image": "assets/Natural.png"
+                  "image": "assets/grade2/chapter5/Natural.png"
                 },
                 {
                   "name": "Unnatural",
-                  "image": "assets/Artifical.png"
+                  "image": "assets/grade2/chapter5/Artifical.png"
                 }
               ],
               "options": [
@@ -3736,7 +3736,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/grade2/chapter5/hot.png",
+              "image": "assets/grade2/chapter5/hot copy.png",
               "prompt": "What is the hottest part of Kazakhstan? Explain why "
             },
             {
@@ -3848,11 +3848,11 @@
               "content": [
                 {
                   "text": "Get a thermometer. Visit a nearby park and find three different plants.",
-                  "image": "assets/gradetwo/chapter5/thermometer.png"
+                  "image": "assets/grade2/chapter5/thermometer.png"
                 },
                 {
                   "text": "Record the temperature of the leaves of the plants. Record the temperature of the soil of the plants. Identify any patterns for these plants in accordance with the temperature and their growth.",
-                  "image": "assets/gradetwo/chapter5/hot-temperature.png"
+                  "image": "assets/grade2/chapter5/hot-temperature.png"
                 }
               ]
             }
@@ -3869,7 +3869,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/gradetwo/chapter5/cold.png",
+              "image": "assets/grade2/chapter5/cold copy.png",
               "prompt": "Ask your parents about summer and winter temperatures when they were kids. Compare it to the temperatures right now. Do you notice any differences? "
             },
             {

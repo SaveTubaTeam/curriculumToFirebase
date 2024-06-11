@@ -2,14 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { PostDataSoft, PostDataHard } from './PostDataButtons';
 import FunctionContext from './FunctionContext';
 
-//For clarification: the variable prefixes 'soft' and 'hard' are for organizational purposes.
-//These variables with 'soft' and 'hard' prefixes refer to their respective functions (postDataSoft, postDataHard)
+/** For clarification: the variable prefixes 'soft' and 'hard' are for organizational purposes.
+ * These variables with 'soft' and 'hard' prefixes refer to their respective functions (postDataSoft, postDataHard)
+ * @returns two forms for postDataSoft and postDataHard, each with a dropdown and a postData button. 
+*/
 function JSONForm() {
    const [softValue, setSoftValue] = useState("");
    const [hardValue, setHardValue] = useState("");
-   const [messageOne, setMessageOne] = useState(" ");
-   const [messageTwo, setMessageTwo] = useState(" ");
+   const [messageOne, setMessageOne] = useState(" "); //to display postDataSoft status
+   const [messageTwo, setMessageTwo] = useState(" "); //to display postDataHard status
 
+   //loading state used to track if postData scripts are running.
    const [loading, setLoading] = useState(false);
 
    useEffect(() => {
@@ -20,17 +23,18 @@ function JSONForm() {
       }
    }, [messageOne, messageTwo])
 
-   //to track the value change in SoftDataDropdown
+   //@callback handleChangeSoftDropdown to track the value change in SoftDataDropdown
    function handleChangeSoftDropdown(softValue) { setSoftValue(softValue); };
-   //to track the message change in postDataSoft
+   //@callback handleMessageOne to track the message change in postDataSoft
    function handleMessageOne(messageOne) { setMessageOne(messageOne); }
 
-   //to track the value change in HardDataDropdown
+   //@callback handleChangeHardDropdown to track the value change in HardDataDropdown
    function handleChangeHardDropdown(hardValue) { setHardValue(hardValue); };
-   //to track the message change in postDataHard
+   //@callback handleMessageTwo to track the message change in postDataHard
    function handleMessageTwo(messageTwo) { setMessageTwo(messageTwo); }
 
    return (
+      /* note how we pass the loading variable into this context */
       <FunctionContext.Provider value={loading}>
          {/* postDataSoft form */}
          <div className='form-container'>
@@ -51,6 +55,11 @@ function JSONForm() {
    )
 }
 
+/**
+ * @param {string} softValue the value selected in this dropdown
+ * @param handleChangeSoftDropdown callback passed in from JSONForm to handle the current value selection 
+ * @returns a dropdown with all JSON language file options
+*/
 function SoftDataDropdown({ softValue, handleChangeSoftDropdown }) {
    return (
      <select value={softValue} onChange={(e) => handleChangeSoftDropdown(e.target.value)} id="softDataDropdown">
@@ -77,6 +86,11 @@ function SoftDataDropdown({ softValue, handleChangeSoftDropdown }) {
    );
 }
 
+/** 
+ * @param {string} hardValue the value selected in this dropdown
+ * @param handleChangeHardDropdown callback passed in from JSONForm to handle the current value selection 
+ * @returns a dropdown with all JSON IMAGE file options
+*/
 function HardDataDropdown({ hardValue, handleChangeHardDropdown }) {
    return (
      <select value={hardValue} onChange={(e) => handleChangeHardDropdown(e.target.value)} id="hardDataDropdown">

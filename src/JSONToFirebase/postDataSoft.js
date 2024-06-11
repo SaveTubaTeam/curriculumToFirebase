@@ -1,13 +1,25 @@
 import { db } from "../../firebase.js";
 
+//See here for Firestore .update(): https://firebase.google.com/docs/database/web/read-and-write#web_11
+
+//References to a specific document are done by chaining .collection() and .doc() to the reference
+
+/**
+ * @param {Object} jsonFile the JSON object containing all curriculum content in the specified grade and language
+ * @param {string} gradeName a reference to the e.g. 'Grade2', 'Grade3', etc.
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
 async function postDataSoft(jsonFile, gradeName, languageCode) {
    for (const chapter of jsonFile) { //iterating through chapters array
       await postChapterData(chapter, gradeName, languageCode);
    }
 }
 
-//we do not touch the existing chapter data at all!
-// @param chapter the current chapter object in JSON
+/** Note how we do not touch the existing chapter data at all!
+ * @param {Object} chapter the current chapter object in JSON 
+ * @param {string} gradeName a reference to the e.g. 'Grade2', 'Grade3', etc.
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
 async function postChapterData(chapter, gradeName, languageCode) {
    const chapterReference = db.collection(gradeName).doc(chapter.navigation);
    
@@ -16,20 +28,26 @@ async function postChapterData(chapter, gradeName, languageCode) {
       if(!doc.exists) {
          console.error(`ERROR ${chapter.navigation} metadata does not exist`);
          return;
+      } else {
+         console.log(`${chapter.navigation}`);
       }
    } catch(e) {
       console.error(e);
       return;
    }
 
+   //now iterating through lessons
    for (const lesson of chapter.lessons) { //chapter.lessons is referring to our JSON file's structure
-      await postLessonData(lesson, chapterReference, languageCode, chapter.navigation);
+      await postLessonData(lesson, chapterReference, languageCode);
    }
 }
 
-//@param lesson the current lesson object in JSON
-//@param chapterReference a reference to the current chapter within our firebase tree.
-async function postLessonData(lesson, chapterReference, languageCode, chapterNavigation) {
+/** Modifies the lesson data by only overwriting text present in the original curriculum Google Docs
+ * @param {Object} lesson the current lesson object in JSON
+ * @param chapterReference a reference to the current chapter within our firebase tree. 
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
+async function postLessonData(lesson, chapterReference, languageCode) {
    const lessonData = {
        navigation: lesson.navigation,
        title: lesson.title,
@@ -45,7 +63,7 @@ async function postLessonData(lesson, chapterReference, languageCode, chapterNav
          return;
       }
 
-      await updateLessonData(lessonData, lessonLanguageReference, doc, languageCode, chapterNavigation); //we want to modify only the title attribute
+      await updateLessonData(lessonData, lessonLanguageReference, doc, languageCode); //we want to modify only the title attribute
 
    } catch(e) {
       console.error(e);
@@ -73,22 +91,27 @@ async function postLessonData(lesson, chapterReference, languageCode, chapterNav
    }
 }
 
-//@param lessonData a reference to our current lessonData object
-//@param lessonLanguageReference a reference to the language of our lesson
-//@param doc the document within our lessonLanguageReference
-async function updateLessonData(lessonData, lessonLanguageReference, doc, languageCode, chapterNavigation) {
+/** This modifies the title attribute in the lesson metadata and touches nothing else.
+ * @param {Object} lessonData our current lessonData object
+ * @param lessonLanguageReference a reference to the language of the lesson within Firestore
+ * @param {Object} doc the document (aka metadata) within our lessonLanguageReference
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
+async function updateLessonData(lessonData, lessonLanguageReference, doc, languageCode) {
   try {
      const existingLessonData = doc.data(); //getting the existing data object, no need to await .data() apparently
      existingLessonData.title = lessonData.title; //we only want to update the 'title' attribute if the document exists
      await lessonLanguageReference.update({ ...existingLessonData }); 
-     console.log(`${chapterNavigation}-${lessonData.navigation}-${languageCode} updated successfully!`);
+     console.log(`\t${lessonData.navigation}-${languageCode} updated successfully!`);
   } catch(error) {
      console.log("updateLessonData() ERROR:", error)
   }
 }
 
-//@param currentObject the current mastery or minigame object within our JSON
-//@param lessonLanguageReference a reference to the current language within our current lesson down our firebase tree.
+/** Modifies the mastery or minigame data by only overwriting text present in the original curriculum Google Docs
+ * @param {Object} currentObject the current mastery or minigame object within our JSONFile
+ * @param lessonLanguageReference a reference to the current language within our current lesson down our firebase tree. 
+*/
 async function postMasteryAndMinigameData(currentObject, lessonLanguageReference) {
    const masteryAndMinigamesReference = lessonLanguageReference.collection("masteryAndMinigames").doc(currentObject.navigation);
 
@@ -104,11 +127,12 @@ async function postMasteryAndMinigameData(currentObject, lessonLanguageReference
    }
 }
 
-//We only want update attributes that contain curriculum text. Curriculum text attributes are either 'prompt' or stored within content arrays.
-//This function overlays existing data with the new data in currentObject without touching images.
-//@param currentObject a reference to our currentObject
-//@param masteryAndMinigamesReference a reference to our current minigame within firestore
-//@param doc the document stored by the masteryAndMinigamesReference
+/** We only want update attributes that contain curriculum text. Curriculum text attributes are either 'prompt' or stored within content arrays.
+ * This function overlays existing data with the new data in currentObject without touching images.
+ * @param {Object} currentObject a reference to our currentObject in the JSONFile
+ * @param masteryAndMinigamesReference a reference to our current minigame within firestore
+ * @param {Object} doc the document (metadata) stored by the masteryAndMinigamesReference in Firestore
+*/
 async function updateMasteryAndMinigameObject(currentObject, masteryAndMinigamesReference, doc) {
   try {
      const existingObjectData = doc.data(); //getting the existing data object
@@ -146,9 +170,12 @@ async function updateMasteryAndMinigameObject(currentObject, masteryAndMinigames
   }
 }
 
-//this updates the content array. The existing content is 'overlaid' with the new content while we preserve images.
-//note: if the length of the minigame array is changed within google docs, we will not see the change reflected in firebase.
-// @return result the updated array
+/** This updates the content array. The existing content is 'overlaid' with the new content while we preserve images.
+ * note: if the length of the minigame array is changed within google docs, we will not see the change reflected in firebase.
+ * @param {Object[]} existingContent an array of objects containing the mastery or minigame content
+ * @param {Object[]} newContent the new array of objects in our JSONFile
+ * @returns {Object[]} result the updated array 
+*/
 function updateContent(existingContent, newContent) {
    const result = [];
 

@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "gradethree:introduction",
       "icon": "assets/grade3/chapter-icons/book.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -355,8 +355,8 @@
       "title": "common:chapter2",
       "name": "gradethree:livenature",
       "icon": "assets/grade3/chapter-icons/antelope.png",
-      "colorOne": "indigo",
-      "colorTwo": "mediumpurple",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2082,8 +2082,8 @@
       "title": "common:chapter3",
       "name": "gradethree:substances",
       "icon": "assets/grade3/chapter-icons/rock-garden.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3276,8 +3276,8 @@
       "title": "common:chapter4",
       "name": "gradethree:physicsofnature",
       "icon": "assets/grade3/chapter-icons/rocket.png",
-      "colorOne": "midnightblue",
-      "colorTwo": "mediumturquoise",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",

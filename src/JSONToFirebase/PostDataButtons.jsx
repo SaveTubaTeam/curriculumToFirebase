@@ -20,7 +20,10 @@ import IMAGES_grade3 from "../data/IMAGES_grade3.json"
 import IMAGES_grade4 from "../data/IMAGES_grade4.json"
 import IMAGES_grade5 from "../data/IMAGES_grade5.json"
 
-//@param {string} value a string representing the name of the JSON file object
+/** 
+ * @param {string} value a string representing the name of the JSON file object
+ * @returns {Object} parameters an object containing the necessary postData function parameters 
+*/
 function getParameters(value) {
    const data = {
       'en_grade2': en_grade2,
@@ -55,10 +58,19 @@ function capitalizeFirstLetter(word) {
    return word.charAt(0).toUpperCase() + word.slice(1);
 }
 
+/** This component calls postDataSoft to update all curriculum data in Firestore without replacing chapter metadata and all image metadata.
+ * @param {string} softValue the value of the dropdown form selection for this function
+ * @param handleMessageOne a callback to display the status of the function
+ * @returns a button that calls postDataSoft on click. 
+*/
 function PostDataSoft({ softValue, handleMessageOne}) {
+   //we use this loading variable to detect if either postDataSoft or postDataHard is currently posting to Firebase, and we disable buttons if so.
    const loading = useContext(FunctionContext);
+
+   //to track postDataSoft function params
    const [parameters, setParameters] = useState(null);
 
+   //checking for a valid dropdown form entry
    useEffect(() => {
       if(softValue) {
          setParameters(getParameters(softValue));
@@ -93,10 +105,22 @@ function PostDataSoft({ softValue, handleMessageOne}) {
    )
 }
 
+
+/** 
+ * This component calls postDataHard to hard post all curriculum data in Firestore, essentially wiping and resetting everything.
+ * postDataHard.js also adds two important attributes to all image metadata: a blurhash and a downloadURL to the image in our Cloud Storage bucket under assets/
+ * @param {string} hardValue the value of the dropdown form selection for this function
+ * @param handleMessageTwo a callback to display the status of the function
+ * @returns a button that calls postDataHard on click. 
+*/
 function PostDataHard({ hardValue, handleMessageTwo}) {
+   //we use this loading variable to detect if either postDataSoft or postDataHard is currently posting to Firebase, and we disable buttons if so.
    const loading = useContext(FunctionContext);
+
+   //to track postDataSoft function params
    const [parameters, setParameters] = useState(null);
 
+   //checking for a valid dropdown form entry
    useEffect(() => {
       if(hardValue) {
          setParameters(getParameters(hardValue));

@@ -1,6 +1,16 @@
 import { db, storage } from "../../firebase.js";
 import { encode } from 'blurhash';
 
+//see here for Firestore .set(): https://firebase.google.com/docs/firestore/manage-data/add-data#web_3
+//see here for Firebase Storage .getDownloadURL(): https://firebase.google.com/docs/storage/web/download-files#web_5
+
+//References to a specific document are done by chaining .collection() and .doc() to the reference.
+
+/**
+ * @param {Object} jsonFile the JSON object containing all curriculum content in the specified grade and language
+ * @param {string} gradeName a reference to the e.g. 'Grade2', 'Grade3', etc.
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
 async function postDataHard(jsonFile, gradeName, languageCode) {
    const languageArray = ["en", "ru", "kk"];
 
@@ -25,7 +35,11 @@ async function postDataHard(jsonFile, gradeName, languageCode) {
 }
 
 
-// @param chapter the current chapter object in JSON
+/** This creates or overwrites existing Chapter metadata
+ * @param {Object} chapter the current chapter object in JSON 
+ * @param {string} gradeName a reference to the e.g. 'Grade2', 'Grade3', etc.
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
 async function postChapterData(chapter, gradeName, languageCode) {
    let chapterData = {
       navigation: chapter.navigation,
@@ -41,7 +55,7 @@ async function postChapterData(chapter, gradeName, languageCode) {
    const chapterReference = db.collection(gradeName).doc(chapterData.navigation);
 
    try {
-      await chapterReference.set(chapterData); //setting chapter metadata
+      await chapterReference.set(chapterData);
       console.log(`%c${chapterData.navigation} set successfully!`, "color: #4A629F; font-weight: bold;");
    } catch(error) {
       console.error("postChapterData() ERROR:", error);
@@ -53,8 +67,11 @@ async function postChapterData(chapter, gradeName, languageCode) {
 }
 
 
-//@param {JSON} lesson the current lesson object in JSON
-//@param chapterReference a reference to the current chapter within our firebase tree.
+/** This creates or overwrites existing Lesson metadata
+ * @param {Object} lesson the current lesson object in JSON
+ * @param chapterReference a reference to the current chapter within our firebase tree. 
+ * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
+*/
 async function postLessonData(lesson, chapterReference, languageCode) {
    const lessonData = {
       navigation: lesson.navigation,
@@ -95,8 +112,11 @@ async function postLessonData(lesson, chapterReference, languageCode) {
    }
 }
 
-//@param currentObject the current mastery or minigame object
-//@param lessonLanguageReference a reference to the current language within our current lesson down our firebase tree.
+
+/** This creates or overwrites existing mastery or minigame metadata
+ * @param {Object} currentObject the current mastery or minigame object within our JSONFile
+ * @param lessonLanguageReference a reference to the current language within our current lesson down our firebase tree. 
+*/
 async function postMasteryAndMinigameData(currentObject, lessonLanguageReference) {
    const masteryAndMinigamesReference = lessonLanguageReference.collection("masteryAndMinigames").doc(currentObject.navigation);
 
@@ -110,10 +130,14 @@ async function postMasteryAndMinigameData(currentObject, lessonLanguageReference
    }
 }
 
+
 //Sorting, Memory, Mastery, ImageBoom all have images.
-//for the purpose of adding two more attributes alongside all 'image' attributes: download urls and blurhashes.
+/** This function adds two more attributes alongside all 'image' attributes: download urls and blurhashes.
+ * @param {Object} currentObject the current mastery or minigame object
+ * @returns {Object} currentObject the modified object
+*/
 async function modifyMasteryAndMinigameObject(currentObject) {
-   if(currentObject.navigation !== "Mastery") {
+   if(currentObject.navigation !== "Mastery") { //Mastery does not include an icon attribute!!
       await addAttributes(currentObject.icon, currentObject, 'icon');
    }
 
@@ -134,9 +158,13 @@ async function modifyMasteryAndMinigameObject(currentObject) {
    return currentObject;
 }
 
-//@param {string} filepath 
-//@param {string} label either 'icon', 'thumbnail', or 'image' with our current data format. Subject to change.
-//this function returns nothing. It modifies the given object on the fly.
+
+/**
+ * This function returns nothing. It modifies the given object on the fly.
+ * @param {string} filePath the filepath to the image in our Cloud Storage bucket
+ * @param {Object} object the current mastery or minigame object
+ * @param {string} label either 'icon', 'thumbnail', or 'image' for our current data format. Subject to change.
+ */
 async function addAttributes(filePath, object, label) {
    const downloadURL = await fetchDownloadURL(filePath);
    const blurhash = await generateBlurHash(downloadURL);
@@ -148,7 +176,10 @@ async function addAttributes(filePath, object, label) {
    object[blurhashAttribute] = blurhash;
 }
 
-//@param {Object[]} array an array of objects
+
+/** Iterates through an array and add image attributes to each instance of 'image'
+ * @param {Object[]} array an array of objects
+ */ 
 async function iterateThroughArray(array) {
    const resultArray = await Promise.all(array.map(async(item) => { //here item is an object. we Promise.all to block further code execution while this runs.
 
@@ -162,6 +193,11 @@ async function iterateThroughArray(array) {
    return resultArray;
 }
 
+
+/** Fetches the download URL from our storage bucket.
+ * @param {string} imageFilePath 
+ * @returns {string} downloadURL a URL to the actual image
+ */
 async function fetchDownloadURL(imageFilePath) {
    const imageRef = storage.child(imageFilePath);
 
@@ -176,7 +212,11 @@ async function fetchDownloadURL(imageFilePath) {
    return downloadURL;
 }
 
-// Functions to generate BlurHash for an image. Taken from https://github.com/woltapp/blurhash/tree/master/TypeScript
+
+/** Functions to generate BlurHash for an image. Taken from https://github.com/woltapp/blurhash/tree/master/TypeScript
+ * @param {string} imageUrl the download URL generated by fetchDownloadURL
+ * @returns {string} an encoded string representing the blurhashed image.
+ */
 async function generateBlurHash(imageUrl) {
    console.log(`\t\t\tgenerating blurhash for: ${imageUrl}`);
    const image = await loadImage(imageUrl);
@@ -184,6 +224,10 @@ async function generateBlurHash(imageUrl) {
    return encode(imageData.data, imageData.width, imageData.height, 4, 4);
 }
 
+/** 
+ * @param {string} src the download URL
+ * @returns an Image object
+ */
 async function loadImage(src) {
    return new Promise((resolve, reject) => {
       const img = new Image();
@@ -194,13 +238,17 @@ async function loadImage(src) {
    });
 }
 
+/** Draws the image on the canvas and gets the image data.
+ * @param {Image} image the image object returned from loadImage
+ * @returns {ImageData} image data to be encoded by the blurhash library.
+ */
 function getImageData(image) {
   const canvas = document.createElement("canvas");
   canvas.width = image.width;
   canvas.height = image.height;
   const context = canvas.getContext("2d");
-  context.drawImage(image, 0, 0);
-  return context.getImageData(0, 0, image.width, image.height);
+  context.drawImage(image, 0, 0); //see here for drawImage: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
+  return context.getImageData(0, 0, image.width, image.height); //see here for getImageData: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData
 };
 
 export default postDataHard;

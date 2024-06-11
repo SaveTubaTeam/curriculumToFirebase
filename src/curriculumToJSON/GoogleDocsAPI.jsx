@@ -3,8 +3,9 @@ import React, { useState, useEffect } from 'react';
 //initial setup: https://developers.google.com/docs/api/quickstart/js
 //Most of this file is boilerplate from the above link, adapted for React
 
-//Set to client ID and API key from the SaveTuba Developer Console
-const CLIENT_ID = '218900793188-bhpi2n0amicsorbpogfpe6vs5q2t0jed.apps.googleusercontent.com';
+//Set to client ID and API key from the SaveTuba Developer Console. User must be in the @lehigh.edu organization!!
+//2022: 218900793188-bhpi2n0amicsorbpogfpe6vs5q2t0jed.apps.googleusercontent.com
+const CLIENT_ID = '218900793188-0krdujh2ub4j1bkiddti006k2cste6jo.apps.googleusercontent.com';
 const API_KEY = 'AIzaSyCa8CJLDlxZav6LylYflDDQQbL_m8tTZGs';
 
 // Discovery doc URL for APIs used by the quickstart
@@ -13,7 +14,12 @@ const DISCOVERY_DOC = 'https://docs.googleapis.com/$discovery/rest?version=v1';
 // Authorization scopes required by the API; multiple scopes can be included, separated by spaces.
 const SCOPES = 'https://www.googleapis.com/auth/documents.readonly';
 
+/** This component handles signing into the Google Cloud Console API
+ * @param handleGapiState callback passed in from CurriculumToJSON
+ * @returns two buttons, one to sign in, one to sign out 
+*/
 function GoogleDocsAPI({ handleGapiState }) {
+   //to track API initialization
    const [gapiInited, setGapiInited] = useState(false);
    const [gisInited, setGisInited] = useState(false);
    const [tokenClient, setTokenClient] = useState(null);
@@ -25,7 +31,7 @@ function GoogleDocsAPI({ handleGapiState }) {
    //for sign-out button
    const [signoutVisible, setSignoutVisible] = useState(false);
 
-   //dynamically injecting these script tags into index.html
+   //dynamically injecting these script tags into index.html upon initial render.
    useEffect(() => {
       // Load Google API client library
       const scriptApi = document.createElement("script");

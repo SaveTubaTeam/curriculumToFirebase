@@ -11,15 +11,15 @@ const firebaseConfig = {
   storageBucket: "savetuba-5e519.appspot.com",
   messagingSenderId: "218900793188",
   appId: "1:218900793188:web:a1cc3aa38d180fc6815c71"
- };
+};
  
- let app;
- //compat initialization
- if (firebase.apps.length === 0) {
-   app = firebase.initializeApp(firebaseConfig);
- } else {
-   app = firebase.app();
- }
+let app;
+//compat initialization
+if (firebase.apps.length === 0) {
+  app = firebase.initializeApp(firebaseConfig);
+} else {
+  app = firebase.app();
+}
 
 //Please refer here for setup of new Firebase services: https://firebase.google.com/docs/web/setup
 const db = firebase.firestore();

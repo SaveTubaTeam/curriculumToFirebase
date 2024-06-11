@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { downloadBlob, parseDocument } from './parser.js';
 
+//The RunParser components which calls the script in parser.js is the last functional component at the bottom of this file.
+
+/**
+ * @param handleGapiState callback passed in from CurriculumToJSON to track Google API initialization in GoogleDocsAPI 
+ * @returns the dropdown to select a curriculum document and the run parser button
+*/
 function CurriculumForm({ gapiState }) {
+   //value refers to the value of the current selection in the dropdown
    const [value, setValue] = useState("");
+   //message refers to the status message shown below the form
    const [message, setMessage] = useState(" ");
 
-   //to track the value change in CurriculumDropdown
+   //@callback handleChange to track the value change in CurriculumDropdown
    function handleChange(value) { setValue(value); };
 
-   //to track the message change in Run Parser
+   //@callback handleMessage to track the message change in Run Parser
    function handleMessage(message) { setMessage(message); }
 
    return (
@@ -22,7 +30,11 @@ function CurriculumForm({ gapiState }) {
    )
 }
 
-//handleChange is passed in as a prop. It listens for a value change and calls handleChange in CurriculumForm
+/**
+ *  @param {string} value the value selected from the dropdown
+ * @param handleChange callback passed in from CurriculumForm to handle the current value selection
+ * @returns a dropdown form 
+*/
 function CurriculumDropdown({ value, handleChange }) {
    return (
      <select value={value} onChange={(e) => handleChange(e.target.value)} id="curriculumDropdown">
@@ -71,9 +83,18 @@ function CurriculumDropdown({ value, handleChange }) {
    );
 }
 
-//@param {string} value the Google Document ID selected from the dropdown above
-//@param {Google API Client Object} gapiState
-//@param handleMessage a function to pass the message state back up to CurriculumForm
+//@jac927 6/11/24 PLEASE NOTE: Before you start reading code in parser.js, it is heavily recommended that you:
+//1. look through the Save Tuba curriculum documents and understand the format of the document (especially minigame format!)
+//2. look through the existing Firestore data and understand the JSON format of chapters, lessons, languages, and minigames
+//3. see the JSON parser data references in ../data/parser_references
+//4. contact jameschang2005@icloud.com for questions
+
+/** 
+ * @param {string} value the Google Document ID selected from the dropdown above
+ * @param gapiState the Google API Client Object
+ * @param handleMessage callback to pass the message state back up to CurriculumForm
+ * @returns button w/ onClick event to run parser 
+*/
 function RunParser({ value, gapiState, handleMessage }) {
    //soft disable button
    const [disabled, setDisabled] = useState(true);
@@ -89,8 +110,9 @@ function RunParser({ value, gapiState, handleMessage }) {
      } else {
          setDisabled(true);
      }
-   }, [value, gapiState])
+   }, [value, gapiState]);
  
+   //called by the Run Parser button onClick
    function handleClick() {
       if (disabled) {
          console.log("parser currently disabled.");
@@ -102,8 +124,8 @@ function RunParser({ value, gapiState, handleMessage }) {
          getDoc();
       }
    };
- 
-   // Function to get the document and then handle the download
+
+   // Function to get the document and then handle the download. Some of this is taken from the getDoc() function in here: https://developers.google.com/docs/api/quickstart/js
    async function getDoc() {
       try {
          const response = await gapi.client.docs.documents.get({
@@ -114,6 +136,7 @@ function RunParser({ value, gapiState, handleMessage }) {
          
          const jsonContent = parseDocument(doc); //see parser.js
          
+         //see here for more info on Blob: https://developer.mozilla.org/en-US/docs/Web/API/Blob
          const blob = new Blob([jsonContent], { type: 'application/json' });
          downloadBlob(blob, doc.title); //see parser.js
  
@@ -131,6 +154,6 @@ function RunParser({ value, gapiState, handleMessage }) {
          Run Parser
       </button>
    )
- }
+}
 
 export default CurriculumForm;

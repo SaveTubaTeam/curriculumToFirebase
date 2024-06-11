@@ -5,8 +5,10 @@ import GoogleDocsAPI from "./GoogleDocsAPI";
 function CurriculumToJSON() {
    const [gapiState, setGapiState] = useState(null);
 
-   //to track the gapi state in GoogleDocsAPI
-   function handleGapiState(gapiClient) { setGapiState(gapiClient); }
+   //@callback handleGapiState to track the gapi state in GoogleDocsAPI component
+   function handleGapiState(gapiClient) { 
+      setGapiState(gapiClient); 
+   }
 
    return(
       <div className="section">
@@ -14,7 +16,7 @@ function CurriculumToJSON() {
 
          <GoogleDocsAPI handleGapiState={handleGapiState}/>
          <p style={{ whiteSpace: 'pre-wrap' }}>
-            Sign in to access the Google Workspaces API! (NOTE: you must be added to SaveTuba's Cloud Console project for this to work.)
+            Sign in with your Lehigh account to access the Google Workspaces API! (NOTE: you must be added to SaveTuba's Cloud Console project for this to work.)
          </p>
 
          <p className="read-the-docs">

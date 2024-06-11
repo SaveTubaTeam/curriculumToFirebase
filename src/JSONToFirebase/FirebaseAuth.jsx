@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { auth, app, provider } from '../../firebase.js'
 
-//Google OAuth signin w/ firebase: https://firebase.google.com/docs/auth/web/google-signin#web_3
-
+/** The whole purpose of this OAuth is to authenticate the Firebase Auth object. 
+ * Since Firebase security rules are in place, a valid Auth object allows us to read and write to Firestore and Cloud Storage.
+ * @returns two buttons, one for sign in, one for sign out. 
+*/
 function FirebaseAuth() {
    //for signin button
    const [text, setText] = useState("Firebase Sign In");
@@ -10,6 +12,8 @@ function FirebaseAuth() {
    //for signout button
    const [signoutVisible, setSignoutVisible] = useState(false);
 
+   //Please refer to Google OAuth signin w/ firebase: https://firebase.google.com/docs/auth/web/google-signin#web_3
+   //we login to the Auth object with OAuth
    async function handleAuthClick() {
       try {
          let result = await auth.signInWithPopup(provider);
