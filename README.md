@@ -12,10 +12,8 @@ npm install
 npm run dev
 ```
 
-
-
 ## 1. curriculumToJSON
-Google OAuth w/ popup signin to run the Google Workspaces API. For the purpose of exporting SaveTuba's curriculum documents into JSON. :shipit:
+Google OAuth w/ popup signin to run the Google Workspaces API. For the purpose of exporting SaveTuba's Google Doc curriculum documents into JSON. :shipit:
 
 > [!NOTE]
 > Use your **Lehigh email address** to signin. 

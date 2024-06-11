@@ -5,8 +5,8 @@ import React, { useState, useEffect } from 'react';
 
 //Set to client ID and API key from the SaveTuba Developer Console. User must be in the @lehigh.edu organization!!
 //2022: 218900793188-bhpi2n0amicsorbpogfpe6vs5q2t0jed.apps.googleusercontent.com
-const CLIENT_ID = '218900793188-0krdujh2ub4j1bkiddti006k2cste6jo.apps.googleusercontent.com';
-const API_KEY = 'AIzaSyCa8CJLDlxZav6LylYflDDQQbL_m8tTZGs';
+const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 // Discovery doc URL for APIs used by the quickstart
 const DISCOVERY_DOC = 'https://docs.googleapis.com/$discovery/rest?version=v1';

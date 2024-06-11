@@ -5,7 +5,7 @@ import "firebase/compat/firestore";
 import "firebase/compat/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCa8CJLDlxZav6LylYflDDQQbL_m8tTZGs", //This is the Google Cloud Console browser key inside of project savetuba-5e519
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "savetuba-5e519.firebaseapp.com",
   projectId: "savetuba-5e519",
   storageBucket: "savetuba-5e519.appspot.com",
