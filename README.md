@@ -1,4 +1,4 @@
-# curriculumToFirebase :shipit:
+# curriculumToFirebase
 A simple localhost interface for SaveTuba developer tooling. It comprises of two parts: [curriculumToJSON](#1-curriculumtojson) and [JSONToFirebase](#2-jsontofirebase). Please reach out to _@jimothych_ with any questions.
 
 ### To get started:
@@ -15,7 +15,7 @@ npm run dev
 
 
 ## 1. curriculumToJSON
-Google OAuth w/ popup signin to run the Google Workspaces API. For the purpose of exporting SaveTuba's curriculum documents into JSON.
+Google OAuth w/ popup signin to run the Google Workspaces API. For the purpose of exporting SaveTuba's curriculum documents into JSON. :shipit:
 
 > [!NOTE]
 > Use your **Lehigh email address** to signin. 
