@@ -1,5 +1,5 @@
 # curriculumToFirebase :shipit:
-A simple Vite + React localhost interface for SaveTuba developer tooling. It comprises of two parts: [curriculumToJSON](#1-curriculumtojson) and [JSONToFirebase](#2-jsontofirebase). _Please reach out to @jimothych with any questions._
+A simple localhost interface for SaveTuba developer tooling. It comprises of two parts: [curriculumToJSON](#1-curriculumtojson) and [JSONToFirebase](#2-jsontofirebase). Please reach out to _@jimothych_ with any questions.
 
 ### To get started:
 ```
