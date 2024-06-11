@@ -22,7 +22,7 @@ Google OAuth w/ popup signin to run the Google Workspaces API. For the purpose o
 > Only users in the @lehigh.edu organization can access the API
 
 ## 2. JSONToFirebase
-Firebase Auth w/ popup signin. Posts curriculum JSON with image metadata into Firebase Firestore. :octocat:
+Firebase Auth w/ popup signin. Posts curriculum JSON with image metadata into Firebase Firestore.
 
 > [!IMPORTANT]
 > 1. **postDataSoft()** overwrites curriculum content whilst leaving other metadata intact
