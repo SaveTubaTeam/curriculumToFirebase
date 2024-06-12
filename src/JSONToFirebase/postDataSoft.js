@@ -1,8 +1,7 @@
 import { db } from "../../firebase.js";
 
 //See here for Firestore .update(): https://firebase.google.com/docs/database/web/read-and-write#web_11
-
-//References to a specific document are done by chaining .collection() and .doc() to the reference
+//References to a specific document are done by chaining .collection() and .doc()
 
 /**
  * @param {Object} jsonFile the JSON object containing all curriculum content in the specified grade and language

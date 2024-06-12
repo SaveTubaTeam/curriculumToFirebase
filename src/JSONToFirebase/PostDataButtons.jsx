@@ -20,7 +20,7 @@ import IMAGES_grade3 from "../data/IMAGES_grade3.json"
 import IMAGES_grade4 from "../data/IMAGES_grade4.json"
 import IMAGES_grade5 from "../data/IMAGES_grade5.json"
 
-/** 
+/** Gets the parameters needed for our postData functions
  * @param {string} value a string representing the name of the JSON file object
  * @returns {Object} parameters an object containing the necessary postData function parameters 
 */
@@ -108,7 +108,7 @@ function PostDataSoft({ softValue, handleMessageOne}) {
 
 /** 
  * This component calls postDataHard to hard post all curriculum data in Firestore, essentially wiping and resetting everything.
- * postDataHard.js also adds two important attributes to all image metadata: a blurhash and a downloadURL to the image in our Cloud Storage bucket under assets/
+ * postDataHard.js also adds two important attributes to all image metadata: a blurhash and a downloadURL pointing to the image file in our Cloud Storage bucket
  * @param {string} hardValue the value of the dropdown form selection for this function
  * @param handleMessageTwo a callback to display the status of the function
  * @returns a button that calls postDataHard on click. 
