@@ -73,7 +73,7 @@ function JSONForm() {
                onClick={async() => {
                   try {
                      const result = await getImageAttributes(inputValue);
-                     setDownloadURL(result[0]);
+                     setDownloadURL(`${result[0]}`);
                      setBlurHash(`blurhash: ${result[1]}`);
                   } catch (error) {
                      console.error("Error while fetching image attributes:", error);
@@ -84,8 +84,8 @@ function JSONForm() {
                Get Image Attributes
             </button>
          </div>
-         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{downloadURL}</p>
-         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{blurhash}</p>
+         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 525, fontSize: 10 }}>{downloadURL}</p>
+         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 525, fontSize: 10 }}>{blurhash}</p>
       </FunctionContext.Provider>
    )
 }

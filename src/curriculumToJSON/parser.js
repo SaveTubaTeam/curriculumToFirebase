@@ -157,7 +157,7 @@ function formatJSON() {
                 lessons: []
             })
 
-            const lessonsData = lessonsIterator(i, chapterCount); //moving off of the 'HEADING_2' index before continuing iteration
+            const lessonsData = lessonsIterator(i, chapterCount, docData); //moving off of the 'HEADING_2' index before continuing iteration
             docData.chapters[chapterCount-1].lessons = lessonsData; //setting lessons array within docData object for this iteration of the chapter
         }
     }//end of entire array's for loop
@@ -170,18 +170,19 @@ function formatJSON() {
 
 //collection of background colors for lesson cards. each chapter should have lessons w/ a similar background color
 //NO LONGER USED WITHIN THE APP
-const LESSON_BACKGROUND_COLORS = [["#6C75EB", "#B56CEB", "#8C6BEB", "#6C9DEB", "#DF6CEB", "#C6BAEB"], //darker purples
+/* const LESSON_BACKGROUND_COLORS = [["#6C75EB", "#B56CEB", "#8C6BEB", "#6C9DEB", "#DF6CEB", "#C6BAEB"], //darker purples
                                   ["#DB5F5C", "#DB8C5C", "#DB755B", "#DB5C9E", "#DBA25C", "#DBB0A5"], //reds
                                   ["#74D3DB", "#7492DB", "#74B1DB", "#74DBC2", "#7874DB", "#BDCFDB"], //blues
                                   ["#E079A5", "#E09079", "#E07D78", "#DF79E0", "#E0A279", "#E0C5C4"], //oranges
-                                  ["#8777E0", "#CC77E0", "#AA78E1", "#7788E0", "#E077C6", "#D1C2E0"]] //lighter purples
+                                  ["#8777E0", "#CC77E0", "#AA78E1", "#7788E0", "#E077C6", "#D1C2E0"]] //lighter purples */
 
 /** 
  * @param {int} startIndex the index directly after the current chapter in formatJSON()
  * @param {int} chapterCount the current chapter count (needed for lesson metadata) (indexed from 1)
+ * @param {Object} docData we pass this in to add a numLessons attribute to the current chapter's metadata.
  * @returns {Object[]} lessonsData an array containing all of the individual lesson objects.
 */
-function lessonsIterator(startIndex, chapterCount) {
+function lessonsIterator(startIndex, chapterCount, docData) {
     const lessonsData = []; //initializing lessonsData to be added into the docData object
     let j = startIndex + 1; //defining an independent iterator variable inside of lessonsIterator
     let lessonsCount = 1;
@@ -196,13 +197,16 @@ function lessonsIterator(startIndex, chapterCount) {
                 navigation: `Lesson${lessonsCount}`,
                 title: `${lessonsCount}. ${chaptersArray[j].text.split(":")[1].trim()}`, //extracting everything after the colon
                 thumbnail: "assets/cotton.png",
-                backgroundColor: LESSON_BACKGROUND_COLORS[(chapterCount-1) % 4][lessonsCount % 5], //iteratively gets background color from predefined array
+                numActivities: masteryAndMinigamesData.length,
+                //backgroundColor: LESSON_BACKGROUND_COLORS[(chapterCount-1) % 4][lessonsCount % 5], //iteratively gets background color from predefined array
                 content: masteryAndMinigamesData,
             });
             lessonsCount++; //lesson iterator
         }
         j++;
     }
+
+    docData.chapters[chapterCount-1].numLessons = lessonsData.length; //setting an attribute for the number of lessons in the current chapter
 
     return lessonsData;
 }
@@ -226,7 +230,7 @@ function masteryAndMinigamesIterator(startIndex) {
     const masteryAndMinigamesData = []
 
     let k = startIndex + 1;
-    while(k < chaptersArray.length && chaptersArray[k].headingStyle !== 'HEADING_3') { //iterating until next lesson
+    while(k < chaptersArray.length && chaptersArray[k].headingStyle !== 'HEADING_3') { //iterating until next lesson or chapter
         if(chaptersArray[k].headingStyle === 'HEADING_4') { //mastery and minigame titles are of type 'HEADING_4'
             console.log(`\t\t\t${chaptersArray[k].text}`);
 

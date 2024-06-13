@@ -5,14 +5,13 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Finding Things in the World",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
           "content": [
             {
               "navigation": "Memory",
@@ -134,13 +133,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson2",
           "title": "2. Why Does the Dandelion Look Like a Parachute?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -242,13 +241,13 @@
               "prompt": "Identify a man-made object that resembles something from nature. Upload a photo of that object.",
               "content": []
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson3",
           "title": "3. What is An Experiment?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -354,23 +353,24 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. What Are the Secrets of Plants?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
           "content": [
             {
               "navigation": "Snapshot",
@@ -484,13 +484,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson2",
           "title": "2. How Do Plants Live?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
           "content": [
             {
               "navigation": "Image Boom",
@@ -583,13 +583,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson3",
           "title": "3. Who Hatched From the Egg?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
           "content": [
             {
               "navigation": "Quiz",
@@ -708,13 +708,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson4",
           "title": "4. Who Plays Hide and Seek?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
           "content": [
             {
               "navigation": "Quiz",
@@ -842,13 +842,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson5",
           "title": "5. How Are Animals Protected?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
           "content": [
             {
               "navigation": "Image Boom",
@@ -953,13 +953,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson6",
           "title": "6. Why Are We Standing?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
           "content": [
             {
               "navigation": "Image Boom",
@@ -1058,13 +1058,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson7",
           "title": "7. How Do We Smile?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
           "content": [
             {
               "navigation": "Image Boom",
@@ -1141,13 +1141,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 3
         },
         {
           "navigation": "Lesson8",
           "title": "8. A Heavy Backpack",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
           "content": [
             {
               "navigation": "Image Boom",
@@ -1260,13 +1260,13 @@
               "prompt": "Your posture is the habitual position of your body when it is standing, sitting, or walking. The weight of any extra items such as your backpack can affect your posture. Look inside your backpack and see what you can reduce, reuse, recycle, and digitalize. Let’s try to make your backpack lighter and save the planet by using less paper!",
               "content": []
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson9",
           "title": "9. What Are Bacteria Afraid Of?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
           "content": [
             {
               "navigation": "Image Boom",
@@ -1382,13 +1382,13 @@
               "prompt": "Your body is very complex and valuable, and to stay healthy we must take care of it. We want to sustain our health for as long as possible and make sure we don’t infect others. Describe how you wash your hands.",
               "content": []
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson10",
           "title": "10. Why Do My Teeth Hurt?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
           "content": [
             {
               "navigation": "Image Boom",
@@ -1494,23 +1494,24 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         }
-      ]
+      ],
+      "numLessons": 10
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "plum",
+      "colorTwo": "orchid",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. What Are the Properties of Air?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
           "content": [
             {
               "navigation": "Quiz",
@@ -1649,13 +1650,13 @@
               "prompt": "Understand that all plants and animals need air. Describe what happens when a plant has limited air.",
               "content": []
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson2",
           "title": "2. Where to Build a Factory?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
           "content": [
             {
               "navigation": "Quiz",
@@ -1801,13 +1802,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson3",
           "title": "3. What Do We Know About Water?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
           "content": [
             {
               "navigation": "Quiz",
@@ -1977,13 +1978,13 @@
               "prompt": "Research where the water in your household comes from. Trace it back to the original source. Visit the source and find out the water purification method used. Reflect on the method and offer your own critiques and compliments.",
               "content": []
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson4",
           "title": "4. What Does a Person Need?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
           "content": [
             {
               "navigation": "Sorting",
@@ -2110,23 +2111,24 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         }
-      ]
+      ],
+      "numLessons": 4
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. The Sun and its Influence on Earth",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
           "content": [
             {
               "navigation": "Image Boom",
@@ -2302,13 +2304,13 @@
               "prompt": "The sun provides light and heats the Earth. However, like anything, nature should be kept in balance. There are balancing factors to neutralize the Sun’s tremendous amount of heat. Explain why we need sunscreen and explain how Earth’s ecosystems have their own built-in sunscreen.",
               "content": []
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson2",
           "title": "2. Who Are the Sun’s Friends?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
           "content": [
             {
               "navigation": "Image Boom",
@@ -2476,13 +2478,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson3",
           "title": "3. Are Planets Alive?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
           "content": [
             {
               "navigation": "Reorder",
@@ -2640,13 +2642,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 3
         },
         {
           "navigation": "Lesson4",
           "title": "4. Why Does Spring Follow Winter?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
           "content": [
             {
               "navigation": "Image Boom",
@@ -2755,13 +2757,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson5",
           "title": "5. What Time is It?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
           "content": [
             {
               "navigation": "Image Boom",
@@ -2840,23 +2842,24 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         }
-      ]
+      ],
+      "numLessons": 5
     },
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Why Do Things Move?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -2942,13 +2945,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson2",
           "title": "2. Who Is Faster?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -3058,13 +3061,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson3",
           "title": "3. Transportation",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -3171,13 +3174,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson4",
           "title": "4. How Much Does an Elephant Weigh?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -3289,13 +3292,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson5",
           "title": "5. How to Get to Emerald City?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -3402,13 +3405,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson6",
           "title": "6. Where Did the Light Go?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -3484,13 +3487,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson7",
           "title": "7. What is That Sound?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -3631,13 +3634,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson8",
           "title": "8. How Do We Hear Sounds?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -3730,13 +3733,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 4
         },
         {
           "navigation": "Lesson9",
           "title": "9. The Thermometer",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -3863,13 +3866,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson10",
           "title": "10. Where Does Frost Hide During the Summer?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
           "content": [
             {
               "navigation": "Image Boom",
@@ -4065,13 +4068,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson11",
           "title": "11. What Are Magnets?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -4206,13 +4209,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         },
         {
           "navigation": "Lesson12",
           "title": "12. Summer is Fun!",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
           "content": [
             {
               "navigation": "Snapshot",
@@ -4307,9 +4310,11 @@
                 }
               ]
             }
-          ]
+          ],
+          "numActivities": 5
         }
-      ]
+      ],
+      "numLessons": 12
     }
   ]
 }

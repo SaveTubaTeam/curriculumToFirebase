@@ -20,6 +20,7 @@ async function postDataSoft(jsonFile, gradeName, languageCode) {
  * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
 */
 async function postChapterData(chapter, gradeName, languageCode) {
+   const chapterData = chapter;
    const chapterReference = db.collection(gradeName).doc(chapter.navigation);
    
    try {
@@ -27,9 +28,9 @@ async function postChapterData(chapter, gradeName, languageCode) {
       if(!doc.exists) {
          console.error(`ERROR ${chapter.navigation} metadata does not exist`);
          return;
-      } else {
-         console.log(`${chapter.navigation}`);
       }
+
+      await updateChapterData(chapterData, chapterReference, doc);
    } catch(e) {
       console.error(e);
       return;
@@ -41,18 +42,29 @@ async function postChapterData(chapter, gradeName, languageCode) {
    }
 }
 
+/** This modifies certain attributes in the chapter metadata and touches nothing else.
+ * @param {Object} chapterData our current chapter object
+ * @param chapterReference a reference to the chapter within Firestore
+ * @param {Object} doc the document (aka metadata) within our chapterReference
+*/
+async function updateChapterData(chapterData, chapterReference, doc) {
+   try {
+      const existingChapterData = doc.data(); //getting the existing data object, no need to await .data() apparently
+      existingChapterData.numLessons = chapterData.numLessons;
+      await chapterReference.update({ ...existingChapterData }); 
+      console.log(`${chapterData.navigation} updated successfully!`);
+   } catch(error) {
+      console.log("updateChapterData() ERROR:", error)
+   }
+}
+
 /** Modifies the lesson data by only overwriting text present in the original curriculum Google Docs
  * @param {Object} lesson the current lesson object in JSON
  * @param chapterReference a reference to the current chapter within our firebase tree. 
  * @param {string} languageCode e.g. 'en', 'kk', 'ru' 
 */
 async function postLessonData(lesson, chapterReference, languageCode) {
-   const lessonData = {
-       navigation: lesson.navigation,
-       title: lesson.title,
-       thumbnail: lesson.thumbnail,
-       backgroundColor: lesson.backgroundColor
-   }
+   const lessonData = lesson;
    const lessonLanguageReference =  chapterReference.collection(lessonData.navigation).doc(languageCode);
 
    try {
@@ -90,7 +102,7 @@ async function postLessonData(lesson, chapterReference, languageCode) {
    }
 }
 
-/** This modifies the title attribute in the lesson metadata and touches nothing else.
+/** This modifies certain attributes in the lesson metadata and touches nothing else.
  * @param {Object} lessonData our current lessonData object
  * @param lessonLanguageReference a reference to the language of the lesson within Firestore
  * @param {Object} doc the document (aka metadata) within our lessonLanguageReference
@@ -99,7 +111,8 @@ async function postLessonData(lesson, chapterReference, languageCode) {
 async function updateLessonData(lessonData, lessonLanguageReference, doc, languageCode) {
   try {
      const existingLessonData = doc.data(); //getting the existing data object, no need to await .data() apparently
-     existingLessonData.title = lessonData.title; //we only want to update the 'title' attribute if the document exists
+     existingLessonData.title = lessonData.title; //we want to update the 'title' attribute if the document exists
+     existingLessonData.numActivities = lessonData.numActivities;
      await lessonLanguageReference.update({ ...existingLessonData }); 
      console.log(`\t${lessonData.navigation}-${languageCode} updated successfully!`);
   } catch(error) {
