@@ -25,4 +25,4 @@ Firebase Auth w/ popup signin to access the Firestore and Cloud Storage bucket A
 > [!IMPORTANT]
 > 1. **postDataSoft()** overwrites curriculum content whilst leaving other metadata intact.
 > 2. **postDataHard()** wipes and resets all data in the given Grade. Use with caution!
-> 3. **Get Image Attributes** takes a filepath to a preexisting image within our storage bucket and returns two attributes: a downloadURL and a blurhash for the image.
+> 3. **Get Image Attributes** accepts a filepath to a preexisting image within our storage bucket and returns two attributes: a downloadURL and a blurhash for the image.

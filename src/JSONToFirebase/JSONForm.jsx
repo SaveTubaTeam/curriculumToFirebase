@@ -67,26 +67,25 @@ function JSONForm() {
 
          {/* image input form */}
          <div className='form-container'>
-            <input value={inputValue} onChange={handleInputChange} />
+            <input value={inputValue} onChange={handleInputChange} placeholder="ex: assets/cotton.png"/>
             <button 
                style={{ backgroundColor: 'var(--primary)' }} 
                onClick={async() => {
                   try {
                      const result = await getImageAttributes(inputValue);
                      setDownloadURL(result[0]);
-                     setBlurHash(result[1]);
+                     setBlurHash(`blurhash: ${result[1]}`);
                   } catch (error) {
                      console.error("Error while fetching image attributes:", error);
                   }
                }} 
-               placeholder="assets/cotton.png"
                disabled={loading}
             >
                Get Image Attributes
             </button>
          </div>
-         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{`${downloadURL}`}</p>
-         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{`blurhash: ${blurhash}`}</p>
+         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{downloadURL}</p>
+         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{blurhash}</p>
       </FunctionContext.Provider>
    )
 }
