@@ -17,12 +17,12 @@ Google OAuth w/ popup signin to run the Google Workspaces API. For the purpose o
 
 > [!NOTE]
 > Use your **Lehigh email address** to signin. 
-> Only users in the **@lehigh.edu** organization can access the API
+> Only users in the **@lehigh.edu** organization can access the API.
 
 ## 2. JSONToFirebase
 Firebase Auth w/ popup signin to access the Firestore and Cloud Storage bucket APIs. JSONToFirebase posts JSON curriculum plus image metadata into Firestore.
 
 > [!IMPORTANT]
-> 1. **postDataSoft()** overwrites curriculum content whilst leaving other metadata intact
+> 1. **postDataSoft()** overwrites curriculum content whilst leaving other metadata intact.
 > 2. **postDataHard()** wipes and resets all data in the given Grade. Use with caution!
-> 3. **Get Image Attributes** takes a filepath to a preexisting image within our storage bucket and returns two attributes: a downloadURL and a blurhash
+> 3. **Get Image Attributes** takes a filepath to a preexisting image within our storage bucket and returns two attributes: a downloadURL and a blurhash for the image.

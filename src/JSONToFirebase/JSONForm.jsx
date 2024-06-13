@@ -79,8 +79,10 @@ function JSONForm() {
                      console.error("Error while fetching image attributes:", error);
                   }
                }} 
-               disabled={loading}>
-                  Get Image Attributes
+               placeholder="assets/cotton.png"
+               disabled={loading}
+            >
+               Get Image Attributes
             </button>
          </div>
          <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{`${downloadURL}`}</p>
