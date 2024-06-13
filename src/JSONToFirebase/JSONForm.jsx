@@ -1,16 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import { PostDataSoft, PostDataHard } from './PostDataButtons';
 import FunctionContext from './FunctionContext';
+import getImageAttributes from './getImageAttributes';
 
 /** For clarification: the variable prefixes 'soft' and 'hard' are for organizational purposes.
  * These variables with 'soft' and 'hard' prefixes refer to their respective functions (postDataSoft, postDataHard)
- * @returns two forms for postDataSoft and postDataHard, each with a dropdown and a postData button. 
+ * @returns Three forms: two dropdown forms for postDataSoft and postDataHard, each a postData button, 
+ *          and one input form to get a specified image's downloadURL and blurhash.
 */
 function JSONForm() {
+   //for postDataSoft
    const [softValue, setSoftValue] = useState("");
-   const [hardValue, setHardValue] = useState("");
    const [messageOne, setMessageOne] = useState(" "); //to display postDataSoft status
+
+   //for postDataHard
+   const [hardValue, setHardValue] = useState("");
    const [messageTwo, setMessageTwo] = useState(" "); //to display postDataHard status
+
+   //for getImageAttributes
+   const [inputValue, setInputValue] = useState("");
+   const [downloadURL, setDownloadURL] = useState(" ");
+   const [blurhash, setBlurHash] = useState(" ");
 
    //loading state used to track if postData scripts are running.
    const [loading, setLoading] = useState(false);
@@ -33,6 +43,9 @@ function JSONForm() {
    //@callback handleMessageTwo to track the message change in postDataHard
    function handleMessageTwo(messageTwo) { setMessageTwo(messageTwo); }
 
+   //@callback handleInputChange to track the filepath input change
+   function handleInputChange(event) { setInputValue(event.target.value);};
+
    return (
       /* note how we pass the loading variable into this context */
       <FunctionContext.Provider value={loading}>
@@ -51,6 +64,27 @@ function JSONForm() {
             <p className="read-the-docs" style={{ color: 'var(--secondary)', whiteSpace: 'nowrap', fontWeight: 550 }}>{` ← this wipes and resets all data in all languages`}</p>
          </div>
          <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{messageTwo}</p>
+
+         {/* image input form */}
+         <div className='form-container'>
+            <input value={inputValue} onChange={handleInputChange} />
+            <button 
+               style={{ backgroundColor: 'var(--primary)' }} 
+               onClick={async() => {
+                  try {
+                     const result = await getImageAttributes(inputValue);
+                     setDownloadURL(result[0]);
+                     setBlurHash(result[1]);
+                  } catch (error) {
+                     console.error("Error while fetching image attributes:", error);
+                  }
+               }} 
+               disabled={loading}>
+                  Get Image Attributes
+            </button>
+         </div>
+         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{`${downloadURL}`}</p>
+         <p className="read-the-docs" style={{ color: 'var(--tertiary)', whiteSpace: 'pre-wrap', fontWeight: 550 }}>{`blurhash: ${blurhash}`}</p>
       </FunctionContext.Provider>
    )
 }
