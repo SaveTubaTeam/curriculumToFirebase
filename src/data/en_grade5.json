@@ -5,14 +5,14 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. The Role of Science in the Surrounding World",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -46,7 +46,7 @@
           "navigation": "Lesson2",
           "title": "2. Observing and Measuring Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -80,7 +80,7 @@
           "navigation": "Lesson3",
           "title": "3. Processing and Evaluating Observations",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -110,7 +110,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
@@ -124,7 +125,7 @@
           "navigation": "Lesson1",
           "title": "1. The Starry Sky",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -227,7 +228,7 @@
           "navigation": "Lesson2",
           "title": "2. The Sun and the Solar System",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -357,7 +358,7 @@
           "navigation": "Lesson3",
           "title": "3. The Earth",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -399,7 +400,7 @@
           "navigation": "Lesson4",
           "title": "4. How Did Our Planet Appear?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -485,7 +486,7 @@
           "navigation": "Lesson5",
           "title": "5. The Structure of the Earth and its Shells",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -544,7 +545,7 @@
           "navigation": "Lesson6",
           "title": "6. The Origin of Life on Earth",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -574,21 +575,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 6
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. From the Map to the Plan of the Local Land",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -630,7 +632,7 @@
           "navigation": "Lesson2",
           "title": "2. Conditional Signs",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -703,7 +705,7 @@
           "navigation": "Lesson3",
           "title": "3. Polar and Route Deflection",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -745,7 +747,7 @@
           "navigation": "Lesson4",
           "title": "4. Continents and Islands",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -779,7 +781,7 @@
           "navigation": "Lesson5",
           "title": "5. Research of the Oceans",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -841,7 +843,7 @@
           "navigation": "Lesson6",
           "title": "6. Distribution of People on the Surface of the Earth",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -954,7 +956,7 @@
           "navigation": "Lesson7",
           "title": "7. Ethnicities on Earth",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -996,7 +998,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 7
     },
     {
       "navigation": "Chapter4",
@@ -1010,7 +1013,7 @@
           "navigation": "Lesson1",
           "title": "1. Physical Bodies, Things, and Mass",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1096,7 +1099,7 @@
           "navigation": "Lesson2",
           "title": "2. Structure and Diffusion of Substances",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1169,7 +1172,7 @@
           "navigation": "Lesson3",
           "title": "3. Properties of Things",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1207,7 +1210,7 @@
           "navigation": "Lesson4",
           "title": "4. Pure Substances and Mixtures",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1308,21 +1311,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 4
     },
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "mediumturquoise",
+      "colorTwo": "midnightblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Soluble and Insoluble Substances",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1442,7 +1446,7 @@
           "navigation": "Lesson2",
           "title": "2. Natural and Artificial Objects",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1484,7 +1488,7 @@
           "navigation": "Lesson3",
           "title": "3. Synthetic Materials",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1597,7 +1601,7 @@
           "navigation": "Lesson4",
           "title": "4. Diversity of Natural Phenomena",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1655,7 +1659,7 @@
           "navigation": "Lesson5",
           "title": "5. The World of Physical and Chemical Phenomena",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1744,7 +1748,7 @@
           "navigation": "Lesson6",
           "title": "6. Phenomena of Light Emission",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1782,7 +1786,7 @@
           "navigation": "Lesson7",
           "title": "7. Thermal Phenomena",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1824,7 +1828,7 @@
           "navigation": "Lesson8",
           "title": "8. Sound Phenomena",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1866,7 +1870,7 @@
           "navigation": "Lesson9",
           "title": "9. Electric and Magnetic Phenomena",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1943,7 +1947,7 @@
           "navigation": "Lesson10",
           "title": "10. Forces in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1968,21 +1972,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 10
     },
     {
       "navigation": "Chapter6",
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Matter Circulation in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2044,7 +2049,7 @@
           "navigation": "Lesson2",
           "title": "2. Formation of Mountains",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2090,7 +2095,7 @@
           "navigation": "Lesson3",
           "title": "3. Weathering of Rocks",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2195,7 +2200,7 @@
           "navigation": "Lesson4",
           "title": "4. Weather and Climate",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2245,7 +2250,7 @@
           "navigation": "Lesson5",
           "title": "5. Dangerous Phenomena in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2326,7 +2331,7 @@
           "navigation": "Lesson6",
           "title": "6. Properties of Living Organisms",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2388,7 +2393,7 @@
           "navigation": "Lesson7",
           "title": "7. Levels of Organization of Living Organisms",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2489,7 +2494,7 @@
           "navigation": "Lesson8",
           "title": "8. The Role of Photosynthesis",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2562,21 +2567,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 8
     },
     {
       "navigation": "Chapter7",
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "plum",
+      "colorTwo": "orchid",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Types and Sources of Energy",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2664,7 +2670,7 @@
           "navigation": "Lesson2",
           "title": "2. Mutual Conversion of Energy",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2698,7 +2704,7 @@
           "navigation": "Lesson3",
           "title": "3. Alternative Energy Sources",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2727,7 +2733,7 @@
           "navigation": "Lesson4",
           "title": "4. Energy Efficiency and Safety",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2781,7 +2787,7 @@
           "navigation": "Lesson5",
           "title": "5. Movement in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2823,7 +2829,7 @@
           "navigation": "Lesson6",
           "title": "6. Equilibrium",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2853,21 +2859,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 6
     },
     {
       "navigation": "Chapter8",
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "goldenrod",
-      "colorTwo": "darkorange",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Ecological System",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2948,7 +2955,7 @@
           "navigation": "Lesson2",
           "title": "2. Natural and Artificial Ecosystems",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2994,7 +3001,7 @@
           "navigation": "Lesson3",
           "title": "3. Factors Affecting the Life of the Ecosystem",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3095,7 +3102,7 @@
           "navigation": "Lesson4",
           "title": "4. The Living Planet",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3204,7 +3211,7 @@
           "navigation": "Lesson5",
           "title": "5. Diversity of Animals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3233,7 +3240,7 @@
           "navigation": "Lesson6",
           "title": "6. Relationships Between Animals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3310,7 +3317,7 @@
           "navigation": "Lesson7",
           "title": "7. Diversity of Plants and Their Role",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3387,7 +3394,7 @@
           "navigation": "Lesson8",
           "title": "8. Fungi and Microorganisms",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3424,7 +3431,7 @@
           "navigation": "Lesson9",
           "title": "9. Change of Natural Ecosystems Due to Human Activity",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3466,7 +3473,7 @@
           "navigation": "Lesson10",
           "title": "10. Environmental Issues of Kazakhstan",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3508,7 +3515,7 @@
           "navigation": "Lesson11",
           "title": "11. How Do We Protect Nature?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3581,7 +3588,7 @@
           "navigation": "Lesson12",
           "title": "12. Red Book of Kazakhstan",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3619,7 +3626,7 @@
           "navigation": "Lesson13",
           "title": "13. The Principle of Walking in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3649,21 +3656,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 13
     },
     {
       "navigation": "Chapter9",
       "title": "common:chapter9",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lavender",
-      "colorTwo": "darkslateblue",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. World Scientific News",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 2,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3690,7 +3698,7 @@
           "navigation": "Lesson2",
           "title": "2. New Technologies and Expected Innovations",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3724,7 +3732,7 @@
           "navigation": "Lesson3",
           "title": "3. Inventions That Will Change the World",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3758,7 +3766,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     }
   ]
 }

@@ -5,14 +5,14 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. History of Scientific Discoveries",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -77,7 +77,7 @@
           "navigation": "Lesson2",
           "title": "2. Sources of Information",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -139,7 +139,7 @@
           "navigation": "Lesson3",
           "title": "3. Planning and Conducting an Experiment",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 8,
           "content": [
             {
               "navigation": "Snapshot",
@@ -349,21 +349,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. How do Plant Leaves Work?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -447,7 +448,7 @@
           "navigation": "Lesson2",
           "title": "2. How do Plants Adapt to Living Conditions?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 7,
           "content": [
             {
               "navigation": "Snapshot",
@@ -646,7 +647,7 @@
           "navigation": "Lesson3",
           "title": "3. Natural Plant Communities",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -794,7 +795,7 @@
           "navigation": "Lesson4",
           "title": "4. How Does a Person Influence the Life of Plants?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 6,
           "content": [
             {
               "navigation": "Snapshot",
@@ -931,7 +932,7 @@
           "navigation": "Lesson5",
           "title": "5. Red Book of Plants",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1082,7 +1083,7 @@
           "navigation": "Lesson6",
           "title": "6. Vertebrates and Invertebrates Animals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1218,7 +1219,7 @@
           "navigation": "Lesson7",
           "title": "7. Animal Habitat",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 6,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1354,7 +1355,7 @@
           "navigation": "Lesson8",
           "title": "8. What Relationship Animals Exist in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1472,7 +1473,7 @@
           "navigation": "Lesson9",
           "title": "9. What is the Relationship Between Plants and Animals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1575,7 +1576,7 @@
           "navigation": "Lesson10",
           "title": "10. How do Habitat Conditions Affect the Number of Animals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1645,7 +1646,7 @@
           "navigation": "Lesson11",
           "title": "11. A Decrease in the Number of Animals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1726,7 +1727,7 @@
           "navigation": "Lesson12",
           "title": "12. I Am an Animal",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1796,7 +1797,7 @@
           "navigation": "Lesson13",
           "title": "13. Journey of an Apple Through the Body",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1878,7 +1879,7 @@
           "navigation": "Lesson14",
           "title": "14. How Do We Breathe?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1958,7 +1959,7 @@
           "navigation": "Lesson15",
           "title": "15. Human circulatory system",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2028,7 +2029,7 @@
           "navigation": "Lesson16",
           "title": "16. How to Be Healthy?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2094,21 +2095,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 16
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. What Are The Substances?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2192,7 +2194,7 @@
           "navigation": "Lesson2",
           "title": "2. Composition of Air",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2272,7 +2274,7 @@
           "navigation": "Lesson3",
           "title": "3. Air Properties",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2346,7 +2348,7 @@
           "navigation": "Lesson4",
           "title": "4. Where is the Water?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2414,7 +2416,7 @@
           "navigation": "Lesson5",
           "title": "5. Natural Water Sources",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2525,7 +2527,7 @@
           "navigation": "Lesson6",
           "title": "6. Careful Use of Human Drinking Water",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2605,7 +2607,7 @@
           "navigation": "Lesson7",
           "title": "7. Water Purification Methods",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2677,7 +2679,7 @@
           "navigation": "Lesson8",
           "title": "8. What is Soil?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2759,7 +2761,7 @@
           "navigation": "Lesson9",
           "title": "9. What is in Soil?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2865,7 +2867,7 @@
           "navigation": "Lesson10",
           "title": "10. Soil Properties",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2961,7 +2963,7 @@
           "navigation": "Lesson11",
           "title": "11. What are Soils?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3041,7 +3043,7 @@
           "navigation": "Lesson12",
           "title": "12. How is our Planet?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3134,7 +3136,7 @@
           "navigation": "Lesson13",
           "title": "13. History of Space Exploration",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3222,7 +3224,7 @@
           "navigation": "Lesson14",
           "title": "14. How Does the Earth Rotate?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3288,21 +3290,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 14
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Elastic Force",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3384,7 +3387,7 @@
           "navigation": "Lesson2",
           "title": "2. Gravity",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3466,7 +3469,7 @@
           "navigation": "Lesson3",
           "title": "3. The Force of Friction and its Manifestation",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3548,7 +3551,7 @@
           "navigation": "Lesson4",
           "title": "4. How to Determine the Direction of Forces?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3622,7 +3625,7 @@
           "navigation": "Lesson5",
           "title": "5. How Does the Shadow Appear?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3688,7 +3691,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 5
     }
   ]
 }

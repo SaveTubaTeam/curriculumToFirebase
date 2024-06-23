@@ -5,14 +5,14 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Higher and Lower Plants",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -41,7 +41,7 @@
           "navigation": "Lesson2",
           "title": "2. Lower Plants",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -118,7 +118,7 @@
           "navigation": "Lesson3",
           "title": "3. How Do Plants Grow?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -189,7 +189,7 @@
           "navigation": "Lesson4",
           "title": "4. Why Does a Plant Need Flowers?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -271,7 +271,7 @@
           "navigation": "Lesson5",
           "title": "5. How Are Seeds Formed?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -329,7 +329,7 @@
           "navigation": "Lesson6",
           "title": "6. How Do Plants Develop?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -363,7 +363,7 @@
           "navigation": "Lesson7",
           "title": "7. How Are Seeds Distributed?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -452,7 +452,7 @@
           "navigation": "Lesson8",
           "title": "8. How to protect plants from extinction",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -520,21 +520,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 8
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "goldenrod",
-      "colorTwo": "darkorange",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. What is Symbiosis?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -580,7 +581,7 @@
           "navigation": "Lesson2",
           "title": "2. How do Insects Grow?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -635,7 +636,7 @@
           "navigation": "Lesson3",
           "title": "3. Why do Animals Eat Different Foods?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -704,7 +705,7 @@
           "navigation": "Lesson4",
           "title": "4. How Do Animals Get Energy?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -759,7 +760,7 @@
           "navigation": "Lesson5",
           "title": "5. How Are Food Chains Formed?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -817,7 +818,7 @@
           "navigation": "Lesson6",
           "title": "6. What Lives in Your Area?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -913,7 +914,7 @@
           "navigation": "Lesson7",
           "title": "7. Rare and Endangered Animals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1002,7 +1003,7 @@
           "navigation": "Lesson8",
           "title": "8. How to Protect Animals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1027,21 +1028,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 8
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. How the Excretory System Works",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1091,7 +1093,7 @@
           "navigation": "Lesson2",
           "title": "2. What is the Nervous System?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1222,7 +1224,7 @@
           "navigation": "Lesson3",
           "title": "3. The Nervous System",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1252,21 +1254,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lavender",
-      "colorTwo": "darkslateblue",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Properties of Substances",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1308,7 +1311,7 @@
           "navigation": "Lesson2",
           "title": "2. What Are Substances?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1388,7 +1391,7 @@
           "navigation": "Lesson3",
           "title": "3. Do Substances Change?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1479,7 +1482,7 @@
           "navigation": "Lesson4",
           "title": "4. How Do the Properties of Substances Change?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1556,7 +1559,7 @@
           "navigation": "Lesson5",
           "title": "5. How Air Moves",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1609,7 +1612,7 @@
           "navigation": "Lesson6",
           "title": "6. What Are the Benefits and Harms of the Wind?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1702,7 +1705,7 @@
           "navigation": "Lesson7",
           "title": "7. What is the Importance of Air?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1761,7 +1764,7 @@
           "navigation": "Lesson8",
           "title": "8. How Does Air Get Polluted?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1871,7 +1874,7 @@
           "navigation": "Lesson9",
           "title": "9. The Water Cycle in Nature",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1921,7 +1924,7 @@
           "navigation": "Lesson10",
           "title": "10. What is Precipitation and Where Is It?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2023,7 +2026,7 @@
           "navigation": "Lesson11",
           "title": "11. What Does Water Dissolve?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2118,7 +2121,7 @@
           "navigation": "Lesson12",
           "title": "12. How Does Water Get Polluted?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2169,21 +2172,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 12
     },
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumpurple",
-      "colorTwo": "indigo",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Why Do We See Objects?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2276,7 +2280,7 @@
           "navigation": "Lesson2",
           "title": "2. What is Light Absorption?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2329,7 +2333,7 @@
           "navigation": "Lesson3",
           "title": "3. Is It Possible to Change the Shadow?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2402,7 +2406,7 @@
           "navigation": "Lesson4",
           "title": "4. What is Sound Reflection?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2457,7 +2461,7 @@
           "navigation": "Lesson5",
           "title": "5. How to Reduce Sound?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2542,7 +2546,7 @@
           "navigation": "Lesson6",
           "title": "6. What is Thermal Conductivity?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2619,7 +2623,7 @@
           "navigation": "Lesson7",
           "title": "7. How is Thermal Conductivity Used?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2688,7 +2692,7 @@
           "navigation": "Lesson8",
           "title": "8. Why Do You Need an Electroscope?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2753,7 +2757,7 @@
           "navigation": "Lesson9",
           "title": "9. What Bodies Conduct Electricity?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2783,21 +2787,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 9
     },
     {
       "navigation": "Chapter6",
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. What Are Minerals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2869,7 +2874,7 @@
           "navigation": "Lesson2",
           "title": "2. How Are Minerals Formed?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2954,7 +2959,7 @@
           "navigation": "Lesson3",
           "title": "3. What Are Combustible Materials?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3026,7 +3031,7 @@
           "navigation": "Lesson4",
           "title": "4. What Are Ore Minerals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3099,7 +3104,7 @@
           "navigation": "Lesson5",
           "title": "5. What is Ferrous Metal?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3168,7 +3173,7 @@
           "navigation": "Lesson6",
           "title": "6. What Are Metals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3237,7 +3242,7 @@
           "navigation": "Lesson7",
           "title": "7. What Are Non-Metallic Minerals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3306,7 +3311,7 @@
           "navigation": "Lesson8",
           "title": "8. The Importance of Minerals",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3379,7 +3384,7 @@
           "navigation": "Lesson9",
           "title": "9. What Can Replace Minerals?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3413,7 +3418,7 @@
           "navigation": "Lesson10",
           "title": "10. Consequences of Mining",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3498,7 +3503,7 @@
           "navigation": "Lesson11",
           "title": "11. Mining Around Us",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3570,21 +3575,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 11
     },
     {
       "navigation": "Chapter7",
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. What is Our Earth?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 6,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3747,7 +3753,7 @@
           "navigation": "Lesson2",
           "title": "2. Mountains and Plains",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3800,7 +3806,7 @@
           "navigation": "Lesson3",
           "title": "3. Between Mountains",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3829,7 +3835,7 @@
           "navigation": "Lesson4",
           "title": "4. What Is in Space?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3876,7 +3882,7 @@
           "navigation": "Lesson5",
           "title": "5. Cosmic Bodies",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3923,7 +3929,7 @@
           "navigation": "Lesson6",
           "title": "6. Influence of Space",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3987,7 +3993,7 @@
           "navigation": "Lesson7",
           "title": "7. How Does the Earth Revolve Around the Sun?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4043,7 +4049,7 @@
           "navigation": "Lesson8",
           "title": "8. How Do the Sun’s Rays Land on Earth?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4093,7 +4099,7 @@
           "navigation": "Lesson9",
           "title": "9. What Are Seasonal Changes?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4118,21 +4124,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 9
     },
     {
       "navigation": "Chapter8",
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. The Law of Archimedes",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4185,7 +4192,7 @@
           "navigation": "Lesson2",
           "title": "2. What is Buoyancy?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4235,7 +4242,7 @@
           "navigation": "Lesson3",
           "title": "3. Archimedes in the Air",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4282,7 +4289,7 @@
           "navigation": "Lesson4",
           "title": "4. How is the Law of Archimedes Applied?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4332,7 +4339,7 @@
           "navigation": "Lesson5",
           "title": "5. How do Bodies Float in Water?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4400,7 +4407,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 5
     }
   ]
 }
