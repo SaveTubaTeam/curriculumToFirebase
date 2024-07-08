@@ -851,19 +851,19 @@
               "categories": [
                 {
                   "name": "Almaty",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter2/almaty.png"
                 },
                 {
                   "name": "Astana",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter2/astana.png"
                 },
                 {
                   "name": "Aktau",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter2/aktau.png"
                 },
                 {
                   "name": "Aktobe",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter2/aktobe.png"
                 }
               ],
               "options": [
@@ -1055,7 +1055,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter3/excretorysystem.png",
               "prompt": "What is the excretory system? What natural processes does it include? "
             },
             {
@@ -1105,7 +1105,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter3/nervoussystem.png",
               "prompt": "What is the human nervous system? What are some features and examples of what it does? "
             },
             {
@@ -1147,11 +1147,11 @@
               "categories": [
                 {
                   "name": "Sympathetic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/sympathetic.png"
                 },
                 {
                   "name": "Parasympathetic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/parasympathetic.png"
                 }
               ],
               "options": [
@@ -1192,27 +1192,27 @@
               "content": [
                 {
                   "text": "Think back to the disease you chose to study last lesson. In this lesson, research some of the organizations that are trying to help this problem. Make a slideshow that answers the following questions for at least two organizations:",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/grade.png"
                 },
                 {
                   "text": "What is the name of the organization?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/approach.png"
                 },
                 {
                   "text": "What problem are they addressing?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/progress.png"
                 },
                 {
                   "text": "What is their approach?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/problem.png"
                 },
                 {
                   "text": "What progress have they made so far?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/organization.png"
                 },
                 {
                   "text": "How would you rate their approach if you had to give them a grade?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/slideshow.png"
                 }
               ]
             }
@@ -1236,7 +1236,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter3/humanbody.png",
               "prompt": "Describe what would happen if the nervous system failed in one’s body. What implications would this have? "
             },
             {
@@ -1246,7 +1246,7 @@
               "content": [
                 {
                   "text": "Last lesson you made a slideshow about organizations working to address incredibly harmful diseases. In this lesson, identify treatments or practices that are supposed to either cure or positively affect the disease or affiliations you chose to study. Pick one of these approaches and reflect on reasons why people would not be able to acquire this treatment.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter3/diseasetreatment.png"
                 }
               ]
             }
@@ -1280,7 +1280,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/icecube.png",
               "prompt": "Refer back to the photographs you took in the previous activity. Explain how the properties of the ice cube changes from each photo to the next. "
             },
             {
@@ -1288,7 +1288,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/puresubstance.png",
               "prompt": "Find five pure substances in your household. Identify them and then explain what makes a substance pure. "
             },
             {
@@ -1298,7 +1298,7 @@
               "content": [
                 {
                   "text": "Substances, like the air around us can become contaminated. Air quality is really important as poor air quality can lead to serious health problems. Indoor air quality can be impacted by the dust levels in your home. Dust can lead to breathing issues, especially for people with asthma. Take this time to look around different rooms of your home and examine them for dust.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/contamination.png"
                 }
               ]
             }
@@ -1322,7 +1322,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/youngperson.png",
               "prompt": "If you had to describe the term “substance” to someone younger than you, how would you describe it? "
             },
             {
@@ -1330,7 +1330,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/phasechanges.png",
               "prompt": "How do the properties of substances influence the phase changes that it can execute? "
             },
             {
@@ -1342,19 +1342,19 @@
               "categories": [
                 {
                   "name": "Boiling",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/boiling.png"
                 },
                 {
                   "name": "Melting",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/melting.png"
                 },
                 {
                   "name": "Freezing",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/freezing.png"
                 },
                 {
                   "name": "Deposition",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/deposition.png"
                 }
               ],
               "options": [
@@ -1402,7 +1402,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/chemicals.png",
               "prompt": "Substances can undergo a physical change or a chemical change. Explain what the difference is between the two. "
             },
             {
@@ -1414,11 +1414,11 @@
               "categories": [
                 {
                   "name": "Physical change",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/physicalchange.png"
                 },
                 {
                   "name": "Chemical change",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/chemicalchange.png"
                 }
               ],
               "options": [
@@ -1469,7 +1469,7 @@
               "content": [
                 {
                   "text": "Pollution in the air that leads to serious environmental consequences and health issues is a huge problem and it is difficult to know what, as individuals, we can do to help. If your lawnmower has a gasoline engine, then running it can pollute the air as much as a car. If the air quality that day is particularly bad, it is better to hold off mowing the lawn for another day.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/gasolineengine.png"
                 }
               ]
             }
@@ -1493,7 +1493,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/salt.png",
               "prompt": "Consider the following situation: you dissolve salt in water, creating a mixture. You know that this is a physical change and therefore the salt and water each retain their original properties. How would reverse this change, separating the water from the salt in this mixture? What does this tell you about physical changes? "
             },
             {
@@ -1505,11 +1505,11 @@
               "categories": [
                 {
                   "name": "Physical change",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/physicalchange.png"
                 },
                 {
                   "name": "Chemical change",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/chemicalchange.png"
                 }
               ],
               "options": [
@@ -1546,7 +1546,7 @@
               "content": [
                 {
                   "text": "For the past few lessons, we’ve been focusing on air quality. This is a really important topic to understand and care about. While it is important to understand what you can do to improve the situation as an individual, you must also understand who and what the greatest contributors are to air quality issues. In Kazakhstan, the largest sources of air pollution are from manufacturing, transportation, thermal power, and residential heating systems.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/airquality.png"
                 }
               ]
             }
@@ -1570,7 +1570,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/youngstudent.png",
               "prompt": "Write a definition of air. How would you describe it to a younger student? "
             },
             {
@@ -1623,7 +1623,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/airpressure.png",
               "prompt": "Wind is caused by differences in air pressure. Wind goes from areas of high pressures to areas of low pressure. Name three possible benefits and three possible harms of these changes in air pressure that we know more commonly as wind. "
             },
             {
@@ -1635,11 +1635,11 @@
               "categories": [
                 {
                   "name": "Could be caused by the wind",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/wind.png"
                 },
                 {
                   "name": "Could not be caused by the wind",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/notwind.png"
                 }
               ],
               "options": [
@@ -1676,23 +1676,23 @@
               "content": [
                 {
                   "text": "The energy that can be created by wind can be harnessed in really impactful ways. Wind energy or wind power are processes which create power and electricity through the use of wind. One way this occurs is through wind turbines.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/wind.png"
                 },
                 {
                   "text": "Watch videos and do some research on how these wind turbines work. Create a presentation that answers the following questions and choose an adult to present it to.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/windturbines.png"
                 },
                 {
                   "text": "How do wind turbines create energy?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/energy.png"
                 },
                 {
                   "text": "What do wind turbines replace?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/factory.png"
                 },
                 {
                   "text": "Why are wind turbines important to have in Kazakhstan?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/kazakhstan.png"
                 }
               ]
             }
@@ -1716,7 +1716,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/nooxygen.png",
               "prompt": "If there was no longer oxygen available on Earth, what would be the instantaneous effects? What would happen after that? (Hint: What process is oxygen vital for other than for human survival?) "
             },
             {
@@ -1747,11 +1747,11 @@
               "content": [
                 {
                   "text": "Let’s do an experiment! You have the opportunity to formulate your own experiment procedure and hypothesis that utilizes the sticky tape method. Cut a piece of clear tape and place it on the side of a building, leave it for 10 seconds, and then peel it off and out it onto a piece of paper. Label the date, time and location that this piece of tape is from. How many particles you get on the tape is a good indicator of air pollution in the area. But remember, the most dangerous forms of air pollution are a lot smaller than what would appear on tape.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/experiment.png"
                 },
                 {
                   "text": "While this is the method you will use, you can decide what exactly you are testing and your hypothesis. For example, if you want to test how air pollution changes in a day, you can conduct the experiment in the morning, noon, and night and analyze your results. Or, you could test different locations, different types of weather, are anything else you can think of! Make sure no matter what you decide to test, you conduct at least three trials!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/testing.png"
                 }
               ]
             }
@@ -1775,7 +1775,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/airpollution.png",
               "prompt": "In your opinion, what is the most important reason why people should care about air pollution? What are some reasons that you could give to someone who disagrees? "
             },
             {
@@ -1808,11 +1808,11 @@
               "categories": [
                 {
                   "name": "Natural Phenomena",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/natural.png"
                 },
                 {
                   "name": "Human Activity",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/human.png"
                 }
               ],
               "options": [
@@ -1849,19 +1849,19 @@
               "content": [
                 {
                   "text": "Let’s do one more experiment to help visualize the air pollution that surrounds us.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/experiment.png"
                 },
                 {
                   "text": "For this experiment you will need: A paper plate, Vaseline, Thread",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/plate.png"
                 },
                 {
                   "text": "Take the paper plate and poke a hole through it on an edge, just big enough to put the thread through so that you can hang up the plate. Rub a coating of Vaseline on one side of the plate.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/string.png"
                 },
                 {
                   "text": "Next, choose an area where you would like to test the air quality, and hang the plate there for one hour.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/airquality.png"
                 }
               ]
             }
@@ -1885,7 +1885,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/watercycle.png",
               "prompt": "What are the major components of the water cycle? Pick one and explain what would happen if that component was not part of the cycle. "
             },
             {
@@ -1935,7 +1935,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/precipitation.png",
               "prompt": "Create a unique definition of precipitation that demonstrates your understanding of the term. "
             },
             {
@@ -1968,19 +1968,19 @@
               "categories": [
                 {
                   "name": "Dew",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/dew.png"
                 },
                 {
                   "name": "Frost",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/frost.png"
                 },
                 {
                   "name": "Hail",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/hail.png"
                 },
                 {
                   "name": "Sleet",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/sleet.png"
                 }
               ],
               "options": [
@@ -2009,11 +2009,11 @@
               "content": [
                 {
                   "text": "There are things that everyone can do in order to preserve a resource as important as water. We will explore a few of those methods for preservation.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/waterfaucet.png"
                 },
                 {
                   "text": "When you brush your teeth, do you let the water from the sink run as you brush? Turning the faucet off can reduce the amount of water that gets wasted everyday.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/brushteeth.png"
                 }
               ]
             }
@@ -2037,7 +2037,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/solubility.png",
               "prompt": "How would you describe solubility to a student younger than you? What experiment could you conduct to help support your explanation? "
             },
             {
@@ -2067,11 +2067,11 @@
               "categories": [
                 {
                   "name": "Soluble",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/soluble.png"
                 },
                 {
                   "name": "Insoluble",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/insoluble.png"
                 }
               ],
               "options": [
@@ -2108,7 +2108,7 @@
               "content": [
                 {
                   "text": "Part 1: Let’s think some more about preserving water! How many days a week do you take showers? How many days a week do you take a bath? Believe it or not, showers require a significantly smaller amount of water than baths! If you take a 10 minute shower, then 25 gallons of water is used, while a bath would take 50 gallons. Calculate how much water you would save per week if you took a shower instead of a bath.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/preservingwater.png"
                 }
               ]
             }
@@ -2132,7 +2132,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter4/waterpollution.png",
               "prompt": "Have you seen water pollution? What was its cause and how can you reverse it? How does this pollution affect humans AND wildlife? "
             },
             {
@@ -2163,7 +2163,7 @@
               "content": [
                 {
                   "text": "Pollution in water has many harmful effects, one of which is harm to wildlife in the area. Many small rivers in Kazakhstan and the area have become polluted, largely due to industrial waste.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter4/harmfuleffects.png"
                 }
               ]
             }
@@ -2176,8 +2176,8 @@
       "title": "common:chapter5",
       "name": "gradefour:physics",
       "icon": "assets/grade4/chapter-icons/Physics.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "steelblue",
+      "colorTwo": "skyblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2197,7 +2197,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/vision.png",
               "prompt": "Write about why vision and the complex processes allowing us to see are important. "
             },
             {
@@ -2209,15 +2209,15 @@
               "categories": [
                 {
                   "name": "Transparent",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/transparent.png"
                 },
                 {
                   "name": "Translucent",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/translucent.png"
                 },
                 {
                   "name": "Opaque",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/opaque.png"
                 }
               ],
               "options": [
@@ -2266,7 +2266,7 @@
               "content": [
                 {
                   "text": "There are a lot of things in the world that we cannot see. For example, air and all of the things that may be in it. We can often see smog, which is made up of pollutants. In this instance, we can see polluted air.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/sky.png"
                 }
               ]
             }
@@ -2290,7 +2290,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/surfaces.png",
               "prompt": "Explain why some surfaces absorb more light than others. What happens to the light if it is not absorbed? "
             },
             {
@@ -2343,7 +2343,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/shadow.png",
               "prompt": "Describe what a shadow is exactly and what elements are needed to create a shadow. "
             },
             {
@@ -2355,11 +2355,11 @@
               "categories": [
                 {
                   "name": "Shadow-producing",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/shadow.png"
                 },
                 {
                   "name": "Non-shadow producing",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/transparent.png"
                 }
               ],
               "options": [
@@ -2392,7 +2392,7 @@
               "content": [
                 {
                   "text": "While the shape of an object always determines the shape of its shadow, the size and shape of the shadow can change depending on the position of the light.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/shape.png"
                 }
               ]
             }
@@ -2416,7 +2416,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/soundreflection.png",
               "prompt": "Describe what sound reflection is and in what environments the reflection is strongest and weakest. "
             },
             {
@@ -2447,7 +2447,7 @@
               "content": [
                 {
                   "text": "Sound pollution, often present in city environments, affects the quality of life of humans and animals alike.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/soundpollution.png"
                 }
               ]
             }
@@ -2471,7 +2471,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/words.png",
               "prompt": "How would you describe sound without using the words noise, ears, or loud? "
             },
             {
@@ -2483,11 +2483,11 @@
               "categories": [
                 {
                   "name": "Do affect wildlife",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/affectswildlife.png"
                 },
                 {
                   "name": "Do not affect wildlife",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/doesn_taffectwildlife.png"
                 }
               ],
               "options": [
@@ -2532,7 +2532,7 @@
               "content": [
                 {
                   "text": "Noise pollution can have large negative consequences for wildlife. Environmentalists provide a few options for people to help remedy the situation. We can turn off appliances when we aren’t using them, use earbuds, plant more trees, and provide regular maintenance of vehicles and machines.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/soundpollution.png"
                 }
               ]
             }
@@ -2556,7 +2556,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/thermalconductivity.png",
               "prompt": "How would you describe the concept of thermal conductivity to a student younger than you? How would you describe it to an adult? Write two different explanations. "
             },
             {
@@ -2568,11 +2568,11 @@
               "categories": [
                 {
                   "name": "High thermal conductivity",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/thermalconductivity.png"
                 },
                 {
                   "name": "Low thermal conductivity",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/lowconductivity.png"
                 }
               ],
               "options": [
@@ -2609,7 +2609,7 @@
               "content": [
                 {
                   "text": "Thermal conductivity refers to the transfer of heat, which is an important concept, not just in Physics class. The United Nations’ Sustainable Development Goal (SDG) #7, is Affordable and Clean Energy. Through the hyperlink, you will be brought to the United Nations’ website where they explain this goal in further detail.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/transferofheat.png"
                 }
               ]
             }
@@ -2633,7 +2633,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/thermalconductivity.png",
               "prompt": "Describe five ways in which thermal conductivity is present in your life. "
             },
             {
@@ -2645,11 +2645,11 @@
               "categories": [
                 {
                   "name": "Demonstrate thermal conductivity",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/thermalconductivity.png"
                 },
                 {
                   "name": "Do not demonstrate thermal conductivity",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/notthermalconductivity.png"
                 }
               ],
               "options": [
@@ -2678,7 +2678,7 @@
               "content": [
                 {
                   "text": "One way that we can support the goal of Affordable and Clean Energy is to be conscious of our current use of energy in our homes. See the table below to better understand how different appliances use energy.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/cleanenergy.png"
                 }
               ]
             }
@@ -2702,7 +2702,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/electroscope.png",
               "prompt": "Describe in as few words as possible what an electroscope is. "
             },
             {
@@ -2714,11 +2714,11 @@
               "categories": [
                 {
                   "name": "Useful",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/useful.png"
                 },
                 {
                   "name": "Non-useful",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/notuseful.png"
                 }
               ],
               "options": [
@@ -2743,7 +2743,7 @@
               "content": [
                 {
                   "text": "Think back to the plan you made last lesson to reduce energy consumption. In order to enact your plan and make a real difference, we need to get your household on board! Create a presentation that details your plan, why this plan would be effective, why others should care about their energy consumption, and the positive impacts that could come from this change.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/plan.png"
                 }
               ]
             }
@@ -2767,7 +2767,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter5/electricity.png",
               "prompt": "Explain what materials conduct electricity and which materials do not. "
             },
             {
@@ -2777,7 +2777,7 @@
               "content": [
                 {
                   "text": "Understanding how individuals can contribute to the goal of Affordable and Clean energy is a huge step in the right direction. What would be even better is if industry and large corporations also took important steps, including the implementation and use of clean and renewable energy.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter5/affordableenergy.png"
                 }
               ]
             }
@@ -2811,7 +2811,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/minerals.png",
               "prompt": "Explain what makes a material a mineral versus not a mineral. Give examples of minerals and substances you could rule out as minerals. "
             },
             {
@@ -2823,11 +2823,11 @@
               "categories": [
                 {
                   "name": "Minerals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/minerals.png"
                 },
                 {
                   "name": "Not minerals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/notamineral.png"
                 }
               ],
               "options": [
@@ -2883,7 +2883,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/mineralformation.png",
               "prompt": "Describe the process of mineral formation in one paragraph. "
             },
             {
@@ -2916,15 +2916,15 @@
               "categories": [
                 {
                   "name": "Igneous",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/igneous.png"
                 },
                 {
                   "name": "Sedimentary",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/sedimentary.png"
                 },
                 {
                   "name": "Metamorphic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/metaporphic.png"
                 }
               ],
               "options": [
@@ -2968,7 +2968,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/combustible.png",
               "prompt": "Describe what makes a material combustible and what makes a material fire-resistant. "
             },
             {
@@ -2980,11 +2980,11 @@
               "categories": [
                 {
                   "name": "Combustible",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/combustible.png"
                 },
                 {
                   "name": "Non-combustible",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/not combustible.png"
                 }
               ],
               "options": [
@@ -3040,7 +3040,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/ores.png",
               "prompt": "What is the difference between ore minerals and regular minerals? Would you be able to identify the difference? "
             },
             {
@@ -3052,11 +3052,11 @@
               "categories": [
                 {
                   "name": "Ore minerals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/ores.png"
                 },
                 {
                   "name": "Regular minerals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/minerals.png"
                 }
               ],
               "options": [
@@ -3089,7 +3089,7 @@
               "content": [
                 {
                   "text": "Kazakhstan holds vast mineral reserves which are largely undeveloped. The country possesses 30 % of the world's chrome ore reserves, 25 % of manganese ore, 10 % of iron ore, 5.5 % of copper, 10 % of lead and 13 % of zinc, according to official estimates.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/mineralreverves.png"
                 }
               ]
             }
@@ -3113,7 +3113,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/ferrousmetals.png",
               "prompt": "What does a metal need to contain to be considered ferrous? "
             },
             {
@@ -3125,11 +3125,11 @@
               "categories": [
                 {
                   "name": "Ferrous",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/ferrousmetals.png"
                 },
                 {
                   "name": "Non-ferrous",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/nonferrousmetals.png"
                 }
               ],
               "options": [
@@ -3158,7 +3158,7 @@
               "content": [
                 {
                   "text": "A metal with the descriptor “ferrous” means that it has iron in its composition. Mining of ferrous metals is popular but causes pollution in the process. Mining companies often have to pay a negative externality tax that may not directly be in the form of cash to compensate for their creation of pollutants.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/miningcompanies.png"
                 }
               ]
             }
@@ -3182,7 +3182,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/metal.png",
               "prompt": "What would you need in order to identify whether something is a metal or not? "
             },
             {
@@ -3194,11 +3194,11 @@
               "categories": [
                 {
                   "name": "Metallic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/metal.png"
                 },
                 {
                   "name": "Non-metallic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/nonmetals.png"
                 }
               ],
               "options": [
@@ -3227,7 +3227,7 @@
               "content": [
                 {
                   "text": "Everything that we use is made out of substances that when disposed of, have some sort of impact on the environment. Identify an item in your life that you use one time and dispose of. For example, using a baby wipe to clean and then throwing it out. This makes the baby wipe single use.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/sustainablealternatives.png"
                 }
               ]
             }
@@ -3251,7 +3251,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/minerals.png",
               "prompt": "What does a material need to contain to be considered non-metallic? "
             },
             {
@@ -3263,11 +3263,11 @@
               "categories": [
                 {
                   "name": "Metals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/metal.png"
                 },
                 {
                   "name": "Nonmetals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/nonmetals.png"
                 }
               ],
               "options": [
@@ -3296,7 +3296,7 @@
               "content": [
                 {
                   "text": "Think back to the sustainable alternative you found in the last lesson. Is this product more or less affordable than the less sustainable option? Why do you think this is?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/sustainable.png"
                 }
               ]
             }
@@ -3320,7 +3320,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/mineralresources.png",
               "prompt": "Is it possible for us to ever run out of mineral resources? If so, how would that impact the rest of the earth and human life? "
             },
             {
@@ -3332,15 +3332,15 @@
               "categories": [
                 {
                   "name": "Rare Earth Elements",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/rareearthelements.png"
                 },
                 {
                   "name": "Indium",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/indium.png"
                 },
                 {
                   "name": "Lithium",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/lithium.png"
                 }
               ],
               "options": [
@@ -3369,7 +3369,7 @@
               "content": [
                 {
                   "text": "Gemstones in Kazakhstan including emeralds, sapphires, topazes and tourmalines, and high-quality quartz are popular exports of the country.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/gemstones.png"
                 }
               ]
             }
@@ -3393,7 +3393,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/valuablematerials.png",
               "prompt": "Identify a material that can replace a valuable natural mineral and explain how it could replace it. You may have to do some research to answer this question! "
             },
             {
@@ -3403,7 +3403,7 @@
               "content": [
                 {
                   "text": "At this point, you must understand the value of the resources we already have on Earth. Many resources are limited, making recycling a very important activity for every citizen to participate in. We can create brand new things from those no longer needed.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/limitedresources.png"
                 }
               ]
             }
@@ -3427,7 +3427,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/mining.png",
               "prompt": "Describe at least two pros and two cons that come as a result of mining. "
             },
             {
@@ -3439,11 +3439,11 @@
               "categories": [
                 {
                   "name": "Positive",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/positive.png"
                 },
                 {
                   "name": "Negative",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/negative.png"
                 }
               ],
               "options": [
@@ -3488,7 +3488,7 @@
               "content": [
                 {
                   "text": "Recycling is of course important, but there are many places including, homes, businesses, schools, that don’t make it easy for people to recycle. Look around your city and think critically to identify places that could provide an easy way for people to recycle and that don’t already.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/recycling.png"
                 }
               ]
             }
@@ -3512,7 +3512,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter6/miningcorporation.png",
               "prompt": "What mining occurs near you? What corporations conduct it? "
             },
             {
@@ -3524,11 +3524,11 @@
               "categories": [
                 {
                   "name": "Sustainable",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/sustainable.png"
                 },
                 {
                   "name": "Unsustainable",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter6/unsustainable.png"
                 }
               ],
               "options": [
@@ -3598,7 +3598,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/earth.png",
               "prompt": "Describe earth in a sentence only using five words. "
             },
             {
@@ -3643,19 +3643,19 @@
               "categories": [
                 {
                   "name": "1.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/atlanticocean.png"
                 },
                 {
                   "name": "2.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/pacificocean.png"
                 },
                 {
                   "name": "3.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/arcticocean.png"
                 },
                 {
                   "name": "4.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/indianocean.png"
                 }
               ],
               "options": [
@@ -3689,49 +3689,49 @@
                 },
                 {
                   "name": "North America",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/northamerica.png"
                 },
                 {
                   "name": "South America"
                 },
                 {
                   "name": "South America",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/southamerica.png"
                 },
                 {
                   "name": "Australia"
                 },
                 {
                   "name": "Australia",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/australia.png"
                 },
                 {
                   "name": "Asia"
                 },
                 {
                   "name": "Asia",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/asia.png"
                 },
                 {
                   "name": "Europe"
                 },
                 {
                   "name": "Europe",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/europe.png"
                 },
                 {
                   "name": "Africa"
                 },
                 {
                   "name": "Africa",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/africa.png"
                 },
                 {
                   "name": "Antarctica"
                 },
                 {
                   "name": "Antarctica",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/antarctica.png"
                 }
               ]
             },
@@ -3761,7 +3761,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/mountains.png",
               "prompt": "Describe the environment of the city you live in and where the nearest mountains/plains exist. "
             },
             {
@@ -3814,7 +3814,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/elevation.png",
               "prompt": "Describe how variance in elevation affects life. "
             },
             {
@@ -3843,7 +3843,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/space.png",
               "prompt": "Describe space to someone who is younger than you. "
             },
             {
@@ -3890,7 +3890,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/cosmicbodies.png",
               "prompt": "Describe small cosmic bodies and their importance in space. "
             },
             {
@@ -3937,7 +3937,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/earth.png",
               "prompt": "Explain the interaction between space and earth and why they need each other. "
             },
             {
@@ -3949,11 +3949,11 @@
               "categories": [
                 {
                   "name": "Influenced by Pollution",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/pollution.png"
                 },
                 {
                   "name": "Not influenced by Pollution",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter7/nopollution.png"
                 }
               ],
               "options": [
@@ -4001,7 +4001,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/earthsrevolution.png",
               "prompt": "Describe the process of the earth revolving around the sun and where the earth lies in the solar system. "
             },
             {
@@ -4057,7 +4057,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/sun.png",
               "prompt": "What is the importance of the sun and its energy being reflected on earth? "
             },
             {
@@ -4107,7 +4107,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter7/seasons.png",
               "prompt": "Describe the varying seasons and what causes the seasons to change. "
             },
             {
@@ -4146,7 +4146,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter8/archimedes.png",
               "prompt": "Describe the law of Archimedes in one paragraph or less. "
             },
             {
@@ -4199,7 +4199,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter8/buoyancy.png",
               "prompt": "Describe buoyancy in one sentence. "
             },
             {
@@ -4249,7 +4249,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter8/airpollution.png",
               "prompt": "How would air pollution interact with the law of Archimedes? "
             },
             {
@@ -4296,7 +4296,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter8/lawofarchimedes.png",
               "prompt": "Describe where the law of Archimedes is present in your day-to-day life "
             },
             {
@@ -4346,7 +4346,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade4/chapter8/floatation.png",
               "prompt": "Describe floatation and what makes an object float vs. sink. "
             },
             {
@@ -4358,11 +4358,11 @@
               "categories": [
                 {
                   "name": "Floats",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter8/floats.png"
                 },
                 {
                   "name": "Does not float",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade4/chapter8/sinks.png"
                 }
               ],
               "options": [

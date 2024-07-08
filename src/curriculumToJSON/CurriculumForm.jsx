@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { downloadBlob, parseDocument } from './parser.js';
 
-//The RunParser components which calls the script in parser.js is the last functional component at the bottom of this file.
+//The RunParser component which calls the script in parser.js is the last functional component at the bottom of this file.
 
 /**
- * @param handleGapiState callback passed in from CurriculumToJSON to track Google API initialization in GoogleDocsAPI 
+ * @param gapiState passed in from CurriculumToJSON to track Google API initialization in GoogleDocsAPI 
  * @returns the dropdown to select a curriculum document and the run parser button
 */
 function CurriculumForm({ gapiState }) {
@@ -83,7 +83,7 @@ function CurriculumDropdown({ value, handleChange }) {
    );
 }
 
-//@jac927 6/11/24 PLEASE NOTE: Before you start reading code in parser.js, it is heavily recommended that you:
+// @jac927 6/11/24 | PLEASE NOTE: Before you start reading code in parser.js, it is heavily recommended that you:
 //1. look through the Save Tuba curriculum documents and understand the format of the document (especially minigame format!)
 //2. look through the existing Firestore data and understand the JSON format of chapters, lessons, languages, and minigames
 //3. see the JSON parser data references in ../data/parser_references

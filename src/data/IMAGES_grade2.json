@@ -2629,7 +2629,7 @@
                 },
                 {
                   "text": "Find out one planet that we are exploring currently. Then, figure out the method of exploration.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade2/chapter4/astronaut.png"
                 }
               ]
             }
@@ -2842,8 +2842,8 @@
       "title": "common:chapter5",
       "name": "gradetwo:physics",
       "icon": "assets/grade2/chapter-icons/physics.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "mediumvioletred",
+      "colorTwo": "lightpink",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3047,7 +3047,7 @@
               "content": [
                 {
                   "text": "The object that moves faster has a higher speed. This means that during the same time, the object with a higher speed will cover a longer distance.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade2/chapter5/bus.png"
                 }
               ]
             }

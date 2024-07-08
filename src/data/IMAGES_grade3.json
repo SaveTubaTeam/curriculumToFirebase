@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "gradethree:introduction",
       "icon": "assets/grade3/chapter-icons/book.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "steelblue",
+      "colorTwo": "skyblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -355,8 +355,8 @@
       "title": "common:chapter2",
       "name": "gradethree:livenature",
       "icon": "assets/grade3/chapter-icons/antelope.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "mediumvioletred",
+      "colorTwo": "lightpink",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2149,7 +2149,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/organicmatter.png",
               "prompt": "When we change an object from one state to another state of matter are we being sustainable? Don't changes of states of matter require energy? If so, think about some changes of matter that harm our environment. "
             },
             {
@@ -2159,11 +2159,11 @@
               "content": [
                 {
                   "text": "There are three different states of substances. They can be in solid, liquid, or gas form. Under the right circumstances, substances can change from one state to another or they can change their states completely from top to bottom. Understand how the different states of matter interact with each other.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/organicmatter.png"
                 },
                 {
                   "text": "This activity requires three materials: Glass, Raisins, Clear soda, such as Sprite. This simple states of matter experiment will allow you to see how solid, liquid, and gas substances react.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/helpfulhumans.png"
                 }
               ]
             }
@@ -2233,7 +2233,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/helpfulhumans.png",
               "prompt": "I think we can all agree that humans release chemicals, pollutants, pesticides, etc. into the air that negatively impact air quality. However, not everything we release into the air is necessarily harmful. What can humans release into the air that will positively impact the air quality? "
             },
             {
@@ -2243,7 +2243,7 @@
               "content": [
                 {
                   "text": "The air is very important for the life of every living thing on Earth. The air we breathe is a mixture of several different gasses. Imagine, though, that we are not able to inhabit Earth anymore.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/community.png"
                 }
               ]
             }
@@ -2303,7 +2303,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/carfortheplanet.png",
               "prompt": "What are the many properties of air, and how do they positively impact the environment? Why are these properties so important for maintaining homeostasis? "
             },
             {
@@ -2313,11 +2313,11 @@
               "content": [
                 {
                   "text": "Air has many properties. The air has many gasses such as oxygen, nitrogen, carbon dioxide, etc. This experiment is called ‘What’s in the air?’ and all we need is a plate, candle, matches, play dough, a jar, and some coloured water.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 },
                 {
                   "text": "The first step is to use the play dough to stand the candle up in the middle of the plate. Then we pour the coloured water onto the plate around the candle. Next, ask someone to help you light the candle. What will happen when we put the jar over the top of the candle? We put the jar over the top to see if we were right. After a few seconds the candle went out. Do you notice if anything else has changed.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/candle.png"
                 }
               ]
             }
@@ -2375,7 +2375,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/aquaticecosystem.png",
               "prompt": "Do you believe that everyone in the world has access to a water source? If so, it stands to reason that not everyone has the same type of water source. Can you think of the many different types of water sources that exist? "
             },
             {
@@ -2385,7 +2385,7 @@
               "content": [
                 {
                   "text": "Humans, plants, and animals all have a great amount of water within their bodies. No single living organism on Earth can survive without water, either. If water is so important, where do we get our water from?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/aquaticecosystem.png"
                 }
               ]
             }
@@ -2486,7 +2486,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/community.png",
               "prompt": "Not all communities possess access to a natural water source. However, the communities that do must address the issues of water pollution, overuse, and scarcity. Can you think of ways they address these issues and how you can address these same issues,, iif present, in your community? "
             },
             {
@@ -2496,7 +2496,7 @@
               "content": [
                 {
                   "text": "Although we spend most of our lives on land, the Earth is mostly occupied by water. Bodies of water range from oceans, rivers, lakes, and seas. The largest body of water, an ocean, is very unexplored. There is so much of it but so little we know.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/aquaticecosystem.png"
                 }
               ]
             }
@@ -2566,7 +2566,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/community.png",
               "prompt": "What are some ways that your local government can make sure that human drinking water isn’t used for wrongful purposes, such as wastefulness? "
             },
             {
@@ -2576,7 +2576,7 @@
               "content": [
                 {
                   "text": "Human drinking water is not infinite. Water is needed to drink, cook, clean, wash, warm, etc. If we take clean water and return it dirty to nature, it won’t help the plants ecosystem. Therefore, it is in our best interests to conserve as much water as possible.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/dirtywater.png"
                 }
               ]
             }
@@ -2638,7 +2638,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/aquaticecosystem.png",
               "prompt": "How can we protect and restore aquatic ecosystems and the many benefits they provide, such as water purification, flood control, and habitat for a variety of species? Extend your answer to list several water purification methods, from natural to man made. "
             },
             {
@@ -2648,7 +2648,7 @@
               "content": [
                 {
                   "text": "Although water is found almost everywhere, we can’t just drink it from the source. Water has to be rid of all contaminants and purified before human use. There are many ways to purify water with one easy household method being boiling water. I’ll show you another easy household method of purifying water.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/contaminants.png"
                 }
               ]
             }
@@ -2708,7 +2708,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/climatechange.png",
               "prompt": "What role can soil play in slowing down climate change? "
             },
             {
@@ -2718,19 +2718,19 @@
               "content": [
                 {
                   "text": "Soil is a mixture of minerals and organic matter that covers much of the Earth’s surface. Soil is very important and without it, most life on Earth could not survive. However, are there any plants that can grow without soil?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/observelayersofdirt.png"
                 },
                 {
                   "text": "Who Needs Dirt? In this science project, we’ll teach you to grow a sweet potato plant without soil -- all you'll use are toothpicks and water. What You'll Need: Toothpicks, Sweet potato, Glass, Water.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/soilfertility.png"
                 },
                 {
                   "text": "Step 1: Insert three toothpicks around a sweet potato near the large end so they stick out to the sides in different directions.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/toothpicks.png"
                 },
                 {
                   "text": "Step 2: Fill a glass most of the way with water. Put the sweet potato into the glass small-end first, and rest the toothpicks on the rim so they hold up the sweet potato. There should be enough water in the glass so that about 3/4 of the sweet potato is covered.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 }
               ]
             }
@@ -2798,7 +2798,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/soilsustainability.png",
               "prompt": "What are the most promising technologies and approaches for improving soil sustainability in different regions and contexts? "
             },
             {
@@ -2808,35 +2808,35 @@
               "content": [
                 {
                   "text": "As said previously, soil has two main components: minerals and organic matter. The mineral part of soil forms from rocks. Forces such as wind, water, and temperature changes break rocks into tiny bits. The organic part of soil forms when plants and animals die. The organic material is called humus and it helps to form the pores in the soil.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/minerals.png"
                 },
                 {
                   "text": "Dirt Discovery is a science project that will teach you about this soil composition. There's more to dirt than you think! Find out what it's made of. What You'll Need: Waterproof table covering, Jar with lid, Spoon, Dirt, Pitcher of water, Paper towels, Magnifying glass",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/soilcomposition.png"
                 },
                 {
                   "text": "Step 1: Cover your work surface. Fill a jar halfway with dirt. Add water nearly to the top of the jar. Put the lid on, and tighten it securely.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/community.png"
                 },
                 {
                   "text": "Step 2: Shake the jar vigorously for a half a minute, and then set it down. Let the jar stand until the dirt and water settle. The soil will settle into layers.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/soilcomposition.png"
                 },
                 {
                   "text": "Step 3: Observe the layers in the jar, and see what you can tell about them. How many layers are there? Which layer is made of the biggest particles? Which is the smallest? Can you guess why?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/observelayersofdirt.png"
                 },
                 {
                   "text": "Step 4: To further examine the different layers and what they are made of, you can sort out the soil materials and examine them. Use a spoon to skim off the objects floating in the water. Place them on a paper towel.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/soilfertility.png"
                 },
                 {
                   "text": "Step 5: Then carefully pour off the water on the top and scoop out the grains of the next level onto another paper towel. Do the same if there is another level.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/organicmatter.png"
                 },
                 {
                   "text": "Step 6: After each layer has been placed onto towels, they can be examined with the magnifying glass. What else can you tell about the different layers after further examination?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/magnifyingglass.png"
                 }
               ]
             }
@@ -2906,7 +2906,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/soilcomposition.png",
               "prompt": "How can we prevent and slow down soil contamination from industrial and agricultural activities? "
             },
             {
@@ -2916,23 +2916,23 @@
               "content": [
                 {
                   "text": "Soil helps plants grow and provides the plants with nutrients. Some soils have different colors than others. Some soils are considered poor rather than rich. And some soils help plants grow more than others. Soil has many properties such as air permeability, water permeability, thermal conductivity, and fertility. From this, I want you to test which soils are better than others and observe what properties play a role in this.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 },
                 {
                   "text": "What You'll Need: Garden soil, Trowel, Small flowerpots with saucers, Water, Bean seeds, Tall stakes, Pencil or pen, Ruler, Paper (graph paper optional), Tape",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 },
                 {
                   "text": "Step 1: Look in your yard for areas where plants grow poorly. Is the soil trampled and hard? Is the soil soft and loose where plants grow well? Look for sandy or heavy, clay-like soil.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 },
                 {
                   "text": "Step 2: Gather samples of different soils and fill a flowerpot with each kind. Label your flowerpots: \"Hard, baked soil near the sidewalk,\" \"Loose, fluffy soil from the flower bed,\" etc.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 },
                 {
                   "text": "Step 3: Water the pots, then plant two or three bean seeds in each. Put a stake in each pot for the beans to climb. Keep the pots moist (but not soggy) while the beans sprout.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/carfortheplanet.png"
                 }
               ]
             }
@@ -3002,7 +3002,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/publicawareness.png",
               "prompt": "How can we increase public awareness and understanding of the importance of soil health and sustainability? "
             },
             {
@@ -3012,7 +3012,7 @@
               "content": [
                 {
                   "text": "Let’s take a deeper dive into soil fertility. Plants need nutrients just like people.  A fertile soil will contain all the major nutrients for basic plant nutrition, as well as other nutrients in smaller amounts.  Sadly, many soils don’t have good levels of all the necessary plant nutrients. Many solids also lack favorable conditions for plant uptake of certain nutrients.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/soilfertility.png"
                 }
               ]
             }
@@ -3100,7 +3100,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/carfortheplanet.png",
               "prompt": "Do you think that most people care about our planet? What makes our planet unique and important? "
             },
             {
@@ -3167,7 +3167,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/astronautglove.png",
               "prompt": "Space exploration isn’t cheap and neither is it easy to execute. One of the costs of space exploration is the amount of fuel needed for the rocket launches and space missions. How can we minimize the environmental impact of rocket launches and space missions? What methods can we use to continue our space exploration without depleting Earth’s resources and harming the environment? "
             },
             {
@@ -3177,23 +3177,23 @@
               "content": [
                 {
                   "text": "Space exploration is worlds different from the exploration of Earth. Through our expeditions into space, we’ve learned about the properties of other planets and how habitable they are for us. We’ve learned about how our own planet fares against other planets. Space exploration has provided us with a lot of data, and every time we send a satellite or an astronaut up there, we receive new information. It’s important to keep those astronauts safe. What happens, though, if an astronaut lands into an issue?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/astronautglove.png"
                 },
                 {
                   "text": "CAN YOU FIX THE ASTRONAUTS GLOVE?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/astronautglove.png"
                 },
                 {
                   "text": "Materials: Masking tape, Sellotape, Gaffer tape, Plasters, Thick washing up glove, Water, Sink or Washing up bowl. Look at the materials you have available to fix the glove, which do you think will work the best?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/astronautglove.png"
                 },
                 {
                   "text": "The glove needs to be airtight, how could you test this? Design several different tests to see if the glove is fixed.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/astronautglove.png"
                 },
                 {
                   "text": "Place your hand inside the glove and wiggle it around, does the fix stay in place?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/astronautglove.png"
                 }
               ]
             }
@@ -3253,7 +3253,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter3/solarsystem.png",
               "prompt": "What measures can be taken to reduce the amount of space debris and pollution in Earth's orbit? "
             },
             {
@@ -3263,7 +3263,7 @@
               "content": [
                 {
                   "text": "Earth’s movement around the sun wasn't always agreed upon. Many believed that the other planets revolved around the Earth. Since we now know that all the planets in our solar system revolve around the Sun, we can use that to formulate other theories. We also know that the Earth’s moon revolves around the Earth. This revolution around a celestial body or the Earth is called an orbit.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter3/solarsystem.png"
                 }
               ]
             }
@@ -3333,7 +3333,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter4/elasticforce.png",
               "prompt": "What is elastic force, and how does it differ from other types of force? "
             },
             {
@@ -3343,19 +3343,19 @@
               "content": [
                 {
                   "text": "The force of elasticity is one of the important ones. To expand, elastic distortion is when an object returns to its original shape when the force is gone. Inelastic distortion, the opposite, is when an object stays in the changed shape after the force is gone. Elastic potential energy is when an object is stretched and gains energy. We can test out elastic energy really easily.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/distortion.png"
                 },
                 {
                   "text": "You’ll need: Shoe box, Wooden spoon or a lolly stick and milk carton top, 2 pencils or dowel, Elastic bands, Marshmallows or small light balls",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/shoebox.png"
                 },
                 {
                   "text": "SHOEBOX CATAPULT INSTRUCTIONS; Use the pencil to carefully pierce two holes in the shoe box. These need to be slightly towards one end of the box, about 2 cm from the top and at the same height. Glue a milk carton top to the lolly stick and leave to dry. Use the elastic bands to tie the lolly stick to the pencil/dowel and place the pencil/dowel through the holes.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/catapult.png"
                 },
                 {
                   "text": "Use the second pencil to make another hole in the box. This needs to be towards the bottom of the end of the box where the spoon is. Tie an elastic band around the handle of the spoon and thread the other end through the hole in the box.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/pencil.png"
                 }
               ]
             }
@@ -3415,7 +3415,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter4/gravity.png",
               "prompt": "What is gravity, and how does it differ from other types of force? "
             },
             {
@@ -3425,19 +3425,19 @@
               "content": [
                 {
                   "text": "The force of gravity is very important. Each planet has its own gravity as does anything with mass (however, objects, people, plants, and animals on Earth are so miniscule, our gravity is nothing). Gravity is what pulls objects down and towards the center. Let’s test this.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/force.png"
                 },
                 {
                   "text": "This next experiment requires just three items: A paper cup, Water, A pencil",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/papercup.png"
                 },
                 {
                   "text": "On the outside of the cup near the bottom, poke a hole using a pencil. Placing a finger over the hole, fill the cup with water. Remove your finger from the hole. You should find that the water flows out of the cup in an even, steady stream (if the water is not quite flowing smoothly, try poking a new hole and refill the cup with water).",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/finger.png"
                 },
                 {
                   "text": "Next, holding your finger over the hole, fill the cup once again with water. Drop the cup, removing your finger from the hole at the same time. You’ll find that as the cup falls, no water flows out of the hole.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/water.png"
                 }
               ]
             }
@@ -3497,7 +3497,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter4/friction.png",
               "prompt": "What is friction, and how does it differ from other types of force? "
             },
             {
@@ -3507,19 +3507,19 @@
               "content": [
                 {
                   "text": "There are four types of friction consisting of fluid friction, sliding friction, rolling friction, and static friction. Friction is a force that reduces motion between objects that are in contact. Friction can stop or slow down movement. When an object is smooth, there is less friction to be created compared to a rough object, where there is much friction to be created. Nonetheless, the force of friction is really strong. Let’s test that.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/rollingfriction.png"
                 },
                 {
                   "text": "Phone Book Friction",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/fluidfriction.png"
                 },
                 {
                   "text": "Materials: Two phone books about the same size (2 books with soft covers will work). This experiment was tested on the show Mythbusters. The phone books wouldn't come apart using all the Mythbusters' gadgets and even attaching the phone books between two cars. It took two tanks to pull the books apart. That's how strong friction can be. Phone books are usually used for this experiment, but books with many pages (100+) and soft covers will work. Textbooks work great as well. The main thing you want is two books of about equal size.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/staticfriction.png"
                 },
                 {
                   "text": "Before you begin, just half the books and put them together to show how easily they will come apart that way. Now, interlace the pages by alternating a page from each book. The pages of the books will be woven, and the spines will be facing out. Make sure several inches of the pages overlap. So you'll lay down the cover of book A, then the cover of book B over it. Then the back page of book A and the back page of book B. Then the next page and so on until the books' pages are woven together. You don't actually have to do every page for the experiment to work. You can weave a few pages at a time, so it won't be an all-day process.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/phonebook.png"
                 }
               ]
             }
@@ -3573,7 +3573,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter4/motionofobjects.png",
               "prompt": "How do forces interact with matter, and how do they cause changes in the motion and behavior of objects? And, What are some common examples of forces in everyday life, and how do they affect the motion of objects? "
             },
             {
@@ -3583,11 +3583,11 @@
               "content": [
                 {
                   "text": "The different forces have a direction unique to them. For example, the direction of gravity follows the direction of freefall. While the direction of friction is in the opposite direction of movement. And the elastic force depends on the deformation. Let’s play around with forces and change the conditions to see how the forces react",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/freefall.png"
                 },
                 {
                   "text": "What you need: Milk jug – empty and rinsed, Sellotape, Paper, Decorations – optional. Make a cone shape using the paper and sellotape. Place the cone on top of the milk jug. Squeeze the milk jug hard. The cone rocket should shoot up into the air.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/milkjug.png"
                 }
               ]
             }
@@ -3647,7 +3647,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade3/chapter4/shadow.png",
               "prompt": "What is a shadow, and how is it formed? What are the many factors that can affect a shadow. For example, the time of day is one factor. Can you think of any more? "
             },
             {
@@ -3657,7 +3657,7 @@
               "content": [
                 {
                   "text": "Shadows are formed when an object is placed in the path of light. A transparent object cannot make any shadow as light passes straight through it. Translucent objects create little shadows as light is able to pass only a bit through them. Shadows also change over time. Let’s test that!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade3/chapter4/pathoflight.png"
                 }
               ]
             }
