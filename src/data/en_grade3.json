@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -357,8 +357,8 @@
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "darkolivegreen",
-      "colorTwo": "darkgreen",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2103,8 +2103,8 @@
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3298,8 +3298,8 @@
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",

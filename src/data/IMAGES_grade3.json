@@ -1288,7 +1288,7 @@
                 },
                 {
                   "name": "Soil, Ground, & Air",
-                  "image": "assets/grade3/chapter2/Landanimal.png"
+                  "image": "assets/grade3/chapter2/Landanimals.png"
                 }
               ],
               "options": [
@@ -1331,7 +1331,7 @@
               "content": [
                 {
                   "text": "Waste and trash can contaminate animal habitats and also harm animals directly. There are many ways humans can help with this problem and help keep them safe. One way is picking up trash and waste whenever we see it.",
-                  "image": "assets/grade3/chapter2/ecosystem-circle.png"
+                  "image": "assets/grade3/chapter2/Ecosystem.png"
                 }
               ]
             }
@@ -1697,7 +1697,7 @@
               "content": [
                 {
                   "text": "Deforestation can occur in many different ways, and cause countless consequences in return. Research a forest that has recently experienced a disaster. Identify the causes and outcomes.",
-                  "image": "assets/grade3/chapter2/Deforestation.png"
+                  "image": "assets/grade3/chapter2/Countryside.png"
                 }
               ]
             }
@@ -2082,8 +2082,8 @@
       "title": "common:chapter3",
       "name": "gradethree:substances",
       "icon": "assets/grade3/chapter-icons/rock-garden.png",
-      "colorOne": "mediumpurple",
-      "colorTwo": "indigo",
+      "colorOne": "indigo",
+      "colorTwo": "mediumpurple",
       "lessons": [
         {
           "navigation": "Lesson1",

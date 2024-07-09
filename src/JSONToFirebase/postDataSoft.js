@@ -178,7 +178,7 @@ async function updateMasteryAndMinigameObject(currentObject, masteryAndMinigames
      await masteryAndMinigamesReference.update({ ...existingObjectData });
      console.log(`\t\t${currentObject.navigation} successfully updated!`);
   } catch(error) {
-     console.log(`updateMasteryAndMinigames() ERROR ${currentObject.navigation}:`, error)
+     console.error(`updateMasteryAndMinigameObject() ERROR ${currentObject.navigation}:`, error)
   }
 }
 

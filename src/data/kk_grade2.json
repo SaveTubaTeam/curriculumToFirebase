@@ -5,34 +5,34 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Дүниедегі заттарды табу",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Memory",
               "title": "common:memory",
               "icon": "assets/willpower.png",
               "backgroundColor": "dodgerblue",
-              "prompt": "Сопоставьте различные источники информации.",
+              "prompt": "Інформацияның көздерін сәйкестеу.",
               "content": [
                 {
-                  "name": "Открытие"
+                  "name": "Көздің шектеу"
                 },
                 {
-                  "name": "Открытие",
+                  "name": "Көздің шектеу",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "name": "Другие люди"
+                  "name": "Басқа адамдар"
                 },
                 {
-                  "name": "Другие люди",
+                  "name": "Басқа адамдар",
                   "image": "assets/cotton.png"
                 },
                 {
@@ -43,24 +43,24 @@
                   "image": "assets/cotton.png"
                 },
                 {
-                  "name": "Книги"
+                  "name": "Кітаптар"
                 },
                 {
-                  "name": "Книги",
+                  "name": "Кітаптар",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "name": "Эксперименты"
+                  "name": "Эксперименттер"
                 },
                 {
-                  "name": "Эксперименты",
+                  "name": "Эксперименттер",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "name": "Человек"
+                  "name": "Өзіңіз"
                 },
                 {
-                  "name": "Человек",
+                  "name": "Өзіңіз",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -70,43 +70,9 @@
               "title": "common:sorting",
               "icon": "assets/recycle-bin.png",
               "backgroundColor": "coral",
-              "prompt": "Выберите изображение, которое представляет объект ниже. ",
-              "categories": [
-                {
-                  "name": "1.",
-                  "image": "assets/cotton.png"
-                },
-                {
-                  "name": "2.",
-                  "image": "assets/cotton.png"
-                },
-                {
-                  "name": "3.",
-                  "image": "assets/cotton.png"
-                },
-                {
-                  "name": "4.",
-                  "image": "assets/cotton.png"
-                }
-              ],
-              "options": [
-                {
-                  "name": "1.",
-                  "title": "Электрический Микроскоп"
-                },
-                {
-                  "name": "2.",
-                  "title": "Оптический Микроскоп"
-                },
-                {
-                  "name": "3.",
-                  "title": "Стакан"
-                },
-                {
-                  "name": "4.",
-                  "title": "Линейка"
-                }
-              ]
+              "prompt": "",
+              "categories": [],
+              "options": []
             },
             {
               "navigation": "Image Boom",
@@ -114,14 +80,14 @@
               "title": "common:imageboom",
               "icon": "assets/image.png",
               "image": "assets/cotton.png",
-              "prompt": "Используя один из источников информации, узнайте о устойчивом изобретении. Какой ученый внес наибольший вклад в его развитие? "
+              "prompt": "Тұрақты өнертабыс туралы ақпарат табыңыз. Оны дамытуға көптеген үлесі бар ғалым кім? Осы құрылымның маңызы туралы қысқаша жауап жазыңыз. "
             },
             {
               "navigation": "Snapshot",
               "title": "common:snapshot",
               "icon": "assets/camera.png",
               "backgroundColor": "#FFD972",
-              "prompt": "Загрузите фотографию устойчивого изобретения, описанного в мини-игре Open Response. "
+              "prompt": "Ашық шағын ойында сипатталған тұрақты өнертабыстың суретін жүктеңіз. "
             },
             {
               "navigation": "Mastery",
@@ -138,9 +104,9 @@
         },
         {
           "navigation": "Lesson2",
-          "title": "2. Одуванчик неге парашютке ұқсайды?",
+          "title": "2. Неліктен бақбақ парашютқа ұқсайды?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -148,14 +114,14 @@
               "title": "common:imageboom",
               "icon": "assets/image.png",
               "image": "assets/cotton.png",
-              "prompt": "Выберите случайный предмет вокруг вас. Завершите предложение. Байқау (сіздің нысаныңыз), мен білдім ... "
+              "prompt": "Өзіңіздің айналаңыздан бір затты таңдаңыз. Мына сөйлемді аяқтаңыз: (Затыңызды) бақылап, мен білдім … "
             },
             {
               "navigation": "Snapshot",
               "title": "common:snapshot",
               "icon": "assets/camera.png",
               "backgroundColor": "#FFD972",
-              "prompt": "Прогуляйтесь и сфотографируйте одуванчик. Загрузите свою фотографию ниже. "
+              "prompt": "Серуенге шығыңыз және сол серуен кезінде бақбақтың суретін түсіріңіз. "
             },
             {
               "navigation": "Quiz",
@@ -164,27 +130,27 @@
               "backgroundColor": "mediumpurple",
               "content": [
                 {
-                  "prompt": "Что не является человеческим чувством?",
+                  "prompt": "Адамның сезім мүшелеріне қайсысы жатпайды?",
                   "answers": [
-                    "Зрение",
-                    "Слух",
-                    "Обоняние",
+                    "Көру",
+                    "Есту",
+                    "Иіс сезу",
                     "Интуиция",
-                    "Вкус",
-                    "Касание"
+                    "Дәм сезу",
+                    "Тері сезімі"
                   ],
                   "answer": "Интуиция"
                 },
                 {
-                  "prompt": "Наблюдение - это основной метод изучения природы.",
+                  "prompt": "Табиғатты үйренудің негізгі әдісі – бақылау",
                   "answers": [
-                    "Правда",
-                    "Ложь"
+                    "Шын",
+                    "Жалған"
                   ],
-                  "answer": "Правда"
+                  "answer": "Шын"
                 },
                 {
-                  "prompt": "Жаратылыстану ғылымының қандай түріне жатпайды?",
+                  "prompt": "Табиғат ғалымының қай түріне жатпайды?",
                   "answers": [
                     "Биолог",
                     "Химик",
@@ -195,12 +161,12 @@
                   "answer": "Экономист"
                 },
                 {
-                  "prompt": "Астрономы используют какое здание для наблюдения за объектами через мощные телескопы?",
+                  "prompt": "Астрономдар күшті телескоптар арқылы объектілерді бақылау үшін қандай ғимаратты пайдаланады?",
                   "answers": [
                     "Планетарий",
                     "Обсерватория",
                     "Музей",
-                    "Башня"
+                    "Мұнара"
                   ],
                   "answer": "Обсерватория"
                 }
@@ -211,28 +177,28 @@
               "title": "common:reorder",
               "icon": "assets/reorder.png",
               "backgroundColor": "pink",
-              "prompt": "Упорядочите приведенные ниже пункты, чтобы показать, какие шаги необходимо предпринять при разработке эксперимента.",
+              "prompt": "Экспериментті жобалау қадамдарын ретімен қойыңыз:",
               "content": [
                 {
-                  "text": "Подумать о необходимом оборудовании"
+                  "text": "Бақылау мақсатын жасау"
                 },
                 {
-                  "text": "Подумать об этапах наблюдения"
+                  "text": "Бақылау үшін объектіні таңдау"
                 },
                 {
-                  "text": "Выбрать временные рамки наблюдения"
+                  "text": "Бақылау кезеңдерін ойлау"
                 },
                 {
-                  "text": "Выбрать объект для наблюдения"
+                  "text": "Қажетті жабдықтарды ойлау"
                 },
                 {
-                  "text": "Записать или нарисовать наблюдение"
+                  "text": "Бақылау мерзімін таңдау"
                 },
                 {
-                  "text": "Выбрать цель наблюдения"
+                  "text": "Бақылауды жазу немесе суретін салу"
                 },
                 {
-                  "text": "Сделать вывод"
+                  "text": "Қорытынды жасау"
                 }
               ]
             },
@@ -248,7 +214,7 @@
           "navigation": "Lesson3",
           "title": "3. Эксперимент дегеніміз не?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -256,7 +222,7 @@
               "title": "common:imageboom",
               "icon": "assets/image.png",
               "image": "assets/cotton.png",
-              "prompt": "Табиғаттан не дейін жүз астына шығаруға байланысты эксперимент жасаңыз. "
+              "prompt": "Табиғаттағы бір нәрсені талдауға байланысты эксперимент жасаңыз. Экспериментке өз жоспарыңызды жазыңыз. "
             },
             {
               "navigation": "Snapshot",
@@ -282,7 +248,7 @@
                   "answer": "Бақылау"
                 },
                 {
-                  "prompt": "Болар ашылған жағдайда ағаның жатысы сезіндіріп, сіз өте соққан. Бұл эксперимент жүргізу кезіндегі қай қадаммен ең жақын байланысты?",
+                  "prompt": "Төсекте жатқан кезде , ағаңыз есікті ашқан сайын , сіз өзіңізді салқын сезінесіз. Бұл эксперименттің қай қадамына жатады?",
                   "answers": [
                     "Гипотеза құру",
                     "Тест жасау",
@@ -318,7 +284,7 @@
               "title": "common:reorder",
               "icon": "assets/reorder.png",
               "backgroundColor": "pink",
-              "prompt": "Төмендегі элементтерді ретке көйіңіз, експеримент жүргізу кезінде қай қадамдарды өткізу керек екенін көрсету үшін.",
+              "prompt": "Төмендегі элементтерді ретке қойыңыз, эксперимент жүргізу кезінде қай қадамдарды өткізу керек екенін көрсету үшін.",
               "content": [
                 {
                   "text": "Гипотеза"
@@ -353,21 +319,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indigo",
-      "colorTwo": "mediumpurple",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Өсімдіктердің құпиясы қандай?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -487,7 +454,7 @@
           "navigation": "Lesson2",
           "title": "2. Өсімдіктер қалай өмір сүреді?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Image Boom",
@@ -567,7 +534,7 @@
               "title": "common:snapshot",
               "icon": "assets/camera.png",
               "backgroundColor": "#FFD972",
-              "prompt": "Сфотографируйте среду обитания, в которой растет ваше любимое растение. "
+              "prompt": "Сфотографируйте среду обитания, в которой растет ваше любимое растение. 1 "
             },
             {
               "navigation": "Mastery",
@@ -586,7 +553,7 @@
           "navigation": "Lesson3",
           "title": "3. Жұмыртқадан кім шықты?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Quiz",
@@ -703,7 +670,7 @@
           "navigation": "Lesson4",
           "title": "4. Жасырынбақ ойнайтын кім?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Quiz",
@@ -837,7 +804,7 @@
           "navigation": "Lesson5",
           "title": "5. Жануарлар қалай қорғалады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -948,7 +915,7 @@
           "navigation": "Lesson6",
           "title": "6. Біз неге тұрамыз?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Image Boom",
@@ -1050,7 +1017,7 @@
           "navigation": "Lesson7",
           "title": "7. Біз қалай күлеміз?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Image Boom",
@@ -1092,7 +1059,7 @@
                     "Gluteus Maximus",
                     "Төрт аяқты мықын"
                   ],
-                  "answer": "Төрт аяқты мықын"
+                  "answer": "Gluteus Maximus"
                 },
                 {
                   "prompt": "Қандай айырмашылықтар барnt түрлері бұлшықет?",
@@ -1133,7 +1100,7 @@
           "navigation": "Lesson8",
           "title": "8. Ауыр рюкзак",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Image Boom",
@@ -1244,7 +1211,7 @@
           "navigation": "Lesson9",
           "title": "9. Бактериялар неден қорқады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -1288,7 +1255,7 @@
                 {
                   "prompt": "Ғалымдар микробтарды қандай зерттейді?",
                   "answers": [
-                    "Микробтар болатын нысаны ұялы телефон камерасымен суретке түсіру",
+                    "Микробтар болатын нысаны ұялы телефон Фотоаппаратсымен суретке түсіру",
                     "Микроскоптар сияқты ғылыми құралдарды пайдалану",
                     "Сабынды талдау",
                     "Ғалымдар өте кіші өлшемдерінде микробтарды зерттей алмайды"
@@ -1358,7 +1325,7 @@
           "navigation": "Lesson10",
           "title": "10. Неліктен менің тістерім ауырады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -1447,21 +1414,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 10
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Ауаның қандай қасиеттері бар?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Quiz",
@@ -1610,7 +1578,7 @@
           "navigation": "Lesson2",
           "title": "2. Қай жерде зауыт салу керек?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Quiz",
@@ -1766,7 +1734,7 @@
           "navigation": "Lesson3",
           "title": "3. Су туралы не білеміз?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Quiz",
@@ -1942,7 +1910,7 @@
           "navigation": "Lesson4",
           "title": "4. Адамға не қажет?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Sorting",
@@ -2083,21 +2051,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 4
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "midnightblue",
-      "colorTwo": "mediumturquoise",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Күн және оның Жерге әсері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -2279,7 +2248,7 @@
           "navigation": "Lesson2",
           "title": "2. Күннің достары кімдер?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -2453,7 +2422,7 @@
           "navigation": "Lesson3",
           "title": "3. AreТірі планеталар?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Reorder",
@@ -2617,7 +2586,7 @@
           "navigation": "Lesson4",
           "title": "4. Неліктен көктем қыстың соңынан ереді?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Image Boom",
@@ -2729,7 +2698,7 @@
           "navigation": "Lesson5",
           "title": "5. Сағат қанша?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Image Boom",
@@ -2810,21 +2779,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 5
     },
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Заттар неге қозғалады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Image Boom",
@@ -2916,7 +2886,7 @@
           "navigation": "Lesson2",
           "title": "2. Кім жылдам?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3023,7 +2993,7 @@
           "navigation": "Lesson3",
           "title": "3. Тасымалдау",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3136,7 +3106,7 @@
           "navigation": "Lesson4",
           "title": "4. Пілдің салмағы қанша?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3254,7 +3224,7 @@
           "navigation": "Lesson5",
           "title": "5. Изумруд қаласына қалай жетуге болады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3355,7 +3325,7 @@
           "navigation": "Lesson6",
           "title": "6. Жарық қайда кетті?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3437,7 +3407,7 @@
           "navigation": "Lesson7",
           "title": "7. Бұл не дыбыс?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3568,7 +3538,7 @@
           "navigation": "Lesson8",
           "title": "8. Біз дыбыстарды қалай естиміз?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3667,7 +3637,7 @@
           "navigation": "Lesson9",
           "title": "9. Термометр",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3788,7 +3758,7 @@
           "navigation": "Lesson10",
           "title": "10. Жазда аяз қайда тығылады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3990,7 +3960,7 @@
           "navigation": "Lesson11",
           "title": "11. Магниттер дегеніміз не?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4131,7 +4101,7 @@
           "navigation": "Lesson12",
           "title": "12. Жаз - көңілді!",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -4224,7 +4194,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 12
     }
   ]
 }

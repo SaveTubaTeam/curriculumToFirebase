@@ -136,7 +136,7 @@ async function postMasteryAndMinigameData(currentObject, lessonLanguageReference
  * @returns {Object} currentObject the modified object
 */
 async function modifyMasteryAndMinigameObject(currentObject) {
-   if(currentObject.navigation !== "Mastery") { //Mastery does not include an icon attribute!!
+   if(!currentObject.navigation.includes("Mastery")) { //Mastery does not include an icon attribute!!
       await addAttributes(currentObject.icon, currentObject, 'icon');
    }
 

@@ -581,8 +581,8 @@
       "title": "common:chapter3",
       "name": "gradefive:universe2",
       "icon": "assets/grade5/chapter-icons/theuniversecontinued.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "orchid",
+      "colorTwo": "plum",
       "lessons": [
         {
           "navigation": "Lesson1",

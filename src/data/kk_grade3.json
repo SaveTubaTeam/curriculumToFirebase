@@ -5,14 +5,14 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Ғылыми ашылулар тарихы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -77,7 +77,7 @@
           "navigation": "Lesson2",
           "title": "2. Ақпарат көздері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -139,7 +139,7 @@
           "navigation": "Lesson3",
           "title": "3. Экспериментті жоспарлау және өткізу",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 8,
           "content": [
             {
               "navigation": "Snapshot",
@@ -349,21 +349,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indigo",
-      "colorTwo": "mediumpurple",
+      "colorOne": "mediumturquoise",
+      "colorTwo": "midnightblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Өсімдік жапырақтары қалай жұмыс істейді?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -447,7 +448,7 @@
           "navigation": "Lesson2",
           "title": "2. Өсімдіктер тіршілік жағдайларына қалай бейімделеді?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 7,
           "content": [
             {
               "navigation": "Snapshot",
@@ -646,7 +647,7 @@
           "navigation": "Lesson3",
           "title": "3. Табиғи өсімдіктер қауымдастығы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -786,7 +787,7 @@
           "navigation": "Lesson4",
           "title": "4. Адам өсімдіктердің тіршілігіне қалай әсер етеді?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 6,
           "content": [
             {
               "navigation": "Snapshot",
@@ -923,7 +924,7 @@
           "navigation": "Lesson5",
           "title": "5. Өсімдіктердің Қызыл кітабы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1054,7 +1055,7 @@
           "navigation": "Lesson6",
           "title": "6. Омыртқалылар мен омыртқасыздар Жануарлар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1190,7 +1191,7 @@
           "navigation": "Lesson7",
           "title": "7. Жануарлардың тіршілік ету ортасы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 6,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1326,7 +1327,7 @@
           "navigation": "Lesson8",
           "title": "8. Жануарлардың табиғатта қандай қатынасы бар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1444,7 +1445,7 @@
           "navigation": "Lesson9",
           "title": "9. Өсімдіктер мен жануарлардың арасында қандай байланыс бар?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1547,7 +1548,7 @@
           "navigation": "Lesson10",
           "title": "10. Тіршілік ету ортасының жағдайлары жануарлардың санына қалай әсер етеді?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1617,7 +1618,7 @@
           "navigation": "Lesson11",
           "title": "11. Жануарлар санының азаюы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1698,7 +1699,7 @@
           "navigation": "Lesson12",
           "title": "12. Мен жануармын",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1768,7 +1769,7 @@
           "navigation": "Lesson13",
           "title": "13. Алманың дене арқылы саяхаты",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1850,7 +1851,7 @@
           "navigation": "Lesson14",
           "title": "14. Біз қалай тыныс аламыз?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1930,7 +1931,7 @@
           "navigation": "Lesson15",
           "title": "15. Адамның қан айналым жүйесі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2000,7 +2001,7 @@
           "navigation": "Lesson16",
           "title": "16. Қалай сау болуға болады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2066,21 +2067,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 16
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Заттар дегеніміз не?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2164,7 +2166,7 @@
           "navigation": "Lesson2",
           "title": "2. Ауаның құрамы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2244,7 +2246,7 @@
           "navigation": "Lesson3",
           "title": "3. Ауаның қасиеттері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2318,7 +2320,7 @@
           "navigation": "Lesson4",
           "title": "4. Су қайда?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2386,7 +2388,7 @@
           "navigation": "Lesson5",
           "title": "5. Табиғи су көздері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2497,7 +2499,7 @@
           "navigation": "Lesson6",
           "title": "6. Адамның ауыз суын ұқыпты пайдалану",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2577,7 +2579,7 @@
           "navigation": "Lesson7",
           "title": "7. Суды тазарту әдістері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2649,7 +2651,7 @@
           "navigation": "Lesson8",
           "title": "8. Топырақ дегеніміз не?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2731,7 +2733,7 @@
           "navigation": "Lesson9",
           "title": "9. Топырақта не бар?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2837,7 +2839,7 @@
           "navigation": "Lesson10",
           "title": "10. Топырақтың қасиеттері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2933,7 +2935,7 @@
           "navigation": "Lesson11",
           "title": "11. Топырақ дегеніміз не?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3013,7 +3015,7 @@
           "navigation": "Lesson12",
           "title": "12. Біздің планетамыз қалай?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3106,7 +3108,7 @@
           "navigation": "Lesson13",
           "title": "13. Ғарыштың зерттелу тарихы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3194,7 +3196,7 @@
           "navigation": "Lesson14",
           "title": "14. Жер қалай айналады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3260,21 +3262,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 14
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "midnightblue",
-      "colorTwo": "mediumturquoise",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Серпімділік күші",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3356,7 +3359,7 @@
           "navigation": "Lesson2",
           "title": "2. Гравитация",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3438,7 +3441,7 @@
           "navigation": "Lesson3",
           "title": "3. Үйкеліс күші және оның көрінісі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3520,7 +3523,7 @@
           "navigation": "Lesson4",
           "title": "4. Күштердің бағытын қалай анықтауға болады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3594,7 +3597,7 @@
           "navigation": "Lesson5",
           "title": "5. Көлеңке қалай пайда болады?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3660,7 +3663,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 5
     }
   ]
 }

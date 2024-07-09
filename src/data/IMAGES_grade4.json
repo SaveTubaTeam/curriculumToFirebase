@@ -527,8 +527,8 @@
       "title": "common:chapter2",
       "name": "gradefour:animals",
       "icon": "assets/grade4/chapter-icons/Animals.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "midnightblue",
+      "colorTwo": "mediumturquoise",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1034,8 +1034,8 @@
       "title": "common:chapter3",
       "name": "gradefour:human",
       "icon": "assets/grade4/chapter-icons/Humans.png",
-      "colorOne": "mediumpurple",
-      "colorTwo": "indigo",
+      "colorOne": "indigo",
+      "colorTwo": "mediumpurple",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1259,8 +1259,8 @@
       "title": "common:chapter4",
       "name": "gradefour:airwater",
       "icon": "assets/grade4/chapter-icons/airandwater.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "orangered",
+      "colorTwo": "orange",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2176,8 +2176,8 @@
       "title": "common:chapter5",
       "name": "gradefour:physics",
       "icon": "assets/grade4/chapter-icons/Physics.png",
-      "colorOne": "steelblue",
-      "colorTwo": "skyblue",
+      "colorOne": "seagreen",
+      "colorTwo": "teal",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2790,8 +2790,8 @@
       "title": "common:chapter6",
       "name": "gradefour:naturalresources",
       "icon": "assets/grade4/chapter-icons/Naturalresources.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "midnightblue",
+      "colorTwo": "mediumturquoise",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3512,7 +3512,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/grade4/chapter6/miningcorporation.png",
+              "image": "assets/grade4/chapter6/miningcorporations.png",
               "prompt": "What mining occurs near you? What corporations conduct it? "
             },
             {
@@ -3577,8 +3577,8 @@
       "title": "common:chapter7",
       "name": "gradefour:cosmos",
       "icon": "assets/grade4/chapter-icons/Cosmos.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "orchid",
+      "colorTwo": "plum",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -4125,8 +4125,8 @@
       "title": "common:chapter8",
       "name": "gradefour:forces",
       "icon": "assets/grade4/chapter-icons/Forces.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "steelblue",
+      "colorTwo": "skyblue",
       "lessons": [
         {
           "navigation": "Lesson1",

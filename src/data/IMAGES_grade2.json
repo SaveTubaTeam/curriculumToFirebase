@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "gradetwo:iamanexplorer",
       "icon": "assets/grade2/chapter-icons/location.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "firebrick",
+      "colorTwo": "indianred",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1502,8 +1502,8 @@
       "title": "common:chapter3",
       "name": "gradetwo:substances",
       "icon": "assets/grade2/chapter-icons/chemistry.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "orangered",
+      "colorTwo": "orange",
       "lessons": [
         {
           "navigation": "Lesson1",
