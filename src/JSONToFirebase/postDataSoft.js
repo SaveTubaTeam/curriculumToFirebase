@@ -1,3 +1,4 @@
+//@ts-check
 import { db } from "../../firebase.js";
 
 //See here for Firestore .update(): https://firebase.google.com/docs/database/web/read-and-write#web_11
