@@ -5,14 +5,14 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "plum",
+      "colorTwo": "orchid",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Роль науки в окружающем мире",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -46,7 +46,7 @@
           "navigation": "Lesson2",
           "title": "2. Наблюдение и измерение природных показателей",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -80,7 +80,7 @@
           "navigation": "Lesson3",
           "title": "3. Обработка и оценка наблюдений",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -110,21 +110,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "goldenrod",
-      "colorTwo": "darkorange",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Звездное небо",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -243,7 +244,7 @@
           "navigation": "Lesson2",
           "title": "2. Солнце и Солнечная система",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -373,7 +374,7 @@
           "navigation": "Lesson3",
           "title": "3. Земля",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -415,7 +416,7 @@
           "navigation": "Lesson4",
           "title": "4. Как появилась наша планета?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -501,7 +502,7 @@
           "navigation": "Lesson5",
           "title": "5. Строение Земли и ее оболочек",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -560,7 +561,7 @@
           "navigation": "Lesson6",
           "title": "6. Происхождение жизни на Земле",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -590,21 +591,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 6
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "darkolivegreen",
-      "colorTwo": "darkgreen",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. От карты к плану местности",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -646,7 +648,7 @@
           "navigation": "Lesson2",
           "title": "2. Условные знаки",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -719,7 +721,7 @@
           "navigation": "Lesson3",
           "title": "3. Отклонение полюса и маршрута",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -761,7 +763,7 @@
           "navigation": "Lesson4",
           "title": "4. Континенты и острова",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -795,7 +797,7 @@
           "navigation": "Lesson5",
           "title": "5. Исследование океанов",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -857,7 +859,7 @@
           "navigation": "Lesson6",
           "title": "6. Распределение людей по поверхности Земли",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -970,7 +972,7 @@
           "navigation": "Lesson7",
           "title": "7. Расы на Земле",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1012,21 +1014,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 7
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumpurple",
-      "colorTwo": "indigo",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Физические тела, Вещи, и Масса",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1112,7 +1115,7 @@
           "navigation": "Lesson2",
           "title": "2. Структура и Диффузия веществ",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1185,7 +1188,7 @@
           "navigation": "Lesson3",
           "title": "3. Свойства Веществ",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1223,7 +1226,7 @@
           "navigation": "Lesson4",
           "title": "4. Чистые вещества и Смеси",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1324,21 +1327,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 4
     },
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Растворимые и нерастворимые вещества",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1462,7 +1466,7 @@
           "navigation": "Lesson2",
           "title": "2. Природные и искусственные объекты",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1504,7 +1508,7 @@
           "navigation": "Lesson3",
           "title": "3. Синтетические материалы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1617,7 +1621,7 @@
           "navigation": "Lesson4",
           "title": "4. Разнообразие природных явлений",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1675,7 +1679,7 @@
           "navigation": "Lesson5",
           "title": "5. В мире физических и химических явлений",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1764,7 +1768,7 @@
           "navigation": "Lesson6",
           "title": "6. Феномены излучения света",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1802,7 +1806,7 @@
           "navigation": "Lesson7",
           "title": "7. Тепловые явления",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1844,7 +1848,7 @@
           "navigation": "Lesson8",
           "title": "8. Звуковые явления",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1886,7 +1890,7 @@
           "navigation": "Lesson9",
           "title": "9. Электрические и магнитные явления",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1963,7 +1967,7 @@
           "navigation": "Lesson10",
           "title": "10. Силы в Природе",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1988,21 +1992,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 10
     },
     {
       "navigation": "Chapter6",
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Круговорот материи в природе",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2064,7 +2069,7 @@
           "navigation": "Lesson2",
           "title": "2. Образование гор",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2110,7 +2115,7 @@
           "navigation": "Lesson3",
           "title": "3. Выветривание горных пород",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2215,7 +2220,7 @@
           "navigation": "Lesson4",
           "title": "4. Погода и климат",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2265,7 +2270,7 @@
           "navigation": "Lesson5",
           "title": "5. Опасные явления в природе",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2346,7 +2351,7 @@
           "navigation": "Lesson6",
           "title": "6. Свойства живых организмов",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2408,7 +2413,7 @@
           "navigation": "Lesson7",
           "title": "7. Уровни организации живых организмов",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2509,7 +2514,7 @@
           "navigation": "Lesson8",
           "title": "8. Роль фотосинтеза в жизни растений",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2582,21 +2587,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 8
     },
     {
       "navigation": "Chapter7",
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Виды и источники энергии",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2684,7 +2690,7 @@
           "navigation": "Lesson2",
           "title": "2. Взаимное преобразование энергии",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2718,7 +2724,7 @@
           "navigation": "Lesson3",
           "title": "3. Альтернативные источники энергии",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2747,7 +2753,7 @@
           "navigation": "Lesson4",
           "title": "4. Энергоэффективность и безопасность",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2801,7 +2807,7 @@
           "navigation": "Lesson5",
           "title": "5. Движение в природе",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2843,7 +2849,7 @@
           "navigation": "Lesson6",
           "title": "6. Равновесие",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2873,21 +2879,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 6
     },
     {
       "navigation": "Chapter8",
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Экосистема",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2968,7 +2975,7 @@
           "navigation": "Lesson2",
           "title": "2. Естественные и искусственные экосистемы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3014,7 +3021,7 @@
           "navigation": "Lesson3",
           "title": "3. Факторы, влияющие на жизнь экосистемы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3115,7 +3122,7 @@
           "navigation": "Lesson4",
           "title": "4. Живая планета",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3224,7 +3231,7 @@
           "navigation": "Lesson5",
           "title": "5. Разнообразие животных",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3253,7 +3260,7 @@
           "navigation": "Lesson6",
           "title": "6. Отношения между животными",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3330,7 +3337,7 @@
           "navigation": "Lesson7",
           "title": "7. Разнообразие растений и их роль",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3407,7 +3414,7 @@
           "navigation": "Lesson8",
           "title": "8. Грибы и микроорганизмы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3444,7 +3451,7 @@
           "navigation": "Lesson9",
           "title": "9. Изменение природных экосистем в результате деятельности человека",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3486,7 +3493,7 @@
           "navigation": "Lesson10",
           "title": "10. Экологические проблемы Казахстана",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3528,7 +3535,7 @@
           "navigation": "Lesson11",
           "title": "11. Как мы защищаем природу?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3601,7 +3608,7 @@
           "navigation": "Lesson12",
           "title": "12. Красная книга Казахстана",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3639,7 +3646,7 @@
           "navigation": "Lesson13",
           "title": "13. Принцип прогулок на природе",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3669,21 +3676,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 13
     },
     {
       "navigation": "Chapter9",
       "title": "common:chapter9",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Мировые научные новости",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 2,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3710,7 +3718,7 @@
           "navigation": "Lesson2",
           "title": "2. Новые технологии и ожидаемые инновации",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3744,7 +3752,7 @@
           "navigation": "Lesson3",
           "title": "3. Изобретения, которые изменят мир",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3778,7 +3786,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     }
   ]
 }

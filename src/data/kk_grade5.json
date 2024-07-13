@@ -5,14 +5,14 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "darkolivegreen",
-      "colorTwo": "darkgreen",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Айналадағы әлемде ғылымның рөлі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -46,7 +46,7 @@
           "navigation": "Lesson2",
           "title": "2. Табиғи көрсеткіштерді бақылау және өлшеу",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -80,7 +80,7 @@
           "navigation": "Lesson3",
           "title": "3. Бақылауларды өңдеу және бағалау",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -110,21 +110,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     },
     {
       "navigation": "Chapter2",
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Жұлдызды аспан",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -227,7 +228,7 @@
           "navigation": "Lesson2",
           "title": "2. Күн және Күн жүйесі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -357,7 +358,7 @@
           "navigation": "Lesson3",
           "title": "3. Жер",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -399,7 +400,7 @@
           "navigation": "Lesson4",
           "title": "4. Біздің планетамыз қалай пайда болды?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -485,7 +486,7 @@
           "navigation": "Lesson5",
           "title": "5. Жердің және оның қабықтарының құрылысы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -544,7 +545,7 @@
           "navigation": "Lesson6",
           "title": "6. Жердегі тіршіліктің пайда болуы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -574,21 +575,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 6
     },
     {
       "navigation": "Chapter3",
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "skyblue",
+      "colorTwo": "steelblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Картадан жергілікті жердің жоспарына дейін",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -630,7 +632,7 @@
           "navigation": "Lesson2",
           "title": "2. Шартты белгілер",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -703,7 +705,7 @@
           "navigation": "Lesson3",
           "title": "3. Полярлық және маршруттың ауытқуы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -745,7 +747,7 @@
           "navigation": "Lesson4",
           "title": "4. Материктер мен аралдар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -779,7 +781,7 @@
           "navigation": "Lesson5",
           "title": "5. Мұхиттарды зерттеу",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -841,7 +843,7 @@
           "navigation": "Lesson6",
           "title": "6. Жер бетіндегі адамдардың таралуы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -954,7 +956,7 @@
           "navigation": "Lesson7",
           "title": "7. Жер бетіндегі этностар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -996,21 +998,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 7
     },
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Физикалық денелер, заттар және массалар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1096,7 +1099,7 @@
           "navigation": "Lesson2",
           "title": "2. Заттардың құрылымы және диффузиясы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1169,7 +1172,7 @@
           "navigation": "Lesson3",
           "title": "3. Заттардың қасиеттері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1207,7 +1210,7 @@
           "navigation": "Lesson4",
           "title": "4. Таза заттар мен қоспалар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1308,21 +1311,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 4
     },
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumpurple",
-      "colorTwo": "indigo",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Еритін және ерімейтін заттар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1442,7 +1446,7 @@
           "navigation": "Lesson2",
           "title": "2. Табиғи және жасанды заттар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1484,7 +1488,7 @@
           "navigation": "Lesson3",
           "title": "3. Синтетикалық материалдар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1597,7 +1601,7 @@
           "navigation": "Lesson4",
           "title": "4. Табиғат құбылыстарының әртүрлілігі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1655,7 +1659,7 @@
           "navigation": "Lesson5",
           "title": "5. Физикалық және химиялық құбылыстар әлемі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1744,7 +1748,7 @@
           "navigation": "Lesson6",
           "title": "6. Жарық сәулелену құбылыстары",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1782,7 +1786,7 @@
           "navigation": "Lesson7",
           "title": "7. Жылулық құбылыстар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1824,7 +1828,7 @@
           "navigation": "Lesson8",
           "title": "8. Дыбыс құбылыстары",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1866,7 +1870,7 @@
           "navigation": "Lesson9",
           "title": "9. Электр және магниттік құбылыстар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF6CEB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1943,7 +1947,7 @@
           "navigation": "Lesson10",
           "title": "10. Табиғаттағы күштер",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C75EB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -1968,21 +1972,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 10
     },
     {
       "navigation": "Chapter6",
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "goldenrod",
-      "colorTwo": "darkorange",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Табиғаттағы заттардың айналымы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2044,7 +2049,7 @@
           "navigation": "Lesson2",
           "title": "2. Таулардың пайда болуы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2090,7 +2095,7 @@
           "navigation": "Lesson3",
           "title": "3. Тау жыныстарының үгітілуі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 5,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2195,7 +2200,7 @@
           "navigation": "Lesson4",
           "title": "4. Ауа-райы және климат",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DBA25C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2245,7 +2250,7 @@
           "navigation": "Lesson5",
           "title": "5. Табиғаттағы қауіпті құбылыстар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5F5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2326,7 +2331,7 @@
           "navigation": "Lesson6",
           "title": "6. Тірі ағзалардың қасиеттері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB8C5C",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2388,7 +2393,7 @@
           "navigation": "Lesson7",
           "title": "7. Тірі ағзалардың ұйымдасу деңгейлері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB755B",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2489,7 +2494,7 @@
           "navigation": "Lesson8",
           "title": "8. Фотосинтездің рөлі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DB5C9E",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2562,21 +2567,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 8
     },
     {
       "navigation": "Chapter7",
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Энергияның түрлері мен көздері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2664,7 +2670,7 @@
           "navigation": "Lesson2",
           "title": "2. Энергияның өзара түрленуі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74B1DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2698,7 +2704,7 @@
           "navigation": "Lesson3",
           "title": "3. Баламалы энергия көздері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74DBC2",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2727,7 +2733,7 @@
           "navigation": "Lesson4",
           "title": "4. Энергия тиімділігі және қауіпсіздік",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7874DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2781,7 +2787,7 @@
           "navigation": "Lesson5",
           "title": "5. Табиғаттағы қозғалыс",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#74D3DB",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2823,7 +2829,7 @@
           "navigation": "Lesson6",
           "title": "6. Тепе-теңдік",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#7492DB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2853,21 +2859,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 6
     },
     {
       "navigation": "Chapter8",
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lavender",
-      "colorTwo": "darkslateblue",
+      "colorOne": "mediumturquoise",
+      "colorTwo": "midnightblue",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Экологиялық жүйе",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2948,7 +2955,7 @@
           "navigation": "Lesson2",
           "title": "2. Табиғи және жасанды экожүйелер",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -2994,7 +3001,7 @@
           "navigation": "Lesson3",
           "title": "3. Экожүйенің тіршілігіне әсер ететін факторлар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3095,7 +3102,7 @@
           "navigation": "Lesson4",
           "title": "4. Тірі планета",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3204,7 +3211,7 @@
           "navigation": "Lesson5",
           "title": "5. Жануарлардың көптүрлілігі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3233,7 +3240,7 @@
           "navigation": "Lesson6",
           "title": "6. Жануарлар арасындағы қарым-қатынас",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3310,7 +3317,7 @@
           "navigation": "Lesson7",
           "title": "7. Өсімдіктердің көптүрлілігі және олардың рөлі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3387,7 +3394,7 @@
           "navigation": "Lesson8",
           "title": "8. Саңырауқұлақтар және микроорганизмдер",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3424,7 +3431,7 @@
           "navigation": "Lesson9",
           "title": "9. Адам әрекетінен табиғи экожүйелердің өзгеруі",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E0A279",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3466,7 +3473,7 @@
           "navigation": "Lesson10",
           "title": "10. Қазақстанның экологиялық мәселелері",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E079A5",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3508,7 +3515,7 @@
           "navigation": "Lesson11",
           "title": "11. Табиғатты қалай қорғаймыз?",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E09079",
+          "numActivities": 4,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3581,7 +3588,7 @@
           "navigation": "Lesson12",
           "title": "12. Қазақстанның қызыл кітабы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#E07D78",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3619,7 +3626,7 @@
           "navigation": "Lesson13",
           "title": "13. Табиғатта серуендеу қағидасы",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#DF79E0",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3649,21 +3656,22 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 13
     },
     {
       "navigation": "Chapter9",
       "title": "common:chapter9",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
       "lessons": [
         {
           "navigation": "Lesson1",
           "title": "1. Әлемдік ғылыми жаңалықтар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#B56CEB",
+          "numActivities": 2,
           "content": [
             {
               "navigation": "Image Boom",
@@ -3690,7 +3698,7 @@
           "navigation": "Lesson2",
           "title": "2. Жаңа технологиялар және күтілетін инновациялар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#8C6BEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3724,7 +3732,7 @@
           "navigation": "Lesson3",
           "title": "3. Әлемді өзгертетін өнертабыстар",
           "thumbnail": "assets/cotton.png",
-          "backgroundColor": "#6C9DEB",
+          "numActivities": 3,
           "content": [
             {
               "navigation": "Snapshot",
@@ -3758,7 +3766,8 @@
             }
           ]
         }
-      ]
+      ],
+      "numLessons": 3
     }
   ]
 }

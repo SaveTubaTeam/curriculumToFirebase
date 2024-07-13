@@ -26,7 +26,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/grade5/chapter1/lightyears.png",
+              "image": "assets/grade5/chapter2/lightyears.png",
               "prompt": "Humans are constantly advancing, in the fields of science, technology, and so much more. In order to innovate and advance, some people have to be “the first.” For example, Abu Nasir Al-Farabi, was one of the first to study the stars. Understanding and knowledge of the stars gives us insights into how the whole world works. Think of a recent innovation, invention, or discovery. Do some research into who, or what group of people, led to this development. How did it happen? What would life be like without this development? "
             },
             {
@@ -60,7 +60,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/airqualityindex.png",
+              "image": "assets/grade5/chapter1/airqualityindex.png",
               "prompt": "There are certain measurements taken about our climate that can tell us a lot about the environment and quality of life in that area. One of these measurements is the Air Quality Index. Look it up for where you live. What does it say? What does this tell you about the area? What changes would you expect to see if it went up? How about if it went down? "
             },
             {
@@ -70,7 +70,7 @@
               "content": [
                 {
                   "text": "There’s many experimental procedures and methods for testing and measuring things in nature. It is important to have methods for measuring sustainability, the health of our environment, and the amount of harmful substances in our environment and atmosphere. Identify activities or substances that are harmful for our environment. How are these things measured? What are the metrics for these things? If you’re unsure, do some research and write a paragraph about what you find.",
-                  "image": "assets/sustainability.png"
+                  "image": "assets/grade5/chapter1/sustainability.png"
                 }
               ]
             }
@@ -94,7 +94,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/ideas.png",
+              "image": "assets/grade5/chapter1/ideas.png",
               "prompt": "Pick one of the experiment ideas you came up with in the previous activity. Design an experiment that could be conducted over one week. Identify a testable hypothesis, the dependent and independent variables, and the procedure of the experiment to start. Next conduct the experiment. After, you should include your results in a table, and create a graph or diagram that shows the results of the experiment. Write a concluding paragraph about the results of the experiment, what you tested, and finally, why it is important to analyze results. "
             },
             {
@@ -104,7 +104,7 @@
               "content": [
                 {
                   "text": "There are metrics and ways to evaluate climate change. What are some examples that can show climate change? How would you evaluate these metrics?",
-                  "image": "assets/metrics.png"
+                  "image": "assets/grade5/chapter1/metrics.png"
                 }
               ]
             }
@@ -213,7 +213,7 @@
                 },
                 {
                   "text": "Record your observations in the table.",
-                  "image": "assets/grade5/chapter2/observation.png"
+                  "image": "assets/grade5/chapter2/obervation.png"
                 },
                 {
                   "text": "Try to leave comments on your observations in this experiment.",
@@ -278,7 +278,7 @@
               "categories": [
                 {
                   "name": "Asteroids",
-                  "image": "assets/grade5/chapter2/asteroid.png"
+                  "image": "assets/grade5/chapter2/asteriod.png"
                 },
                 {
                   "name": "Comets",
@@ -1001,7 +1001,7 @@
     {
       "navigation": "Chapter4",
       "title": "common:chapter4",
-      "name": "common:PLACEHOLDER",
+      "name": "gradefive:itemsandmaterials",
       "icon": "assets/grade5/chapter-icons/items.png",
       "colorOne": "brown",
       "colorTwo": "maroon",
@@ -1009,7 +1009,7 @@
         {
           "navigation": "Lesson1",
           "title": "1. Physical Bodies, Things, and Mass",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/physicalbodies.png",
           "backgroundColor": "#E09079",
           "content": [
             {
@@ -1095,7 +1095,7 @@
         {
           "navigation": "Lesson2",
           "title": "2. Structure and Diffusion of Substances",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/diffusion.png",
           "backgroundColor": "#E07D78",
           "content": [
             {
@@ -1168,7 +1168,7 @@
         {
           "navigation": "Lesson3",
           "title": "3. Properties of Things",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/properties.png",
           "backgroundColor": "#DF79E0",
           "content": [
             {
@@ -1206,7 +1206,7 @@
         {
           "navigation": "Lesson4",
           "title": "4. Pure Substances and Mixtures",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/mixtures.png",
           "backgroundColor": "#E0A279",
           "content": [
             {
@@ -1313,7 +1313,7 @@
     {
       "navigation": "Chapter5",
       "title": "common:chapter5",
-      "name": "common:PLACEHOLDER",
+      "name": "gradefive:itemsandmaterials2",
       "icon": "assets/grade5/chapter-icons/materials.png",
       "colorOne": "indianred",
       "colorTwo": "firebrick",
@@ -1321,7 +1321,7 @@
         {
           "navigation": "Lesson1",
           "title": "1. Soluble and Insoluble Substances",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/substances.png",
           "backgroundColor": "#B56CEB",
           "content": [
             {
@@ -1441,7 +1441,7 @@
         {
           "navigation": "Lesson2",
           "title": "2. Natural and Artificial Objects",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/objects.png",
           "backgroundColor": "#8C6BEB",
           "content": [
             {
@@ -1483,7 +1483,7 @@
         {
           "navigation": "Lesson3",
           "title": "3. Synthetic Materials",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/synthetic.png",
           "backgroundColor": "#6C9DEB",
           "content": [
             {
@@ -1596,7 +1596,7 @@
         {
           "navigation": "Lesson4",
           "title": "4. Diversity of Natural Phenomena",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/naturalphenomena.png",
           "backgroundColor": "#DF6CEB",
           "content": [
             {
@@ -1654,7 +1654,7 @@
         {
           "navigation": "Lesson5",
           "title": "5. The World of Physical and Chemical Phenomena",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/chemicals.png",
           "backgroundColor": "#6C75EB",
           "content": [
             {
@@ -1743,7 +1743,7 @@
         {
           "navigation": "Lesson6",
           "title": "6. Phenomena of Light Emission",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/lightphenomena.png",
           "backgroundColor": "#B56CEB",
           "content": [
             {
@@ -1781,7 +1781,7 @@
         {
           "navigation": "Lesson7",
           "title": "7. Thermal Phenomena",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/thermalphenomena.png",
           "backgroundColor": "#8C6BEB",
           "content": [
             {
@@ -1823,7 +1823,7 @@
         {
           "navigation": "Lesson8",
           "title": "8. Sound Phenomena",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/soundphenomena.png",
           "backgroundColor": "#6C9DEB",
           "content": [
             {
@@ -1865,7 +1865,7 @@
         {
           "navigation": "Lesson9",
           "title": "9. Electric and Magnetic Phenomena",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/electromagneticphenomena.png",
           "backgroundColor": "#DF6CEB",
           "content": [
             {
@@ -1942,7 +1942,7 @@
         {
           "navigation": "Lesson10",
           "title": "10. Forces in Nature",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/forces.png",
           "backgroundColor": "#6C75EB",
           "content": [
             {
@@ -1973,7 +1973,7 @@
     {
       "navigation": "Chapter6",
       "title": "common:chapter6",
-      "name": "common:PLACEHOLDER",
+      "name": "gradefive:natureprocesses",
       "icon": "assets/grade5/chapter-icons/naturalprocesses.png",
       "colorOne": "darkslateblue",
       "colorTwo": "lavender",
@@ -1981,7 +1981,7 @@
         {
           "navigation": "Lesson1",
           "title": "1. Matter Circulation in Nature",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/circulation.png",
           "backgroundColor": "#DB8C5C",
           "content": [
             {
@@ -2043,7 +2043,7 @@
         {
           "navigation": "Lesson2",
           "title": "2. Formation of Mountains",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/mountains.png",
           "backgroundColor": "#DB755B",
           "content": [
             {
@@ -2089,7 +2089,7 @@
         {
           "navigation": "Lesson3",
           "title": "3. Weathering of Rocks",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/rocks.png",
           "backgroundColor": "#DB5C9E",
           "content": [
             {
@@ -2194,7 +2194,7 @@
         {
           "navigation": "Lesson4",
           "title": "4. Weather and Climate",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/weather.png",
           "backgroundColor": "#DBA25C",
           "content": [
             {
@@ -2244,7 +2244,7 @@
         {
           "navigation": "Lesson5",
           "title": "5. Dangerous Phenomena in Nature",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/dangerousphenomena.png",
           "backgroundColor": "#DB5F5C",
           "content": [
             {
@@ -2325,7 +2325,7 @@
         {
           "navigation": "Lesson6",
           "title": "6. Properties of Living Organisms",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/propertiesoforganisms.png",
           "backgroundColor": "#DB8C5C",
           "content": [
             {
@@ -2387,7 +2387,7 @@
         {
           "navigation": "Lesson7",
           "title": "7. Levels of Organization of Living Organisms",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/organisms.png",
           "backgroundColor": "#DB755B",
           "content": [
             {
@@ -2488,7 +2488,7 @@
         {
           "navigation": "Lesson8",
           "title": "8. The Role of Photosynthesis",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/photosynthesis.png",
           "backgroundColor": "#DB5C9E",
           "content": [
             {
@@ -2567,7 +2567,7 @@
     {
       "navigation": "Chapter7",
       "title": "common:chapter7",
-      "name": "common:PLACEHOLDER",
+      "name": "gradefive:energyandmotion",
       "icon": "assets/grade5/chapter-icons/motion.png",
       "colorOne": "teal",
       "colorTwo": "seagreen",
@@ -2575,7 +2575,7 @@
         {
           "navigation": "Lesson1",
           "title": "1. Types and Sources of Energy",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/sourcesofenergy.png",
           "backgroundColor": "#7492DB",
           "content": [
             {
@@ -2663,7 +2663,7 @@
         {
           "navigation": "Lesson2",
           "title": "2. Mutual Conversion of Energy",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/conversionofenergy.png",
           "backgroundColor": "#74B1DB",
           "content": [
             {
@@ -2697,7 +2697,7 @@
         {
           "navigation": "Lesson3",
           "title": "3. Alternative Energy Sources",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/alternativeenergy.png",
           "backgroundColor": "#74DBC2",
           "content": [
             {
@@ -2726,7 +2726,7 @@
         {
           "navigation": "Lesson4",
           "title": "4. Energy Efficiency and Safety",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/energyefficiency.png",
           "backgroundColor": "#7874DB",
           "content": [
             {
@@ -2780,7 +2780,7 @@
         {
           "navigation": "Lesson5",
           "title": "5. Movement in Nature",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/movement.png",
           "backgroundColor": "#74D3DB",
           "content": [
             {
@@ -2822,7 +2822,7 @@
         {
           "navigation": "Lesson6",
           "title": "6. Equilibrium",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/equilibrium.png",
           "backgroundColor": "#7492DB",
           "content": [
             {
@@ -2858,7 +2858,7 @@
     {
       "navigation": "Chapter8",
       "title": "common:chapter8",
-      "name": "common:PLACEHOLDER",
+      "name": "gradefive:ecologyanddevelopment",
       "icon": "assets/grade5/chapter-icons/ecology.png",
       "colorOne": "goldenrod",
       "colorTwo": "darkorange",
@@ -2866,7 +2866,7 @@
         {
           "navigation": "Lesson1",
           "title": "1. Ecological System",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/ecology.png",
           "backgroundColor": "#E09079",
           "content": [
             {
@@ -2881,7 +2881,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/ecosystem.png",
               "prompt": "How is an ecosystem different from a population? "
             },
             {
@@ -2893,11 +2893,11 @@
               "categories": [
                 {
                   "name": "Freshwater",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/freshwater.png"
                 },
                 {
                   "name": "Marine",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/marine.png"
                 }
               ],
               "options": [
@@ -2934,11 +2934,11 @@
               "content": [
                 {
                   "text": "With the help of a parent, find an environmental or sustainable podcast to listen to. Podcasts, as long as they're trustworthy, are a great place to hear about the state of our environment and recommendations for how to use it. Listen to at least one episode and then answer the following questions.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/parent.png"
                 },
                 {
                   "text": "What’s the name of the podcast? What’s the name of the episode you watched?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/sourcesofinformation.png"
                 }
               ]
             }
@@ -2947,7 +2947,7 @@
         {
           "navigation": "Lesson2",
           "title": "2. Natural and Artificial Ecosystems",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/ecosystems.png",
           "backgroundColor": "#E07D78",
           "content": [
             {
@@ -2962,7 +2962,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/artificialecosystem.png",
               "prompt": "Why would people want to develop artificial ecosystems? What are the up-sides? What could be the possible downsides of artificial ecosystems? "
             },
             {
@@ -2970,7 +2970,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/habitat.png",
               "prompt": "For each animal, describe how they can be a predator, prey, or provide a habitat. Be creative! Oak tree Eagle Mouse "
             },
             {
@@ -2980,11 +2980,11 @@
               "content": [
                 {
                   "text": "Kazakhstan is full of beautiful national parks. These are mostly natural ecosystems that people have put in an effort to preserve and keep safe. This is important work because it preserves natural wonders and grand areas of nature and greenery.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/nationalpark.png"
                 },
                 {
                   "text": "Pick a national park in Kazakhstan to focus on. Then, do some research on what goes into preserving the parks. Answer the following questions. They will require you to do some research!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/kazakhstan.png"
                 }
               ]
             }
@@ -2993,7 +2993,7 @@
         {
           "navigation": "Lesson3",
           "title": "3. Factors Affecting the Life of the Ecosystem",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/lifeofecosystems.png",
           "backgroundColor": "#DF79E0",
           "content": [
             {
@@ -3008,7 +3008,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/rainfall.png",
               "prompt": "What species, plant or animal, would thrive if there was a lot of rainfall? What species, plant or animal, would suffer if there was a lot of rainfall? Why do these species have different experiences with the same condition? "
             },
             {
@@ -3020,15 +3020,15 @@
               "categories": [
                 {
                   "name": "Biotic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/biotic.png"
                 },
                 {
                   "name": "Abiotic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/abiotic.png"
                 },
                 {
                   "name": "Anthropogenic",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/anthropogenic.png"
                 }
               ],
               "options": [
@@ -3085,7 +3085,7 @@
               "content": [
                 {
                   "text": "What are some factors that affect the life of aquatic ecosystems and animals? Do some research on these factors and helpful things humans can do.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/aquaticecosystem.png"
                 }
               ]
             }
@@ -3094,7 +3094,7 @@
         {
           "navigation": "Lesson4",
           "title": "4. The Living Planet",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/livingplanet.png",
           "backgroundColor": "#E0A279",
           "content": [
             {
@@ -3113,19 +3113,19 @@
               "categories": [
                 {
                   "name": "Bacteria",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/bacteria.png"
                 },
                 {
                   "name": "Fungi",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/fungi.png"
                 },
                 {
                   "name": "Plants",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/plants.png"
                 },
                 {
                   "name": "Animals",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/animals.png"
                 }
               ],
               "options": [
@@ -3176,7 +3176,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/livingthings.png",
               "prompt": "What are characteristics of each of the 4 kingdoms of living things? "
             },
             {
@@ -3186,15 +3186,15 @@
               "content": [
                 {
                   "text": "There are many organizations and companies that are aimed at helping our planet, or at least minimize their impact on it. Pick a company or organization that is acting in environmentally friendly ways to further research.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/helptheplanet.png"
                 },
                 {
                   "text": "It would be helpful to start with a product or service that you like, and then research the different options on the market. That way, you can find who is producing that product or service in the most sustainable way!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/marketoptions.png"
                 },
                 {
                   "text": "For example, I love chocolate, so I want to look into companies that are getting the ingredients and producing chocolate in a way that is least harmful to the environment.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/chocolate.png"
                 }
               ]
             }
@@ -3203,7 +3203,7 @@
         {
           "navigation": "Lesson5",
           "title": "5. Diversity of Animals",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/animaldiversity.png",
           "backgroundColor": "#E079A5",
           "content": [
             {
@@ -3218,7 +3218,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/foodchain.png",
               "prompt": "How does the elimination of one species affect other species? What causes this? Include a hypothetical scenario in your response. "
             },
             {
@@ -3232,7 +3232,7 @@
         {
           "navigation": "Lesson6",
           "title": "6. Relationships Between Animals",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/animalrelationship.png",
           "backgroundColor": "#E09079",
           "content": [
             {
@@ -3247,7 +3247,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/competition.png",
               "prompt": "What is an example of competition in the animal world? "
             },
             {
@@ -3259,19 +3259,19 @@
               "categories": [
                 {
                   "name": "Competition",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/competition.png"
                 },
                 {
                   "name": "Predation",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/predation.png"
                 },
                 {
                   "name": "Parasitism",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/parasitism.png"
                 },
                 {
                   "name": "Mutualism",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/mutualism.png"
                 }
               ],
               "options": [
@@ -3300,7 +3300,7 @@
               "content": [
                 {
                   "text": "Think back to the last lesson where you identified three species that recovered from endangerment. Pick one to look into further.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/endangerment.png"
                 }
               ]
             }
@@ -3309,7 +3309,7 @@
         {
           "navigation": "Lesson7",
           "title": "7. Diversity of Plants and Their Role",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/plantdiversity.png",
           "backgroundColor": "#E07D78",
           "content": [
             {
@@ -3324,7 +3324,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/plants.png",
               "prompt": "What gives plants their green color? "
             },
             {
@@ -3336,11 +3336,11 @@
               "categories": [
                 {
                   "name": "Lower",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/lower.png"
                 },
                 {
                   "name": "Higher",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/higher.png"
                 }
               ],
               "options": [
@@ -3369,15 +3369,15 @@
               "content": [
                 {
                   "text": "With some time, energy, and space, a lot of people are able to grow plants and gardens that can feed themselves and their families! This is a very sustainable habit that may not be possible for you and your family at this moment, but might be in the future!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/family.png"
                 },
                 {
                   "text": "For this lesson, let’s pretend that you do have the ability to grow your own food!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/garden.png"
                 },
                 {
                   "text": "What plants would you want to grow? What would you need in order to grow these plants (you may need to do some research)? What would make this sustainable habit easier to develop?",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/growfood.png"
                 }
               ]
             }
@@ -3386,7 +3386,7 @@
         {
           "navigation": "Lesson8",
           "title": "8. Fungi and Microorganisms",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/fungi.png",
           "backgroundColor": "#DF79E0",
           "content": [
             {
@@ -3401,7 +3401,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/fungi.png",
               "prompt": "In what products or situations could you possibly find fungi in your home? "
             },
             {
@@ -3409,7 +3409,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/forest.png",
               "prompt": "What role does fungi play in forests? Why are they so important? "
             },
             {
@@ -3423,7 +3423,7 @@
         {
           "navigation": "Lesson9",
           "title": "9. Change of Natural Ecosystems Due to Human Activity",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/humanactivity.png",
           "backgroundColor": "#E0A279",
           "content": [
             {
@@ -3438,7 +3438,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/humanaction.png",
               "prompt": "In your opinion, what human action has the most significant impact on natural ecosystems? Provide evidence to support your claim. "
             },
             {
@@ -3448,15 +3448,15 @@
               "content": [
                 {
                   "text": "At this point, you’ve learned about many, many environmental issues and sustainable habits. Pick one topic that you find the most interesting. Here are some topics to refresh your memory, but you can pick one not on this list too!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/solarenergy.png"
                 },
                 {
                   "text": "Solar energy, Wind energy, Recycling, Water conservation, Electricity conservation, Food waste, Vegetarianism, Endangered species, Air pollution, Carbon footprint",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/windenergy.png"
                 },
                 {
                   "text": "Once you’ve picked your topic, collect information and resources on the topic. Use the following questions to guide your research, but your research should not be limited by these questions.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/waterconservation.png"
                 }
               ]
             }
@@ -3465,7 +3465,7 @@
         {
           "navigation": "Lesson10",
           "title": "10. Environmental Issues of Kazakhstan",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/kazakhstan.png",
           "backgroundColor": "#E079A5",
           "content": [
             {
@@ -3480,7 +3480,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/nucleartest.png",
               "prompt": "Why were tests conducted at the Semipalatinsk nuclear test site? Why were they stopped? Provide a detailed explanation by using reliable electronic sources to develop your understanding. "
             },
             {
@@ -3488,7 +3488,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/freshwater.png",
               "prompt": "What happened to the Aral Sea? Provide a detailed explanation by using reliable electronic sources to develop your understanding. "
             },
             {
@@ -3498,7 +3498,7 @@
               "content": [
                 {
                   "text": "Using the research on your chosen topic from the last lesson, create a flier that efficiently describes your topic, teaches the audience about it, and encourages the audience to help their environment through this topic.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/teachaudience.png"
                 }
               ]
             }
@@ -3507,7 +3507,7 @@
         {
           "navigation": "Lesson11",
           "title": "11. How Do We Protect Nature?",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/protectnature.png",
           "backgroundColor": "#E09079",
           "content": [
             {
@@ -3522,7 +3522,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/protection.png",
               "prompt": "What elements of nature need protection? Which of these do you think needs it the most right now, and why? If you need some help answering these questions you can do some research online. "
             },
             {
@@ -3534,15 +3534,15 @@
               "categories": [
                 {
                   "name": "Water",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/water.png"
                 },
                 {
                   "name": "Soil",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/soil.png"
                 },
                 {
                   "name": "Air",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/ecosystem.png"
                 }
               ],
               "options": [
@@ -3567,11 +3567,11 @@
               "content": [
                 {
                   "text": "There are many environmental laws that work to protect nature on the national and international scale. The Paris Agreement, for example, is an international treaty that addresses climate change. Many countries around the world are involved in this agreement.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/environmentallaws.png"
                 },
                 {
                   "text": "Spend a few minutes reading the following article about the Paris Agreement from the United Nations: The Paris Agreement",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/article.png"
                 }
               ]
             }
@@ -3580,7 +3580,7 @@
         {
           "navigation": "Lesson12",
           "title": "12. Red Book of Kazakhstan",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/redbookofkazakhstan.png",
           "backgroundColor": "#E07D78",
           "content": [
             {
@@ -3595,7 +3595,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/redbookofkz.png",
               "prompt": "How and why was the Red Book of Kazakhstan created? "
             },
             {
@@ -3605,11 +3605,11 @@
               "content": [
                 {
                   "text": "The Red Book of Kazakhstan is an incredibly important resource that can keep us all knowledgeable about threats to our environment. Find an online resource of the Red Book of Kazakhstan. Identify either a plant or animal in danger to focus on further.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/redbookofkz.png"
                 },
                 {
                   "text": "Once you’ve identified this endangered species, spend some time looking into what is causing its endangerment. After collecting information on the threats to this species, use your imagination to think of ways that humans could help mitigate these effects. Compile your ideas into a presentation that addresses the following questions.",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/endangeredspecies.png"
                 }
               ]
             }
@@ -3618,7 +3618,7 @@
         {
           "navigation": "Lesson13",
           "title": "13. The Principle of Walking in Nature",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/walkinginnature.png",
           "backgroundColor": "#DF79E0",
           "content": [
             {
@@ -3633,7 +3633,7 @@
               "backgroundColor": "palevioletred",
               "title": "common:imageboom",
               "icon": "assets/image.png",
-              "image": "assets/cotton.png",
+              "image": "assets/grade5/chapter8/walkinnature.png",
               "prompt": "When spending time in nature, what is something you should do? How about something you shouldn’t do? For example: You should pick up any trash people have left behind. You should not disturb birds’ nests or approach them. "
             },
             {
@@ -3643,7 +3643,7 @@
               "content": [
                 {
                   "text": "With permission from an adult, take a short walk throughout your neighborhood. Start off by listing some of your observations about your environment. Draw some sketches of where you see a lot of greenery, and areas that don’t have a lot of greenery. There will be lots of variation based on where you live!",
-                  "image": "assets/cotton.png"
+                  "image": "assets/grade5/chapter8/neighborhood.png"
                 }
               ]
             }
@@ -3654,7 +3654,7 @@
     {
       "navigation": "Chapter9",
       "title": "common:chapter9",
-      "name": "common:PLACEHOLDER",
+      "name": "gradefive:discoveryofscience",
       "icon": "assets/grade5/chapter-icons/discovery.png",
       "colorOne": "mediumvioletred",
       "colorTwo": "lightpink",
@@ -3662,7 +3662,7 @@
         {
           "navigation": "Lesson1",
           "title": "1. World Scientific News",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/news.png",
           "backgroundColor": "#B56CEB",
           "content": [
             {
@@ -3689,7 +3689,7 @@
         {
           "navigation": "Lesson2",
           "title": "2. New Technologies and Expected Innovations",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/newtechnologies.png",
           "backgroundColor": "#8C6BEB",
           "content": [
             {
@@ -3723,7 +3723,7 @@
         {
           "navigation": "Lesson3",
           "title": "3. Inventions That Will Change the World",
-          "thumbnail": "assets/cotton.png",
+          "thumbnail": "assets/grade5/lesson-icons/inventions.png",
           "backgroundColor": "#6C9DEB",
           "content": [
             {
