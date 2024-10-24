@@ -1,9 +1,10 @@
 # curriculumToFirebase
-A simple localhost interface for SaveTuba developer tooling. It comprises of two parts: [curriculumToJSON](#1-curriculumtojson) and [JSONToFirebase](#2-jsontofirebase). Contact the dev team for access to the .env file. Please reach out to **@jimothych** with any questions.
+A simple localhost interface for pushing Save Tuba curriculum from Google Docs into Firebase. It comprises of two parts: [curriculumToJSON](#1-curriculumtojson) and [JSONToFirebase](#2-jsontofirebase). Contact the dev team for access to the .env file.
 
 ### To get started:
 ```
 git clone https://github.com/SaveTubaTeam/curriculumToFirebase.git
+cd ./curriculumToFirebase
 npm install
 ```
 
