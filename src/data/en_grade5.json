@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "brown",
-      "colorTwo": "maroon",
+      "colorOne": "plum",
+      "colorTwo": "orchid",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -118,8 +118,8 @@
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -583,8 +583,8 @@
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -984,14 +984,18 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "Brainstorm things that lower income households could implement for sustainable change that would not be costly to them. Choose one of these ideas and write out how you would pitch this idea to these households. If it will help your pitch, do some research on price differences/savings.",
+              "prompt": "At the end of the week, write a short report (150-200 words) about your experience: what aspects of the culture interested you most and why? How did learning about this culture change your perception of diversity in Kazakhstan?",
               "content": [
                 {
-                  "text": "Around the world, there are many inequalities within society that can unfairly affect certain groups. There are inequalities in regard to race, social class, sexuality, and more.",
+                  "text": "Cultural diversity makes the world more interesting and helps us understand each other better. During this week, conduct research about the culture of an ethnic group living in Kazakhstan that you have not been interested in before.",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "text": "When it comes to developing sustainable habits, some changes can be more expensive, keeping people with lower income from being able to join in on sustainability.",
+                  "text": "Choose an ethnic group and study its traditions, language, cuisine, and holidays.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Keep a diary of your observations: what surprised you, what you liked, and what seemed unusual?",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -1006,8 +1010,8 @@
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lavender",
-      "colorTwo": "darkslateblue",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1319,8 +1323,8 @@
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "darkolivegreen",
+      "colorTwo": "darkgreen",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1432,10 +1436,14 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "Explain your invention below and include a picture of what it would look like and how it would work.",
+              "prompt": "Below you will describe your invention and attach a picture of what it would look like and how it would work.",
               "content": [
                 {
-                  "text": "Some materials and substances on earth have different properties that make them either breakdown and decompose relatively quickly or slowly. When you throw waste outside, or in a trash can that ends up in a landfill, those materials then biodegrade at different rates. Come up with a product or invention that utilizes materials that take less time to decompose and replaces the use of materials that take longer. The sky's the limit with your invention!",
+                  "text": "Some materials and substances on earth have different properties that cause them to either break down and decompose relatively quickly or slowly. When you throw waste outdoors or in a garbage can that goes into a landfill, these materials decompose at different rates. Refer to the table below to find out the average time it takes for certain materials to break down.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Using the information in this table, let's get creative! Develop a product or invention that uses materials that take less time to degrade and replaces materials that take longer to degrade. Your invention is the limit of possibility!",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -1980,8 +1988,8 @@
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "mediumturquoise",
+      "colorTwo": "midnightblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2359,30 +2367,30 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "How would you rate your meal on a scale of 1 to 10? How difficult was this meal to make? How difficult was it to have a plant-based meal instead of your usual meals? Would you consider regularly implementing plant-based meals into your week?",
+              "prompt": "Try implementing one of the suggested solutions and evaluate how effective it was.",
               "content": [
                 {
-                  "text": "We have previously discussed Carbon Footprint and its largest influences. Our diet is a huge aspect of our lives that contribute to our carbon footprint. There are many different lifestyles, diets, and habits that individuals and families adopt. In this activity, let’s expand our eating options in a way that will help the environment.",
+                  "text": "We have already discussed the importance of green living and the impact of daily habits on the environment. One way to reduce your impact on the environment is to consume consciously and reduce food waste.",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "text": "Animal Aid, a British animal rights organization, reports that “the production of plant-based foods requires less land, fewer resources, and produces vastly fewer greenhouse gas emissions.”",
+                  "text": "This week you are going to do an experiment: keep track of how much food is left uneaten after each meal in your family. Each time, write down what food was thrown away and why (e.g., too large a portion, food spoiled, etc.).",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "text": "Vegetarians are people who do not eat meat, and vegans are people who do not eat any products that come from animals. Vegans don’t eat eggs, cheese, milk, etc.",
+                  "text": "At the end of the week, summarize the results:",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "text": "Becoming a vegetarian or vegan can be immensely helpful for the environment. But, it may not be realistically for everyone to fully change their diet. An alternative, that still can have an important environmental impact, is to swap a meal or two a week that usually would have meat, to vegetarian or vegan alternative.",
+                  "text": "What foods ended up in the waste most often?",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "text": "You’re tasked to work with your family to implement a plan for this week where you have one meal that is plant-based, instead of meat-based. Start off by researching plant-based recipes. Then, present some options to your parents. Make a plan with them to decide when you’ll make this meal and who in your family will participate.",
+                  "text": "What could you change to reduce the amount of food thrown away?",
                   "image": "assets/cotton.png"
                 },
                 {
-                  "text": "Once you’ve developed your plan, do it! Take photos of what you make and answer the questions below.",
+                  "text": "What steps could you take to use food more sustainably?",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -2575,8 +2583,8 @@
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2867,8 +2875,8 @@
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",

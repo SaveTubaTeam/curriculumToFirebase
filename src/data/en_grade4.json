@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "orange",
+      "colorTwo": "orangered",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -170,7 +170,7 @@
                   "text": "The plant becomes a sprout."
                 },
                 {
-                  "text": "Flowers and/or fruit begins to appear."
+                  "text": "Flowers and/or fruit begin to appear."
                 },
                 {
                   "text": "Seeds are developed on the flower/fruit."
@@ -528,8 +528,8 @@
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumpurple",
-      "colorTwo": "indigo",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -691,10 +691,22 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "Find reliable sources that explain how a meat diet, versus a plant-based diet, impacts the environment. What are the pros and cons of each? Summarize your findings here. (Hint: Look into greenhouse gas emissions, water use, carbon footprint, etc.)",
+              "prompt": "Summarize your findings and explain how the food chain would be affected if this animal's primary food source became scarce.",
               "content": [
                 {
-                  "text": "We can identify and research the diets of our favorite animals, but humans as a species are different from animals as many of us have very different diets from each other. Some people eat meat, some are vegetarians, pescatarians, or vegans. There are studies that show that meat consumption contributes to a large amount of greenhouse gas emissions. Do your own research on this topic.",
+                  "text": "Animals have evolved to eat different types of food, which helps maintain balance in ecosystems. Choose a specific animal and research its diet in detail.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "What does this animal primarily eat?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "How does it obtain its food (hunting, foraging, grazing, etc.)?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "How does its diet impact the environment and other species?",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -746,10 +758,26 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "After entering your meal plan, answer the following questions? How different would this diet be from your current one? How difficult do you think it would be? Would this have a positive or negative impact on the environment? For extra points, actually follow your meal plan for one day and upload pictures of each meal!",
+              "prompt": "For extra points, try following your meal plan throughout the day and upload photos of each meal!",
               "content": [
                 {
-                  "text": "As humans, it is really important that we get enough energy from the food that we eat. Think back to the last lesson where you researched meat versus plant based diets. Pick either a vegetarian, pescatarian, or vegan diet to look into more closely. You may have to do some more research to identify what exactly each diet means. After doing some research, make a meal plan for one day that fits the diet you chose. Make a plan for what you would eat for breakfast, lunch and dinner.",
+                  "text": "Energy plays a key role in the lives of all living things, including humans. Imagine you need to create a meal plan for someone who leads an active lifestyle (such as an athlete or traveler). Research which foods provide the most energy and nutrients needed to keep active throughout the day.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Make a balanced meal plan for one day, including breakfast, lunch, dinner, and snacks. Identify the macronutrients and micronutrients each meal contains and how they help the body obtain and utilize energy.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "How is this diet different from your usual diet?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "What foods do you think are the most important for energy?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "How can you improve the nutrition of people who lead active lifestyles?",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -1036,8 +1064,8 @@
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "plum",
+      "colorTwo": "orchid",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1262,8 +1290,8 @@
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2180,8 +2208,8 @@
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "indianred",
-      "colorTwo": "firebrick",
+      "colorOne": "brown",
+      "colorTwo": "maroon",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2795,8 +2823,8 @@
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3583,8 +3611,8 @@
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lavender",
-      "colorTwo": "darkslateblue",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -4132,8 +4160,8 @@
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
