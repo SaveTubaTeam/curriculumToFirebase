@@ -5,8 +5,8 @@
       "title": "common:chapter1",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "orange",
-      "colorTwo": "orangered",
+      "colorOne": "lavender",
+      "colorTwo": "darkslateblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -528,8 +528,8 @@
       "title": "common:chapter2",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "indianred",
+      "colorTwo": "firebrick",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -691,10 +691,22 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "Өсімдік негізіндегі диетаға қарағанда ет диетасының қоршаған ортаға қалай әсер ететінін түсіндіретін сенімді көздерді табыңыз. Әрқайсысының жақсы және жаман жақтары қандай? Нәтижелеріңізді осында қорытындылаңыз. (Кеңес: парниктік газдар шығарындыларын, суды пайдалануды, көміртегі ізін және т.б. қараңыз.)",
+              "prompt": "Нәтижелеріңізді қорытындылаңыз және осы жануардың негізгі қоректік көзі тапшы болса, қоректік тізбектің қалай өзгеретінін түсіндіріңіз.",
               "content": [
                 {
-                  "text": "Біз сүйікті жануарларымыздың диетасын анықтап, зерттей аламыз, бірақ түр ретінде адамдар жануарлардан ерекшеленеді, өйткені көпшілігімізде бір-бірімізден мүлдем басқа диеталар бар. Кейбір адамдар ет жейді, кейбіреулер вегетарианшылар, пескатариандықтар немесе вегетариандықтар. Ет тұтыну парниктік газдар шығарындыларының көп мөлшеріне ықпал ететінін көрсететін зерттеулер бар. Осы тақырып бойынша өзіңіздің зерттеуіңізді жасаңыз.",
+                  "text": "Жануарлар экожүйедегі тепе-теңдікті сақтауға көмектесетін әртүрлі тағам түрлерін жеуге дамыды. Белгілі бір жануарды таңдап, оның диетасын егжей-тегжейлі зерттеңіз.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Бұл жануар негізінен немен қоректенеді?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Ол тамақты қалай алады (аңға, жемге, жаюға, т.б.)?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Оның диетасы қоршаған ортаға және басқа түрлерге қалай әсер етеді?",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -746,10 +758,26 @@
             {
               "navigation": "Mastery",
               "title": "common:mastery",
-              "prompt": "Тамақтану жоспарыңызды енгізгеннен кейін келесі сұрақтарға жауап беріңіз? Бұл диета сіздің қазіргі диетаңыздан қаншалықты ерекшеленеді? Бұл қаншалықты қиын болады деп ойлайсыз? Бұл қоршаған ортаға оң немесе теріс әсер ете ме? Қосымша ұпай алу үшін бір күндік тамақтану жоспарыңызды орындаңыз және әр тағамның суреттерін жүктеңіз!",
+              "prompt": "Қосымша ұпайлар алу үшін күні бойы тамақтану жоспарыңызды орындап көріңіз және әр тағамның фотосуреттерін жүктеңіз!",
               "content": [
                 {
-                  "text": "Адамдар ретінде біз жейтін тағамнан жеткілікті қуат алуымыз өте маңызды. Сіз ет пен өсімдік негізіндегі диетаны зерттеген соңғы сабақты еске түсіріңіз. Неғұрлым мұқият қарау үшін вегетариандық, пескатариандық немесе вегетариандық диетаны таңдаңыз. Әрбір диетаның нақты нені білдіретінін анықтау үшін сізге қосымша зерттеулер жүргізу қажет болуы мүмкін. Кейбір зерттеулерді жүргізгеннен кейін, сіз таңдаған диетаға сәйкес келетін бір күндік тамақтану жоспарын жасаңыз. Таңертеңгілік, түскі және кешкі асқа не жейтініңізді жоспарлаңыз.",
+                  "text": "Энергия барлық тірі заттардың, соның ішінде адамның өмірінде маңызды рөл атқарады. Белсенді өмір салтын ұстанатын адамға (мысалы, спортшы немесе саяхатшы) тамақтану жоспарын жасау керек деп елестетіп көріңіз. Күні бойы жұмысыңызды жалғастыру үшін қай тағамдар ең көп қуат пен қоректік заттар беретінін зерттеңіз.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Таңғы ас, түскі ас, кешкі ас және жеңіл тағамдарды қоса алғанда, бір күнге теңдестірілген тамақтану жоспарын жасаңыз. Әрбір тағамдағы макро- және микроэлементтерді және олардың денеге энергияны алуға және пайдалануға қалай көмектесетінін атап өтіңіз.",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Бұл диета сіздің әдеттегі диетаңыздан қалай ерекшеленеді?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Қандай тағамдар энергияны сақтау үшін ең маңызды деп ойлайсыз?",
+                  "image": "assets/cotton.png"
+                },
+                {
+                  "text": "Белсенді өмір салтын ұстанатын адамдардың тамақтануын қалай жақсартуға болады?",
                   "image": "assets/cotton.png"
                 }
               ]
@@ -1036,8 +1064,8 @@
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "goldenrod",
-      "colorTwo": "darkorange",
+      "colorOne": "plum",
+      "colorTwo": "orchid",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -1262,8 +1290,8 @@
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "mediumturquoise",
-      "colorTwo": "midnightblue",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2180,8 +2208,8 @@
       "title": "common:chapter5",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "lightpink",
-      "colorTwo": "mediumvioletred",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -2789,8 +2817,8 @@
       "title": "common:chapter6",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "plum",
-      "colorTwo": "orchid",
+      "colorOne": "teal",
+      "colorTwo": "seagreen",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3577,8 +3605,8 @@
       "title": "common:chapter7",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "mediumturquoise",
+      "colorTwo": "midnightblue",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -4126,8 +4154,8 @@
       "title": "common:chapter8",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "darkolivegreen",
-      "colorTwo": "darkgreen",
+      "colorOne": "goldenrod",
+      "colorTwo": "darkorange",
       "lessons": [
         {
           "navigation": "Lesson1",

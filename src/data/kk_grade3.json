@@ -2075,8 +2075,8 @@
       "title": "common:chapter3",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "teal",
-      "colorTwo": "seagreen",
+      "colorOne": "mediumpurple",
+      "colorTwo": "indigo",
       "lessons": [
         {
           "navigation": "Lesson1",
@@ -3270,8 +3270,8 @@
       "title": "common:chapter4",
       "name": "common:PLACEHOLDER",
       "icon": "assets/cotton.png",
-      "colorOne": "skyblue",
-      "colorTwo": "steelblue",
+      "colorOne": "lightpink",
+      "colorTwo": "mediumvioletred",
       "lessons": [
         {
           "navigation": "Lesson1",
