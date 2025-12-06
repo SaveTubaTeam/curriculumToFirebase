@@ -92,10 +92,10 @@ function getParagraphContents(content, type) {
     })
 
     //if our text is not an empty string and if our text does not match the regex 'http', we push
-    if((paragraphText.trim() !== "") && (!paragraphText.includes("http"))) {//checking for empty strings or regex matches to links.
+    if(paragraphText && (paragraphText.trim() !== "") && (!paragraphText.includes("http"))) {//checking for empty strings or regex matches to links.
         chaptersArray.push({ //pushing content into chaptersArray array
             type: type, //either table or paragraph
-            text: paragraphText.replace(/[\n\t\u200B]/g, "").trim(), //trim() removes whitespace, .replace() is regex matching and removing all instance of new lines, tabs, and zero-width spaces
+            text: (paragraphText || "").replace(/[\n\t\u200B]/g, "").trim(), //trim() removes whitespace, .replace() is regex matching and removing all instance of new lines, tabs, and zero-width spaces
             headingStyle: paragraphHeadingStyle, //to detect chapters & lessons
             textStyle: textStyle //either bold or normal (bold for quiz questions)
         });
@@ -197,8 +197,7 @@ function lessonsIterator(startIndex, chapterCount, docData) {
 
             lessonsData.push({
                 navigation: `Lesson${lessonsCount}`,
-                title: `${lessonsCount}. ${chaptersArray[j].text.split(":")[1].trim()}`, //extracting everything after the colon
-                thumbnail: "assets/cotton.png",
+                title: `${lessonsCount}. ${chaptersArray[j].text.split(":")[1]?.trim() || chaptersArray[j].text.trim()}`,
                 numActivities: masteryAndMinigamesData.length,
                 //backgroundColor: LESSON_BACKGROUND_COLORS[(chapterCount-1) % 4][lessonsCount % 5], //iteratively gets background color from predefined array
                 content: masteryAndMinigamesData,

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk JSON Upload to Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+
+        .upload-area {
+            border: 2px dashed #007bff;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            margin: 20px 0;
+            background: #f8f9ff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .upload-area:hover {
+            background: #e6f3ff;
+        }
+
+        .upload-area.dragover {
+            background: #cce7ff;
+            border-color: #0056b3;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+
+        .file-list {
+            margin: 20px 0;
+        }
+
+        .file-item {
+            background: white;
+            padding: 10px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .file-status {
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 3px;
+        }
+
+        .status-pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-processing {
+            background: #cce7ff;
+            color: #004085;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #28a745;
+            transition: width 0.3s;
+            border-radius: 10px;
+        }
+
+        .summary {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+
+        .log {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>📊 Bulk JSON Upload to Database</h1>
+        <p>Upload multiple JSON files from James's system to your PostgreSQL database at once.</p>
+
+        <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+            <h3>📁 Drop JSON Files Here or Click to Browse</h3>
+            <p>Select multiple .json files to upload to the database</p>
+            <input type="file" id="fileInput" multiple accept=".json" style="display: none;">
+        </div>
+
+        <div class="file-list" id="fileList"></div>
+
+        <div class="progress-bar" id="progressContainer" style="display: none;">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <button id="uploadBtn" onclick="uploadAll()" disabled>🚀 Upload All to Database</button>
+            <button onclick="clearAll()">🗑️ Clear All</button>
+        </div>
+
+        <div class="summary" id="summary" style="display: none;"></div>
+        <div class="log" id="log"></div>
+    </div>
+
+    <script>
+        let selectedFiles = [];
+        let uploadResults = [];
+
+        // File selection handling
+        document.getElementById('fileInput').addEventListener('change', handleFiles);
+
+        // Drag and drop handling
+        const uploadArea = document.getElementById('uploadArea');
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            handleFiles({ target: { files: e.dataTransfer.files } });
+        });
+
+        function handleFiles(e) {
+            const files = Array.from(e.target.files).filter(file => file.name.endsWith('.json'));
+
+            if (files.length === 0) {
+                log('❌ Please select JSON files only');
+                return;
+            }
+
+            selectedFiles = [...selectedFiles, ...files];
+            updateFileList();
+            document.getElementById('uploadBtn').disabled = selectedFiles.length === 0;
+
+            log(`📁 Selected ${files.length} JSON files (Total: ${selectedFiles.length})`);
+        }
+
+        function updateFileList() {
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = '';
+
+            selectedFiles.forEach((file, index) => {
+                const fileItem = document.createElement('div');
+                fileItem.className = 'file-item';
+                fileItem.innerHTML = `
+                    <div>
+                        <strong>${file.name}</strong>
+                        <small>(${(file.size / 1024).toFixed(1)} KB)</small>
+                    </div>
+                    <div>
+                        <span class="file-status status-pending" id="status-${index}">Pending</span>
+                        <button onclick="removeFile(${index})" style="margin-left: 10px; padding: 5px 10px; font-size: 12px;">Remove</button>
+                    </div>
+                `;
+                fileList.appendChild(fileItem);
+            });
+        }
+
+        function removeFile(index) {
+            selectedFiles.splice(index, 1);
+            updateFileList();
+            document.getElementById('uploadBtn').disabled = selectedFiles.length === 0;
+        }
+
+        function clearAll() {
+            selectedFiles = [];
+            uploadResults = [];
+            updateFileList();
+            document.getElementById('uploadBtn').disabled = true;
+            document.getElementById('summary').style.display = 'none';
+            document.getElementById('progressContainer').style.display = 'none';
+            document.getElementById('log').textContent = '';
+        }
+
+        async function uploadAll() {
+            if (selectedFiles.length === 0) return;
+
+            const uploadBtn = document.getElementById('uploadBtn');
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = '⏳ Uploading...';
+
+            const progressContainer = document.getElementById('progressContainer');
+            const progressFill = document.getElementById('progressFill');
+            progressContainer.style.display = 'block';
+
+            uploadResults = [];
+            let completed = 0;
+
+            log(`🚀 Starting bulk upload of ${selectedFiles.length} files...`);
+
+            // Process files one by one (to avoid overwhelming the database)
+            for (let i = 0; i < selectedFiles.length; i++) {
+                const file = selectedFiles[i];
+                const statusElement = document.getElementById(`status-${i}`);
+
+                try {
+                    statusElement.textContent = 'Processing';
+                    statusElement.className = 'file-status status-processing';
+
+                    log(`📄 Processing: ${file.name}`);
+
+                    // Read file content
+                    const content = await readFileContent(file);
+
+                    // Validate JSON
+                    let parsedData;
+                    try {
+                        parsedData = JSON.parse(content);
+                    } catch (error) {
+                        throw new Error(`Invalid JSON: ${error.message}`);
+                    }
+
+                    // Extract title from filename or JSON
+                    const title = extractTitle(file.name, parsedData);
+
+                    // Upload to database
+                    const response = await fetch('/api/save-json', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            jsonContent: content,
+                            title: title
+                        })
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        statusElement.textContent = `✅ Success (ID: ${result.documentId})`;
+                        statusElement.className = 'file-status status-success';
+                        log(`✅ ${file.name} → Database ID: ${result.documentId} (${result.chaptersCount} chapters)`);
+
+                        uploadResults.push({
+                            file: file.name,
+                            success: true,
+                            documentId: result.documentId,
+                            chaptersCount: result.chaptersCount
+                        });
+                    } else {
+                        throw new Error(result.error);
+                    }
+
+                } catch (error) {
+                    statusElement.textContent = `❌ Error`;
+                    statusElement.className = 'file-status status-error';
+                    log(`❌ ${file.name} → Error: ${error.message}`);
+
+                    uploadResults.push({
+                        file: file.name,
+                        success: false,
+                        error: error.message
+                    });
+                }
+
+                // Update progress
+                completed++;
+                const progress = (completed / selectedFiles.length) * 100;
+                progressFill.style.width = `${progress}%`;
+
+                // Small delay to prevent overwhelming the server
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+
+            // Show summary
+            showSummary();
+
+            uploadBtn.disabled = false;
+            uploadBtn.textContent = '🚀 Upload All to Database';
+
+            log(`🎉 Bulk upload completed! ${uploadResults.filter(r => r.success).length}/${selectedFiles.length} files uploaded successfully.`);
+        }
+
+        function readFileContent(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = (e) => resolve(e.target.result);
+                reader.onerror = (e) => reject(new Error('Failed to read file'));
+                reader.readAsText(file);
+            });
+        }
+
+        function extractTitle(filename, parsedData) {
+            // Try to extract title from filename (remove .json extension)
+            let title = filename.replace('.json', '');
+
+            // If JSON has metadata, use that instead
+            if (parsedData.title) {
+                title = parsedData.title;
+            } else if (parsedData.metadata && parsedData.metadata.title) {
+                title = parsedData.metadata.title;
+            }
+
+            return title;
+        }
+
+        function showSummary() {
+            const summary = document.getElementById('summary');
+            const successful = uploadResults.filter(r => r.success);
+            const failed = uploadResults.filter(r => !r.success);
+
+            let totalChapters = successful.reduce((sum, r) => sum + (r.chaptersCount || 0), 0);
+
+            summary.innerHTML = `
+                <h3>📊 Upload Summary</h3>
+                <p><strong>Total Files:</strong> ${uploadResults.length}</p>
+                <p><strong>✅ Successful:</strong> ${successful.length}</p>
+                <p><strong>❌ Failed:</strong> ${failed.length}</p>
+                <p><strong>📚 Total Chapters:</strong> ${totalChapters}</p>
+                ${failed.length > 0 ? `<p><strong>❌ Failed Files:</strong> ${failed.map(r => r.file).join(', ')}</p>` : ''}
+            `;
+            summary.style.display = 'block';
+        }
+
+        function log(message) {
+            const logDiv = document.getElementById('log');
+            logDiv.textContent += new Date().toLocaleTimeString() + ' - ' + message + '\\n';
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+    </script>
+</body>
+
+</html>

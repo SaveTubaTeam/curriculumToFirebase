@@ -1,0 +1,22 @@
+{
+    "name": "james-algorithm-db-test",
+    "version": "1.0.0",
+    "description": "Testing James's algorithm with PostgreSQL database",
+    "main": "mock-parser.js",
+    "scripts": {
+        "start": "node src/server/oauth-server.js",
+        "inspect": "node scripts/inspect-database.js",
+        "check-duplicates": "node scripts/checkduplicates.js",
+        "clean": "node scripts/clean-database.js",
+        "setup-db": "psql savetuba_curriculum_test -f schema/james-schema.sql"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "googleapis": "^164.1.0",
+        "node-fetch": "^3.3.2",
+        "pg": "^8.11.3"
+    },
+    "type": "module"
+}

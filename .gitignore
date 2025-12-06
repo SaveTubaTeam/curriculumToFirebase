@@ -1,5 +1,7 @@
 # Environment variables
 .env
+jsonToDB/.env
+**/.env
 
 # Logs
 logs
@@ -10,18 +12,39 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node modules
+node_modules/
+jsonToDB/node_modules/
+**/node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+build/
 *.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Package lock files (optional - some teams prefer to ignore these)
+package-lock.json
+jsonToDB/package-lock.json
+yarn.lock
+
+# Temporary files
+.tmp/
+temp/
+*.tmp

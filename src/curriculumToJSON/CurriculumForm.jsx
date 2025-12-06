@@ -63,22 +63,22 @@ function CurriculumDropdown({ value, handleChange }) {
       */}
 
       <optgroup label="English"></optgroup>
-       <option value="1IA6csdQP48BELPYuAJb0H7Ra8hokaNUSoLnDiAPxboA" id="Grade2 English">Grade2 English</option>
-       <option value="1TQl5cMtTU3uspW8lWElf7j_VDXLy2vTmtRfzyMY1-uU" id="Grade3 English">Grade3 English</option>
-       <option value="1EHbPeEnhUn2jXyC8szEc8syVaO5jPvxRmWrOThj3q3Q" id="Grade4 English">Grade4 English</option>
+       <option value="1J-rbgHN9XeMOZYitinLe3onSqqlt-vywuhQzn6-sUCo" id="Grade2 English">Grade2 English</option>
+       <option value="1MgcJvlUz1s6KGsdJoyAQ2dAZcnRnpD7U-Y_adjIHUiw" id="Grade3 English">Grade3 English</option>
+       <option value="13iyQvyP8tpSbFkr7nztq971q9v3IDNXQ3vW1YD5lN7U" id="Grade4 English">Grade4 English</option>
        <option value="12Jw0Eu4VaJUmFlm9gz1Suy9PTEH80vuKQMEyekMHvHg" id="Grade5 English">Grade5 English</option>
 
       <optgroup label="Russian"></optgroup>
-       <option value="1gt3w5-RjsfO1Gpk3_Xou2UmSCf907h4DtAJiwW8gozA" id="Grade2 Russian">Grade2 Russian</option>
-       <option value="1B5HD6pyL4hsKWvIMfJf5rKSzaH2GEsW2gA8oAnD_sj0" id="Grade3 Russian">Grade3 Russian</option>
-       <option value="1XxVYou3lMLjxJHppb7lMUAmZ6vwruaOk_TIyzoa4Gd0" id="Grade4 Russian">Grade4 Russian</option>
-       <option value="1qSKr5fyaH8n8AGbY6_dZHA1YsFtPwObu7AtTyy0WEfE" id="Grade5 Russian">Grade5 Russian</option>
+       <option value="1_AHdUojjdDgliWyoB_BdR94Ui3_KUeklY9SZxB3qpyw" id="Grade2 Russian">Grade2 Russian</option>
+       <option value="1hDDl1tnfthFcG3uXqP-vzPCfktBg5TcYfJlbuSLOJx0" id="Grade3 Russian">Grade3 Russian</option>
+       <option value="1ZCGGaw8crviMZdzwUaIj7AEtCEXuHvPemRyHClm4w24" id="Grade4 Russian">Grade4 Russian</option>
+       <option value="1mHqfqVOufqQkLM7HkYCexJqeXkkv4NFVb4sZlYVBa1c" id="Grade5 Russian">Grade5 Russian</option>
 
       <optgroup label="Kazakh"></optgroup>
-       <option value="1G14iV6T-uAsrBBZZpUR3LSPgukgLA5yv0qlevNcCQlQ" id="Grade2 Kazakh">Grade2 Kazakh</option>
-       <option value="1cIPIBxz0_yHW-iJhMt6qVJ0Ni2H_y4mBlsgQvNHuhPo" id="Grade3 Kazakh">Grade3 Kazakh</option>
-       <option value="1oUGSzcQmkHc03QpSirTDhfLb0hDV-kBL0Uz_EWHZfDw" id="Grade4 Kazakh">Grade4 Kazakh</option>
-       <option value="16wKMZNl3roRL3XtcgrK_eABZJeQ9eJbeh_DJWlWg-8I" id="Grade5 Kazakh">Grade5 Kazakh</option>
+       <option value="1AXVqD9AycvnhYNp35LxmmmkzQMYcNIydwRlnxCTDSgs" id="Grade2 Kazakh">Grade2 Kazakh</option>
+       <option value="1nP4XE2MPgLKl57ajH-z9s7md0eYoW4Q8Twkn_aFQ8NU" id="Grade3 Kazakh">Grade3 Kazakh</option>
+       <option value="1SnPC0KOBrNPaFSu29GcPj_opQrEMjfNmLHCkkmF90fk" id="Grade4 Kazakh">Grade4 Kazakh</option>
+       <option value="1lBI63RX4ZTxAP627K802QTzbk8GY_2jqiQQ8TiKY20c" id="Grade5 Kazakh">Grade5 Kazakh</option>
      </select>
    );
 }
